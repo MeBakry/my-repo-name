@@ -1,0 +1,1406 @@
+{
+  "_metadata": {
+    "source": "NIOSH List of Hazardous Drugs in Healthcare Settings, 2024 (Publication 2025-103)",
+    "url": "https://www.cdc.gov/niosh/docs/2025-103/pdfs/2025-103.pdf",
+    "fetchedDate": "2026-02-17",
+    "method": "PDF download from CDC + text extraction via pdfjs-dist",
+    "description": "Table 1: drugs with MSHI and/or IARC/NTP carcinogen classification. Table 2: other hazardous drugs (some with developmental/reproductive risks only).",
+    "totalDrugs": 213,
+    "table1Count": 105,
+    "table2Count": 108,
+    "table1Verified": 96,
+    "table2Verified": 99,
+    "nextReviewDate": "2026-05-18"
+  },
+  "table1_antineoplastic": [
+    {
+      "name": "ado-trastuzumab emtansine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "altretamine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "amsacrine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "arsenic trioxide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "azacitidine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "azathioprine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "belantamab mafodotin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "belinostat",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "bendamustine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "bleomycin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "bortezomib",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "brentuximab vedotin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "busulfan",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "cabazitaxel",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "capecitabine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "carboplatin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "carmustine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "chlorambucil",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "chloramphenicol",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "cidofovir",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "cisplatin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "cladribine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "clofarabine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "cyclophosphamide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "cyclosporine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "cytarabine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "dacarbazine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "dactinomycin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "dasatinib",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "daunorubicin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "decitabine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "dexrazoxane",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "diethylstilbestrol",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "docetaxel",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "doxorubicin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "enfortumab vedotin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "epirubicin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "eribulin mesylate",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "estramustine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "estrogen/progesterone combinations",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "estrogens, conjugated",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "estrogens, esterified",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "etoposide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "everolimus",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "fam-trastuzumab deruxtecan",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "floxuridine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "fludarabine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "fluorouracil",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "ganciclovir",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "gemcitabine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "gemtuzumab ozogamicin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "hydroxyurea",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "idarubicin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "ifosfamide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "imatinib",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "inotuzumab ozogamicin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "irinotecan",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "ixabepilone",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "ixazomib",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "lenalidomide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "loncastuximab tesirine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "lomustine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "lurbinectedin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "mechlorethamine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "melphalan",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "melphalan flufenamide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "mercaptopurine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "methotrexate",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "mirvetuximab soravtansine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "mitomycin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "mitotane",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "mitoxantrone",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "mycophenolate mofetil",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "nelarabine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "omacetaxine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "oxaliplatin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "paclitaxel",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "panobinostat",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "pemetrexed",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "pentostatin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "polatuzumab vedotin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "pomalidomide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "pralatrexate",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "procarbazine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "romidepsin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "sacituzumab govitecan",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "streptozocin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "tamoxifen",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "temozolomide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "temsirolimus",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "teniposide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "thalidomide",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "thioguanine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "thiotepa",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "tisotumab vedotin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "topotecan",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "trastuzumab emtansine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "treosulfan",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "tretinoin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "valrubicin",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "vinblastine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "vincristine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "vindesine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "vinorelbine",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    },
+    {
+      "name": "vorinostat",
+      "category": "table1_mshi_carcinogen",
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 1 – drug with MSHI and/or NTP/IARC carcinogen classification"
+    }
+  ],
+  "table2_non_antineoplastic": [
+    {
+      "name": "abiraterone",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "afatinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "anastrozole",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "aprepitant",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "axitinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "bexarotene",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "bicalutamide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "bosentan",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "bosutinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "cabozantinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "carbamazepine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "ceritinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "chlorotrianisene",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "cobimetinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "colchicine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "crizotinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "dabrafenib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "degarelix",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "dienestrol",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "dutasteride",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "enzalutamide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "erlotinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "estradiol",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "finasteride",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "fingolimod",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "flutamide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "follitropin alfa",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "follitropin beta",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "fulvestrant",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "ganirelix",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "gonadotropin, chorionic",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "goserelin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "histrelin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "icatibant",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "isotretinoin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "ivabradine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "leflunomide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "lenvatinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "letrozole",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "leuprolide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "lomitapide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "macitentan",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "medroxyprogesterone",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "megestrol",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "menotropins",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "methimazole",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "methylergonovine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "methyltestosterone",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "mifepristone",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "miltefosine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "mipomersen",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "misoprostol",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "mycophenolic acid",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "nafarelin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "nevirapine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "nilotinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "olaparib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "ospemifene",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "oxcarbazepine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "oxytocin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "palifermin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "pamidronate",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "paroxetine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "pasireotide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "pazopanib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "peginesatide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "pentetate calcium trisodium",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "phenoxybenzamine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "phenytoin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "pipobroman",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "plerixafor",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "ponatinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "progesterone",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "progestins",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "propylthiouracil",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "raloxifene",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "rasagiline",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "regorafenib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "ribavirin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "riociguat",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "sirolimus",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "sonidegib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "sorafenib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "spironolactone",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "sunitinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "tacrolimus",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "temazepam",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "teriflunomide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "testosterone",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "tofacitinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "topiramate",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "toremifene",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "trametinib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "tretinoin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "triptorelin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "ulipristal",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "urofollitropin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "valproate/valproic acid",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "vemurafenib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "vigabatrin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "vismodegib",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "voriconazole",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "warfarin",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "zidovudine",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": false,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – meets NIOSH hazardous drug criteria"
+    },
+    {
+      "name": "ziprasidone",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "ziv-aflibercept",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": false,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "zoledronic acid",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    },
+    {
+      "name": "zonisamide",
+      "category": "table2_hazardous",
+      "reproductiveRiskOnly": true,
+      "verifiedInPdf": true,
+      "rationale": "Appears in NIOSH 2024 Table 2 – primarily adverse developmental/reproductive effects"
+    }
+  ],
+  "table3_reproductive_risk": []
+}

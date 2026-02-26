@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmacy Compounding Compliance Platform - Documentation</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --surface2: #334155;
+      --border: #475569;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-dim: #0ea5e9;
+      --green: #4ade80;
+      --yellow: #fbbf24;
+      --red: #f87171;
+      --purple: #a78bfa;
+      --orange: #fb923c;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0;
+    }
+    .header {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 2rem 2rem;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+    .header h1 span { color: var(--accent); }
+    .header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .status-bar {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      background: var(--surface);
+      border: 1px solid var(--border);
+    }
+    .status-pill .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .dot-green { background: var(--green); }
+    .dot-yellow { background: var(--yellow); }
+    .dot-blue { background: var(--accent); }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin: 2rem 0 0.75rem;
+      padding-left: 0.25rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      transition: border-color 0.2s, transform 0.15s;
+      cursor: default;
+      position: relative;
+    }
+    .card:hover {
+      border-color: var(--accent-dim);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+    }
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+    .card .tag {
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin-left: 0.75rem;
+    }
+    .tag-tech { background: rgba(56,189,248,0.15); color: var(--accent); }
+    .tag-business { background: rgba(167,139,250,0.15); color: var(--purple); }
+    .tag-dev { background: rgba(74,222,128,0.15); color: var(--green); }
+    .tag-future { background: rgba(251,191,36,0.15); color: var(--yellow); }
+    .tag-api { background: rgba(251,146,60,0.15); color: var(--orange); }
+    .tag-ref { background: rgba(148,163,184,0.15); color: var(--text-muted); }
+    .tag-done { background: rgba(74,222,128,0.15); color: var(--green); }
+    .tag-partial { background: rgba(251,191,36,0.15); color: var(--yellow); }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 0.75rem;
+    }
+    .card .file-path {
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 0.75rem;
+      color: var(--accent);
+      background: rgba(56,189,248,0.08);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      display: inline-block;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0 0;
+    }
+
+    /* Architecture diagram */
+    .arch-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      overflow-x: auto;
+    }
+    .arch-box pre {
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 0.78rem;
+      line-height: 1.5;
+      color: var(--text-muted);
+      white-space: pre;
+    }
+    .arch-box pre .hl { color: var(--accent); font-weight: 600; }
+    .arch-box pre .gr { color: var(--green); }
+    .arch-box pre .yl { color: var(--yellow); }
+    .arch-box pre .pr { color: var(--purple); }
+    .arch-box pre .or { color: var(--orange); }
+    .arch-box pre .rd { color: var(--red); }
+
+    /* Stats row */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      text-align: center;
+    }
+    .stat .num {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1;
+    }
+    .stat .label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.35rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* File tree */
+    .tree {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 0.8rem;
+      line-height: 1.7;
+      color: var(--text-muted);
+      overflow-x: auto;
+    }
+    .tree .dir { color: var(--accent); font-weight: 600; }
+    .tree .file { color: var(--text); }
+    .tree .comment { color: var(--text-muted); font-style: italic; }
+
+    /* Detail tables */
+    .detail-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+      margin: 0.75rem 0 0;
+    }
+    .detail-table th {
+      text-align: left;
+      padding: 0.45rem 0.75rem;
+      background: var(--surface2);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .detail-table td {
+      padding: 0.45rem 0.75rem;
+      border-top: 1px solid var(--border);
+      color: var(--text);
+      vertical-align: top;
+    }
+    .detail-table tr:hover td { background: rgba(255,255,255,0.02); }
+    .detail-table code {
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 0.78rem;
+      color: var(--accent);
+      background: rgba(56,189,248,0.08);
+      padding: 0.1rem 0.35rem;
+      border-radius: 3px;
+    }
+    .method {
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      display: inline-block;
+    }
+    .method-get { background: rgba(74,222,128,0.15); color: var(--green); }
+    .method-post { background: rgba(56,189,248,0.15); color: var(--accent); }
+    .method-put { background: rgba(251,191,36,0.15); color: var(--yellow); }
+    .method-delete { background: rgba(248,113,113,0.15); color: var(--red); }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .badge-auth { background: rgba(167,139,250,0.15); color: var(--purple); }
+    .badge-admin { background: rgba(248,113,113,0.15); color: var(--red); }
+    .badge-super { background: rgba(251,191,36,0.15); color: var(--yellow); }
+    .badge-open { background: rgba(74,222,128,0.12); color: var(--green); }
+    .badge-done { background: rgba(74,222,128,0.15); color: var(--green); }
+    .badge-partial { background: rgba(251,191,36,0.15); color: var(--yellow); }
+    .badge-future { background: rgba(148,163,184,0.12); color: var(--text-muted); }
+
+    /* Inline code in p tags */
+    p code, li code, td code {
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 0.82em;
+      color: var(--accent);
+      background: rgba(56,189,248,0.08);
+      padding: 0.1rem 0.35rem;
+      border-radius: 3px;
+    }
+
+    /* Info block */
+    .info-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin: 0.75rem 0;
+      line-height: 1.7;
+    }
+    .info-block strong { color: var(--text); }
+
+    /* Full-width box */
+    .full-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin: 0.75rem 0;
+    }
+    .full-card h4 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    .full-card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    .full-card ul {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      padding-left: 1.25rem;
+      line-height: 1.8;
+    }
+    .full-card ul li { margin-bottom: 0.15rem; }
+    .full-card ul li strong { color: var(--text); }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 720px) {
+      .two-col { grid-template-columns: 1fr; }
+    }
+
+    .step-list {
+      counter-reset: step;
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0;
+    }
+    .step-list li {
+      counter-increment: step;
+      display: flex;
+      gap: 0.75rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(71,85,105,0.4);
+      line-height: 1.5;
+    }
+    .step-list li:last-child { border-bottom: none; }
+    .step-list li::before {
+      content: counter(step);
+      min-width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      background: rgba(56,189,248,0.15);
+      color: var(--accent);
+      font-size: 0.72rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+    .step-list li strong { color: var(--text); }
+
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 700px) {
+      .grid { grid-template-columns: 1fr; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .header { padding: 1.5rem 1rem; }
+      .container { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span>Pharmacy Compounding</span> Compliance Platform</h1>
+  <p>Technical documentation index. All project documents, architecture, and resources in one place.</p>
+  <div class="status-bar">
+    <span class="status-pill"><span class="dot dot-green"></span> Phase 2 Dev Build — Active</span>
+    <span class="status-pill"><span class="dot dot-blue"></span> Formulation Library + Full Persistence</span>
+    <span class="status-pill"><span class="dot dot-yellow"></span> API Tests Pending</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Stats -->
+  <div class="stats">
+    <div class="stat"><div class="num">21</div><div class="label">API Endpoints</div></div>
+    <div class="stat"><div class="num">8</div><div class="label">DB Models</div></div>
+    <div class="stat"><div class="num">213</div><div class="label">NIOSH Drugs</div></div>
+    <div class="stat"><div class="num">116</div><div class="label">Ingredients</div></div>
+    <div class="stat"><div class="num">88</div><div class="label">PubChem Compounds</div></div>
+    <div class="stat"><div class="num">71</div><div class="label">HC DPD Matches</div></div>
+  </div>
+
+  <!-- Architecture -->
+  <p class="section-title">System Architecture</p>
+  <div class="arch-box">
+    <pre>
+  <span class="hl">React + Vite</span> (port 5173)              <span class="yl">Express.js</span> (port 3001)                  <span class="pr">PostgreSQL</span>
+  ┌────────────────────────────┐        ┌────────────────────────────┐        ┌────────────────────┐
+  │  Dashboard.jsx (Library)   │        │  POST /api/auth/login      │        │  pharmacies        │
+  │  MFRForm.jsx               │──/api──│  GET  /api/ingredients     │──ORM───│  users             │
+  │  IngredientInput.jsx       │        │  POST /api/mfr             │        │  ingredients       │
+  │  RiskAssessmentDisplay.jsx │        │  POST /api/assessments/    │        │  master_formulation│
+  │  aiService.js (with        │        │       generate             │        │  mfr_ingredients   │
+  │    backend-first + demo    │        │                            │        │  risk_assessments  │
+  │    fallback)               │        │  <span class="gr">ruleEngine.js</span>             │        │  assessment_audit  │
+  └────────────────────────────┘        │  (deterministic, no AI)    │        │  regulatory_refs   │
+                                        └────────────────────────────┘        └────────────────────┘
+  Falls back to local demo if                       │
+  backend unavailable (30-                 <span class="yl">Offline Data Pipeline</span> (run once / quarterly)
+  ingredient local DB)                     ┌────────────────────────────────────────────┐
+                                           │  fetch-niosh.js      → CDC PDF download    │
+                                           │  fetch-pubchem.js    → PUG REST API        │
+                                           │  fetch-health-canada → DPD bulk API        │
+                                           │  merge-into-ingredients.js → unified JSON  │
+                                           │  seed/index.js → loads all into PostgreSQL │
+                                           └────────────────────────────────────────────┘</pre>
+  </div>
+
+  <!-- How it works -->
+  <p class="section-title">How It Works — Core Workflow</p>
+  <div class="info-block">
+    <strong>The problem:</strong> Ontario compounding pharmacies must maintain a Risk Assessment Record for every preparation they compound. Each record requires cross-referencing NIOSH lists, SDS documents, WHMIS classifications, OCP standards, and NAPRA complexity guidelines — by hand, for every single recipe. A pharmacy with 120 preparations does this 120 times, then again every 12 months for re-review.
+    <br><br>
+    <strong>What this platform does:</strong> The app opens to a <strong>Formulation Library</strong> (dashboard) listing all saved formulations. Click <strong>+ New Formulation</strong> to create a recipe, or click an existing card to view/edit. The system looks up each ingredient against the pre-loaded hazard database, evaluates complexity, frequency, and exposure, then generates a complete risk assessment (80% pre-filled). Pharmacist reviews, adjusts if needed, and signs. System sets a 12-month review reminder. <strong>45 minutes → 15 minutes per assessment.</strong>
+  </div>
+
+  <div class="full-card">
+    <h4>8-Step Rule Engine Pipeline (deterministic — no AI at runtime)</h4>
+    <ol class="step-list">
+      <li><strong>Parse MFR ingredients</strong> — extract ingredient names, quantities, active vs. excipient flags</li>
+      <li><strong>Hazard lookup</strong> — for each ingredient, query the local PostgreSQL database; retrieve NIOSH table, WHMIS hazards, GHS category, exposure routes, and recommended PPE</li>
+      <li><strong>Complexity evaluation</strong> — classify preparation as SIMPLE / MODERATE / COMPLEX based on NAPRA criteria: number of steps, precision required, dosage form, equipment needed</li>
+      <li><strong>Frequency &amp; exposure assessment</strong> — evaluate batch size, preparation frequency, and estimated exposure time per session</li>
+      <li><strong>PPE determination</strong> — select glove type (Regular Nitrile / Chemo-rated / Double Chemo), respiratory protection (None / Dust Mask / N95 / PAPR), and other controls based on highest-hazard ingredient</li>
+      <li><strong>Facility control assignment</strong> — determine required engineering controls: general ventilation, local exhaust, Biological Safety Cabinet (BSC), or Containment Ventilated Enclosure (CVE)</li>
+      <li><strong>Risk level assignment (A / B / C)</strong> — apply OCP/NAPRA matrix: NIOSH Table 1 → minimum Level C; NIOSH Table 2 with routine large quantity → Level C; NIOSH Table 2 with occasional small quantity → Level B; non-NIOSH → Level A by default</li>
+      <li><strong>Rationale generation</strong> — compile regulatory references, ingredient citations, and justification text into the structured output</li>
+    </ol>
+  </div>
+
+  <!-- API Reference -->
+  <p class="section-title">API Endpoints (21 total)</p>
+
+  <div class="full-card">
+    <h4>Health &amp; Auth (4 endpoints)</h4>
+    <p>Authentication uses JWT tokens. Include <code>Authorization: Bearer &lt;token&gt;</code> on protected routes. Tokens expire after 24 hours.</p>
+    <table class="detail-table">
+      <thead><tr><th>Method</th><th>Endpoint</th><th>Auth</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/health</code></td><td><span class="badge badge-open">Open</span></td><td>Server liveness check. Returns <code>{"status":"ok","timestamp":"..."}</code></td></tr>
+        <tr><td><span class="method method-post">POST</span></td><td><code>/api/auth/login</code></td><td><span class="badge badge-open">Open</span></td><td>Body: <code>{"email":"...","password":"..."}</code>. Returns JWT token + user object.</td></tr>
+        <tr><td><span class="method method-post">POST</span></td><td><code>/api/auth/register</code></td><td><span class="badge badge-open">Open</span></td><td>Register new user. Body includes name, email, password, pharmacyId, role.</td></tr>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/auth/me</code></td><td><span class="badge badge-auth">Auth</span></td><td>Returns current authenticated user profile with pharmacy relationship.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="full-card">
+    <h4>Ingredients — Hazard Database (6 endpoints)</h4>
+    <p>The ingredient database holds 116 full hazard profiles compiled from NIOSH (213 drugs), PubChem (88 compounds), and Health Canada DPD (71 matches). All data is stored locally — no external API calls at runtime.</p>
+    <table class="detail-table">
+      <thead><tr><th>Method</th><th>Endpoint</th><th>Auth</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/ingredients</code></td><td><span class="badge badge-open">Open</span></td><td>List all ingredients. Supports: <code>?q=term</code> (text search), <code>?niosh=TABLE_2</code> (filter), <code>?page=1&limit=20</code> (pagination).</td></tr>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/ingredients/search</code></td><td><span class="badge badge-open">Open</span></td><td>Fast autocomplete: <code>?q=prog</code> → top 10 matches by name. Used by the frontend typeahead field. Returns name, NIOSH table, and hazard level.</td></tr>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/ingredients/stats/summary</code></td><td><span class="badge badge-open">Open</span></td><td>Returns database statistics: total count, NIOSH breakdown (Table 1/2/3/None), source breakdown (NIOSH/PubChem/HC/Manual).</td></tr>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/ingredients/:id</code></td><td><span class="badge badge-open">Open</span></td><td>Full hazard profile for one ingredient: NIOSH classification, WHMIS hazards, exposure routes, recommended PPE, GHS category, SDS URL, PubChem CID, molecular formula.</td></tr>
+        <tr><td><span class="method method-post">POST</span></td><td><code>/api/ingredients</code></td><td><span class="badge badge-auth">Auth</span></td><td>Create a new ingredient manually (e.g., for a rare compound not in the database).</td></tr>
+        <tr><td><span class="method method-put">PUT</span></td><td><code>/api/ingredients/:id</code></td><td><span class="badge badge-admin">Admin</span></td><td>Update an ingredient's hazard data. Admin-only to prevent unauthorized changes to safety-critical data.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="full-card">
+    <h4>Master Formulation Records — MFR (5 endpoints)</h4>
+    <p>MFRs are the "recipes" — each one captures the product name, pharmaceutical form, compounding method, ingredients with quantities, batch size, storage, and beyond-use date. Each MFR belongs to a pharmacy and was created by a specific user.</p>
+    <table class="detail-table">
+      <thead><tr><th>Method</th><th>Endpoint</th><th>Auth</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/mfr</code></td><td><span class="badge badge-auth">Auth</span></td><td>List all MFRs for the authenticated user's pharmacy. Filters: <code>?status=ACTIVE</code> or <code>DRAFT</code> or <code>ARCHIVED</code>.</td></tr>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/mfr/:id</code></td><td><span class="badge badge-auth">Auth</span></td><td>Full MFR with nested ingredients array (includes ingredient hazard profile). Also includes any linked assessments.</td></tr>
+        <tr><td><span class="method method-post">POST</span></td><td><code>/api/mfr</code></td><td><span class="badge badge-auth">Auth</span></td><td>Create a new MFR. Body includes productName, form, route, frequency, batchSize, compoundingMethod, ingredients array (ingredientId + quantity).</td></tr>
+        <tr><td><span class="method method-put">PUT</span></td><td><code>/api/mfr/:id</code></td><td><span class="badge badge-auth">Auth</span></td><td>Update an existing MFR. Updating a NIOSH-related field flags any associated approved assessments as requiring re-review.</td></tr>
+        <tr><td><span class="method method-put">PUT</span></td><td><code>/api/mfr/:id/archive</code></td><td><span class="badge badge-auth">Auth</span></td><td>Soft-archive an MFR. Sets status to ARCHIVED. Archived MFRs are excluded from active lists but retained for audit trail.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="full-card">
+    <h4>Risk Assessments (6 endpoints)</h4>
+    <p>The core of the platform. The <code>generate</code> endpoint runs the deterministic rule engine and saves the result. <code>generate-preview</code> runs the same logic without saving — used by the frontend demo and testing. The approve/submit split reflects the two-step regulatory sign-off workflow required by OCP.</p>
+    <table class="detail-table">
+      <thead><tr><th>Method</th><th>Endpoint</th><th>Auth</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><span class="method method-post">POST</span></td><td><code>/api/assessments/generate-preview</code></td><td><span class="badge badge-open">Open</span></td><td>Run rule engine on submitted MFR data without saving to DB. Used by frontend Dev build and integration tests. Returns full assessment JSON including riskLevel, ppeRecommendations, facilityControls, and rationale.</td></tr>
+        <tr><td><span class="method method-post">POST</span></td><td><code>/api/assessments/generate</code></td><td><span class="badge badge-auth">Auth</span></td><td>Generate and persist an assessment from an existing MFR. Body: <code>{"mfrId":"..."}</code>. Saves with status DRAFT. Creates first audit log entry.</td></tr>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/assessments</code></td><td><span class="badge badge-auth">Auth</span></td><td>List assessments for the pharmacy. Filters: <code>?status=PENDING_REVIEW</code>, <code>?status=APPROVED</code>, <code>?overdue=true</code> (nextReviewDate in the past).</td></tr>
+        <tr><td><span class="method method-get">GET</span></td><td><code>/api/assessments/:id</code></td><td><span class="badge badge-auth">Auth</span></td><td>Full assessment with linked MFR, ingredient hazards, audit log history, and all generated fields (complexityLevel, exposureRisks, facilityControls, rationale, references).</td></tr>
+        <tr><td><span class="method method-put">PUT</span></td><td><code>/api/assessments/:id/submit</code></td><td><span class="badge badge-auth">Auth</span></td><td>Pharmacist submits assessment for supervisor review. Changes status from DRAFT → PENDING_REVIEW. Logs action in AssessmentAudit.</td></tr>
+        <tr><td><span class="method method-put">PUT</span></td><td><code>/api/assessments/:id/approve</code></td><td><span class="badge badge-super">Supervisor</span></td><td>Supervisor approves the assessment. Changes status to APPROVED. Sets approvedById, approvedAt, and nextReviewDate (+12 months). Logs action in AssessmentAudit.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- DB Schema -->
+  <p class="section-title">Database Schema (8 Models, 11 Enums)</p>
+  <div class="info-block">
+    <strong>ORM:</strong> Prisma with PostgreSQL. All models use UUID primary keys, snake_case column names, and <code>createdAt</code>/<code>updatedAt</code> timestamps. Foreign key relationships enforce pharmacy-level data isolation (a user from Pharmacy A cannot access Pharmacy B's MFRs or assessments).
+  </div>
+
+  <div class="two-col">
+    <div class="full-card">
+      <h4>Pharmacy</h4>
+      <p>Root entity. Every user, MFR, and assessment belongs to a pharmacy. Stores facility capabilities that affect risk level assignment.</p>
+      <ul>
+        <li><code>facilityLevel</code> — current certified level (A, B, C)</li>
+        <li><code>hasMechanicalVentilation</code> — affects PPE recommendations</li>
+        <li><code>hasBSC</code> — Biological Safety Cabinet presence</li>
+        <li><code>hasEyewash</code> — emergency eyewash station</li>
+      </ul>
+    </div>
+    <div class="full-card">
+      <h4>User</h4>
+      <p>Staff accounts with role-based access. Three roles control what actions are permitted in the API.</p>
+      <ul>
+        <li><strong>PHARMACIST</strong> — create MFRs, generate and submit assessments</li>
+        <li><strong>SUPERVISOR</strong> — everything above + approve assessments</li>
+        <li><strong>ADMIN</strong> — everything above + manage ingredient database</li>
+      </ul>
+    </div>
+    <div class="full-card">
+      <h4>Ingredient</h4>
+      <p>The hazard database. Each record is a full safety profile for one compound, compiled from multiple sources.</p>
+      <ul>
+        <li><code>nioshTable</code> — NONE / TABLE_1 / TABLE_2 / TABLE_3</li>
+        <li><code>whmisHazards</code> — JSON array of hazard codes (e.g., H350, H360)</li>
+        <li><code>exposureRoutes</code> — JSON: inhalation, skin, ingestion risk levels</li>
+        <li><code>recommendedPPE</code> — JSON: gloves, respiratory, gown, eye</li>
+        <li><code>ventilationRequired</code> + <code>ventilationType</code> — engineering controls</li>
+        <li><code>pubchemCid</code>, <code>healthCanadaDin</code> — source cross-references</li>
+      </ul>
+    </div>
+    <div class="full-card">
+      <h4>MasterFormulationRecord</h4>
+      <p>The recipe. Pharmacy-scoped. Linked to one pharmacy and one creator (User). Can have multiple versions of assessments over time.</p>
+      <ul>
+        <li><code>productName</code>, <code>concentration</code>, <code>form</code>, <code>route</code></li>
+        <li><code>compoundingMethod</code> — step-by-step procedure</li>
+        <li><code>equipmentRequired</code> — JSON array of equipment names</li>
+        <li><code>beyondUseDate</code> — storage life per USP &lt;795&gt;</li>
+        <li><code>status</code> — DRAFT / ACTIVE / ARCHIVED</li>
+      </ul>
+    </div>
+    <div class="full-card">
+      <h4>MfrIngredient (Join Table)</h4>
+      <p>Many-to-many link between MFRs and Ingredients. Stores preparation-specific information about each ingredient.</p>
+      <ul>
+        <li><code>quantity</code> — amount in this specific recipe (e.g., "400mg")</li>
+        <li><code>isActiveIngredient</code> — distinguishes API (active) from excipient</li>
+        <li>Unique constraint on (mfrId, ingredientId) — prevents duplicates</li>
+      </ul>
+    </div>
+    <div class="full-card">
+      <h4>RiskAssessment</h4>
+      <p>The generated compliance document. Stores the rule engine output plus workflow status. Versioned — a new assessment can be generated for the same MFR if ingredients or standards change.</p>
+      <ul>
+        <li><code>riskLevel</code> — A / B / C (OCP facility level required)</li>
+        <li><code>complexityLevel</code> — SIMPLE / MODERATE / COMPLEX</li>
+        <li><code>recommendedPPE</code> — JSON: full PPE specification</li>
+        <li><code>facilityControls</code> — JSON: required engineering controls</li>
+        <li><code>rationale</code> — human-readable justification text</li>
+        <li><code>status</code> — DRAFT → PENDING_REVIEW → APPROVED → EXPIRED</li>
+        <li><code>nextReviewDate</code> — set to approvedAt + 12 months</li>
+      </ul>
+    </div>
+    <div class="full-card">
+      <h4>AssessmentAudit</h4>
+      <p>Immutable log of every status change. Required by OCP for inspections — demonstrates that assessments were properly reviewed and signed. Cannot be deleted.</p>
+      <ul>
+        <li><code>action</code> — GENERATED / SUBMITTED / APPROVED / EXPIRED</li>
+        <li><code>changedById</code> — who performed the action</li>
+        <li><code>previousVersion</code> — JSON snapshot of assessment before change</li>
+        <li><code>notes</code> — optional comment from the reviewer</li>
+      </ul>
+    </div>
+    <div class="full-card">
+      <h4>RegulatoryReference</h4>
+      <p>Versioned local copies of all regulatory source documents. The rule engine cites specific references in generated assessments. Updated offline when standards change.</p>
+      <ul>
+        <li><code>source</code> — NIOSH / OCP / NAPRA / USP / WHMIS</li>
+        <li><code>title</code> + <code>version</code> + <code>effectiveDate</code></li>
+        <li><code>content</code> — JSON: the rules and thresholds used by the rule engine</li>
+        <li>Unique constraint on (source, title, version) — prevents duplicate imports</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Enums reference -->
+  <div class="full-card" style="margin-top:1rem;">
+    <h4>11 Enums (enforced at DB level)</h4>
+    <table class="detail-table">
+      <thead><tr><th>Enum</th><th>Values</th><th>Used In</th></tr></thead>
+      <tbody>
+        <tr><td><code>UserRole</code></td><td>PHARMACIST, SUPERVISOR, ADMIN</td><td>User — controls API access permissions</td></tr>
+        <tr><td><code>NioshTable</code></td><td>NONE, TABLE_1, TABLE_2, TABLE_3</td><td>Ingredient — primary driver of risk level assignment</td></tr>
+        <tr><td><code>RiskLevel</code></td><td>A, B, C</td><td>RiskAssessment — maps to OCP facility level required</td></tr>
+        <tr><td><code>ComplexityLevel</code></td><td>SIMPLE, MODERATE, COMPLEX</td><td>RiskAssessment — based on NAPRA classification</td></tr>
+        <tr><td><code>AssessmentStatus</code></td><td>DRAFT, PENDING_REVIEW, APPROVED, EXPIRED, ARCHIVED</td><td>RiskAssessment — workflow state machine</td></tr>
+        <tr><td><code>MfrStatus</code></td><td>ACTIVE, ARCHIVED, DRAFT</td><td>MasterFormulationRecord — lifecycle management</td></tr>
+        <tr><td><code>PhysicalForm</code></td><td>POWDER, LIQUID, SEMI_SOLID, GEL, CAPSULE, TABLET, OTHER</td><td>Ingredient — affects inhalation/skin exposure risk</td></tr>
+        <tr><td><code>GloveType</code></td><td>REGULAR_NITRILE, CHEMOTHERAPY_RATED, DOUBLE_CHEMO</td><td>Ingredient + RiskAssessment — PPE specification</td></tr>
+        <tr><td><code>RespiratoryType</code></td><td>NOT_REQUIRED, DUST_MASK, N95, PAPR</td><td>Ingredient + RiskAssessment — respiratory protection</td></tr>
+        <tr><td><code>VentilationType</code></td><td>GENERAL, LOCAL_EXHAUST, BSC, CVE</td><td>Ingredient + RiskAssessment — engineering controls</td></tr>
+        <tr><td><code>IngredientSource</code></td><td>NIOSH, MANUAL, SDS, PUBCHEM, HEALTH_CANADA, SEED</td><td>Ingredient — data provenance tracking</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Data Pipeline -->
+  <p class="section-title">Offline Data Pipeline</p>
+  <div class="info-block">
+    <strong>Design principle:</strong> All external data is fetched offline (quarterly or on demand) and stored locally in JSON, then seeded into PostgreSQL. <strong>No external API calls happen at runtime.</strong> This avoids rate limits, guarantees availability, and makes the system work in restricted network environments. The scrapers are in <code>server/src/data/fetchers/</code>.
+  </div>
+
+  <div class="full-card">
+    <h4>Data Sources &amp; Fetch Methods</h4>
+    <table class="detail-table">
+      <thead><tr><th>Source</th><th>Records</th><th>Method</th><th>Output File</th><th>Update Freq</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>NIOSH Hazardous Drug List 2024</strong></td>
+          <td>213 drugs (Table 1 + 2)</td>
+          <td>PDF download from CDC + text extraction via <code>pdfjs-dist</code></td>
+          <td><code>niosh-hazardous-drugs.json</code></td>
+          <td>~Annually (NIOSH publishes new list)</td>
+        </tr>
+        <tr>
+          <td><strong>PubChem (NIH)</strong></td>
+          <td>88 compounds</td>
+          <td>PUG REST API + PUG View API. Looks up CAS number, molecular formula, molecular weight, and toxicity data for each NIOSH drug</td>
+          <td><code>pubchem-compounds.json</code></td>
+          <td>On demand (new ingredients)</td>
+        </tr>
+        <tr>
+          <td><strong>Health Canada DPD</strong></td>
+          <td>71 drugs matched from 57,788 products</td>
+          <td>DPD bulk download API (drug product and ingredient files). Matched by drug name against NIOSH list</td>
+          <td><code>health-canada-matches.json</code></td>
+          <td>Quarterly (DPD updated continuously)</td>
+        </tr>
+        <tr>
+          <td><strong>Merged Ingredient Profiles</strong></td>
+          <td>116 full profiles</td>
+          <td><code>merge-into-ingredients.js</code> — combines NIOSH + PubChem + HC into unified hazard profiles with all fields the DB schema requires</td>
+          <td><code>ingredients-compounding.json</code></td>
+          <td>After each source update</td>
+        </tr>
+        <tr>
+          <td><strong>Regulatory References</strong></td>
+          <td>OCP, NAPRA, WHMIS/GHS, USP &lt;795&gt;</td>
+          <td>Curated JSON — rules, thresholds, and facility level decision matrices. Maintained manually by comparing to published standards</td>
+          <td><code>regulatory-references.json</code></td>
+          <td>When standards are revised</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Tech Stack -->
+  <p class="section-title">Tech Stack</p>
+  <div class="two-col">
+    <div class="full-card">
+      <h4>Backend</h4>
+      <ul>
+        <li><strong>Node.js 18+ + Express.js</strong> — REST API server, port 3001</li>
+        <li><strong>Prisma ORM</strong> — type-safe DB queries, migration management, schema-first design</li>
+        <li><strong>PostgreSQL 14+</strong> — primary datastore; all reference data pre-loaded</li>
+        <li><strong>JWT (jsonwebtoken) + bcryptjs</strong> — stateless auth, password hashing</li>
+        <li><strong>pdfjs-dist</strong> — PDF parsing for NIOSH list extraction</li>
+        <li><strong>node-html-parser</strong> — HTML parsing for Health Canada scraper</li>
+        <li><strong>axios</strong> — HTTP client for PubChem and DPD API fetchers</li>
+      </ul>
+    </div>
+    <div class="full-card">
+      <h4>Frontend</h4>
+      <ul>
+        <li><strong>React 18 + Vite</strong> — Dev build UI: Formulation Library dashboard, MFR form, port 5173</li>
+        <li><strong>api.js</strong> — typed HTTP client wrapping all 21 backend endpoints</li>
+        <li><strong>aiService.js</strong> — orchestrates assessment generation: tries backend first, falls back to local demo logic if backend unavailable</li>
+        <li><strong>ingredientDatabase.js</strong> — 30-ingredient offline fallback for demo mode</li>
+        <li><strong>4 components:</strong> MFRForm, IngredientInput (with autocomplete), RiskAssessmentDisplay, App</li>
+        <li><strong>3 AI providers configurable:</strong> Backend (rule engine), OpenAI GPT-4, Claude (via env vars)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Demo Accounts -->
+  <p class="section-title">Demo Accounts (after db:seed)</p>
+  <div class="full-card">
+    <table class="detail-table">
+      <thead><tr><th>Email</th><th>Password</th><th>Role</th><th>Permissions</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><code>pharmacist@demo.com</code></td><td><code>demo123</code></td><td>PHARMACIST</td>
+          <td>Create MFRs, generate assessments, submit for review</td>
+        </tr>
+        <tr>
+          <td><code>supervisor@demo.com</code></td><td><code>demo123</code></td><td>SUPERVISOR</td>
+          <td>All pharmacist actions + approve assessments (required for OCP compliance)</td>
+        </tr>
+        <tr>
+          <td><code>admin@demo.com</code></td><td><code>demo123</code></td><td>ADMIN</td>
+          <td>All supervisor actions + update ingredient database records</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Frontend Modes -->
+  <p class="section-title">Frontend Operating Modes</p>
+  <div class="full-card">
+    <table class="detail-table">
+      <thead><tr><th>Mode</th><th>Config</th><th>How It Works</th><th>Use Case</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Backend</strong> (recommended)</td>
+          <td><code>VITE_AI_PROVIDER=demo</code> + backend running on 3001</td>
+          <td>Calls <code>/api/assessments/generate-preview</code>. Rule engine runs deterministically. No AI, no external calls.</td>
+          <td>Development, staging, production. Consistent results.</td>
+        </tr>
+        <tr>
+          <td><strong>Demo</strong> (fallback)</td>
+          <td>Backend unavailable</td>
+          <td>Auto-detected. Uses local 30-ingredient database + built-in demo logic in <code>aiService.js</code>. No server needed.</td>
+          <td>Demos, offline testing, investor presentations.</td>
+        </tr>
+        <tr>
+          <td><strong>OpenAI</strong></td>
+          <td><code>VITE_AI_PROVIDER=openai</code> + <code>VITE_OPENAI_API_KEY</code></td>
+          <td>Calls OpenAI GPT-4 directly from browser. Prompt includes full MFR data and asks for structured risk assessment JSON.</td>
+          <td>AI-enhanced output experimentation. Note: API key exposed in browser.</td>
+        </tr>
+        <tr>
+          <td><strong>Claude</strong></td>
+          <td><code>VITE_AI_PROVIDER=claude</code> + <code>VITE_CLAUDE_API_KEY</code></td>
+          <td>Calls Claude API from browser. Same prompt pattern as OpenAI mode.</td>
+          <td>AI comparison testing. Same caveat on key exposure.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Quick Examples -->
+  <p class="section-title">Built-in Test Examples (Frontend)</p>
+  <div class="full-card">
+    <p>Click <strong>+ New Formulation</strong> to open the MFR form. Four pre-built example buttons appear at the bottom (under "Or try an example:"). Each fills the form; click "Generate Risk Assessment" to run the rule engine. Covers all three risk levels:</p>
+    <table class="detail-table">
+      <thead><tr><th>Example</th><th>Ingredients</th><th>Expected Level</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Progesterone Supp</strong></td>
+          <td>Progesterone + Witepsol H15</td>
+          <td><span class="badge" style="background:rgba(251,191,36,0.15);color:var(--yellow);">Level B</span></td>
+          <td>NIOSH Table 2 (reproductive toxin) but occasional small quantity. Requires chemo-rated gloves and mechanical ventilation.</td>
+        </tr>
+        <tr>
+          <td><strong>Testosterone Gel</strong></td>
+          <td>Testosterone + PLO Gel</td>
+          <td><span class="badge" style="background:rgba(248,113,113,0.15);color:var(--red);">Level C</span></td>
+          <td>NIOSH Table 2, daily preparation, 50 tubes. Frequency + volume pushes from B to C. Requires BSC or CVE.</td>
+        </tr>
+        <tr>
+          <td><strong>Hydrocortisone Cream</strong></td>
+          <td>Hydrocortisone + Cream Base</td>
+          <td><span class="badge" style="background:rgba(74,222,128,0.15);color:var(--green);">Level A</span></td>
+          <td>Non-NIOSH, daily, 100 units. Standard steroid, no reproductive toxicity. Standard PPE sufficient.</td>
+        </tr>
+        <tr>
+          <td><strong>Zinc Oxide Ointment</strong></td>
+          <td>Zinc Oxide + White Petrolatum</td>
+          <td><span class="badge" style="background:rgba(74,222,128,0.15);color:var(--green);">Level A</span></td>
+          <td>Non-NIOSH, weekly, 50 units. Minimal hazard profile. Confirms Level A baseline works correctly.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Document Library -->
+  <p class="section-title">Technical Documents</p>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <h3>Technical Architecture</h3>
+        <span class="tag tag-tech">Tech</span>
+      </div>
+      <p>Full system design: database schema with all 8 models and 11 enums, all 21 API endpoints with request/response examples, rule engine decision tree, data pipeline flow, security model (JWT + RBAC), and deployment notes.</p>
+      <span class="file-path">docs/TECHNICAL_ARCHITECTURE.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Backend API Reference</h3>
+        <span class="tag tag-api">API</span>
+      </div>
+      <p>Express.js server setup, all 21 REST endpoints with auth requirements, demo accounts (pharmacist / supervisor / admin), database setup commands, data update procedure, and deployment guide.</p>
+      <span class="file-path">server/README.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Database Schema</h3>
+        <span class="tag tag-tech">Tech</span>
+      </div>
+      <p>Prisma schema file. 8 models: Pharmacy, User, Ingredient, MasterFormulationRecord, MfrIngredient, RiskAssessment, AssessmentAudit, RegulatoryReference. 11 enums covering roles, NIOSH tables, risk levels, PPE types, and assessment statuses.</p>
+      <span class="file-path">server/prisma/schema.prisma</span>
+    </div>
+  </div>
+
+  <!-- Setup & Testing -->
+  <p class="section-title">Setup & Testing</p>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <h3>Local Setup Guide</h3>
+        <span class="tag tag-dev">Dev</span>
+      </div>
+      <p>Verified step-by-step setup on macOS Apple Silicon (arm64). Covers: Homebrew install, PostgreSQL 15 via Homebrew, PATH fix for versioned binaries, DATABASE_URL configuration (macOS username, no password), schema migration, seed, and frontend startup. Includes troubleshooting table for the 6 most common errors.</p>
+      <span class="file-path">docs/SETUP_GUIDE.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Testing Guide</h3>
+        <span class="tag tag-dev">Dev</span>
+      </div>
+      <p>Complete testing documentation for Phase 1. Part 1: 10 backend API tests via curl — health, auth, ingredient search, generate-preview (all 3 risk levels), MFR workflow, full draft→submit→approve lifecycle, audit trail, and role enforcement (403 checks). Part 2: 17 frontend UI test cases. Results summary table.</p>
+      <span class="file-path">docs/TESTING.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Frontend Test Cases</h3>
+        <span class="tag tag-dev">Dev</span>
+      </div>
+      <p>Phase 1 + Phase 2 test cases. Backend API tests via curl; frontend UI tests for Formulation Library, MFR form (validation, autocomplete, example buttons), risk level outputs, duplicate warning, and demo mode fallback. Updated for Dev build (Formulation Library home, + New Formulation, port 5173).</p>
+      <span class="file-path">poc-pharma-risk/TEST_CASES.md</span>
+    </div>
+  </div>
+
+  <!-- Development Documents -->
+  <p class="section-title">Development</p>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <h3>Development Roadmap</h3>
+        <span class="tag tag-dev">Dev</span>
+      </div>
+      <p>12-week phased plan. Phase 1 (weeks 1-4): Foundation — backend, DB, rule engine, data pipeline. Phase 2 (weeks 5-8): Frontend features, PDF export, compliance tracker. Phase 3 (weeks 9-12): Supervisor workflow, audit trail, notifications.</p>
+      <span class="file-path">docs/DEV_ROADMAP_2026-02-16.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Development Log</h3>
+        <span class="tag tag-dev">Dev</span>
+      </div>
+      <p>Build log for Phase 1 (Feb 16-17, 2026): Express server, Prisma schema, JWT auth, 21 API endpoints, deterministic rule engine, 3 data fetchers (NIOSH/PubChem/HC), seed pipeline, React frontend with 3 AI provider modes.</p>
+      <span class="file-path">docs/DEV_LOG_2026-02-17.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Feature Roadmap</h3>
+        <span class="tag tag-dev">Dev</span>
+      </div>
+      <p>5-phase product roadmap (18-24 months). Phase 1: Core MVP. Phase 2: Intelligence (AI suggestions, bulk operations). Phase 3: Optimization (analytics, benchmarks). Phase 4: Expansion (multi-province). Phase 5: Advanced AI.</p>
+      <span class="file-path">features/FEATURE_PLAN.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Test Cases</h3>
+        <span class="tag tag-dev">Dev</span>
+      </div>
+      <p>Phase 1 + Phase 2 manual test cases: app load (Formulation Library home, TC-01), form validation (TC-02/03), autocomplete (TC-04/05/06), example buttons via + New Formulation (TC-08–13), Phase 2 dashboard tests (TC-D01–D11), duplicate warning, and demo mode fallback.</p>
+      <span class="file-path">poc-pharma-risk/TEST_CASES.md</span>
+    </div>
+  </div>
+
+  <!-- Business Documents -->
+  <p class="section-title">Business &amp; Product</p>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <h3>How It Works</h3>
+        <span class="tag tag-business">Business</span>
+      </div>
+      <p>Plain-language explanation of the full platform. Covers: MFR vs Risk Assessment (the "recipe" and the "safety analysis"), 3-layer data model (pharmacist data, local hazard DB, external APIs on demand), complete 9-step workflow from MFR to approved assessment.</p>
+      <span class="file-path">docs/HOW_IT_WORKS.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Executive Summary</h3>
+        <span class="tag tag-business">Business</span>
+      </div>
+      <p>Business case: 900-1,350 compounding pharmacies in Ontario, $5K-$50K non-compliance fines, $199-$599/mo SaaS pricing. 6 AI agent summaries, value proposition (45 min → 15 min per assessment), competitive moat, revenue projections.</p>
+      <span class="file-path">docs/EXECUTIVE_SUMMARY.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Project Overview</h3>
+        <span class="tag tag-business">Business</span>
+      </div>
+      <p>Full business plan: problem statement, solution architecture, business model (per-seat SaaS + enterprise), go-to-market strategy, risk register, team requirements (regulatory, tech, sales), success criteria (year 1: 50 pharmacies, year 3: 400+).</p>
+      <span class="file-path">docs/PROJECT_OVERVIEW.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>AI Enhancement Strategy</h3>
+        <span class="tag tag-future">Future</span>
+      </div>
+      <p>Vision for AI-powered features in later phases: 67% time savings, 85% quality improvement, proactive regulatory alerts when NIOSH list updates, knowledge base for compliance Q&A, SDS auto-extraction, operational insights dashboard.</p>
+      <span class="file-path">docs/AI_ENHANCEMENT_STRATEGY.md</span>
+    </div>
+  </div>
+
+  <!-- Agent Specs -->
+  <p class="section-title">Agent Specifications</p>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <h3>Risk Assessment Generator</h3>
+        <span class="tag tag-done">Implemented</span>
+      </div>
+      <p>8-step deterministic pipeline: ingredient lookup → complexity evaluation → frequency/exposure assessment → PPE selection → facility controls → risk level assignment (A/B/C) → rationale generation. Lives in <code>server/src/services/ruleEngine.js</code>. No AI at runtime.</p>
+      <span class="file-path">agents/risk-assessment-generator.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Ingredient Hazard Database</h3>
+        <span class="tag tag-partial">Partial</span>
+      </div>
+      <p>Hazard data management spec. Implemented: Ingredient model with 20+ fields, 6 CRUD+search API endpoints, automated fetchers for NIOSH/PubChem/HC, merge pipeline, 116 profiles seeded. Missing: SDS upload/parsing, user-submitted corrections workflow.</p>
+      <span class="file-path">agents/ingredient-hazard-database.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Compliance Tracker</h3>
+        <span class="tag tag-future">Future</span>
+      </div>
+      <p>12-month review cycle management. Will track: nextReviewDate per assessment, send email/in-app reminders at 30/14/7 days before expiry, flag overdue assessments, provide compliance health score per pharmacy, generate inspection-ready reports.</p>
+      <span class="file-path">agents/compliance-tracker.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Document Generation</h3>
+        <span class="tag tag-future">Future</span>
+      </div>
+      <p>OCP-compliant PDF generation. Will produce: formatted risk assessment PDFs matching OCP template fields, MFR documents, compliance summary reports for inspections, digital signature capture, and audit trail exports.</p>
+      <span class="file-path">agents/document-generation.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Compliance Expert Chatbot</h3>
+        <span class="tag tag-future">Future</span>
+      </div>
+      <p>AI chatbot for regulatory Q&amp;A. Will answer: "What does OCP require for Level C?", "Do I need a BSC for Testosterone?", "What's the difference between NIOSH Table 1 and 2?". Uses curated regulatory knowledge base + LLM.</p>
+      <span class="file-path">agents/pharmacy-compliance-expert.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Business Intelligence</h3>
+        <span class="tag tag-future">Future</span>
+      </div>
+      <p>Analytics dashboard for pharmacy operators. Will show: cumulative hazardous drug exposure per staff member, facility compliance score, trend analysis (assessments/month), benchmarks vs. similar pharmacies, and forecasted compliance costs.</p>
+      <span class="file-path">agents/business-intelligence.md</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Agent Orchestrator</h3>
+        <span class="tag tag-future">Future</span>
+      </div>
+      <p>Meta-agent coordinating all 6 specialized agents. Handles intent recognition, multi-agent workflows (e.g., "create complete assessment package" triggers 4 agents in sequence), context management across conversation turns, and error recovery.</p>
+      <span class="file-path">agents/agent-orchestrator.md</span>
+    </div>
+  </div>
+
+  <!-- Source Files -->
+  <p class="section-title">Source Code Reference</p>
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <h3>Backend Source</h3>
+        <span class="tag tag-tech">Server</span>
+      </div>
+      <p>Express.js API: <code>index.js</code> (entry), <code>middleware/auth.js</code> (JWT + RBAC), <code>routes/auth.js</code> (3 endpoints), <code>routes/ingredients.js</code> (6 endpoints), <code>routes/mfr.js</code> (5 endpoints), <code>routes/assessments.js</code> (6 endpoints), <code>services/ruleEngine.js</code> (8-step pipeline).</p>
+      <span class="file-path">server/src/</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Frontend Source</h3>
+        <span class="tag tag-tech">Client</span>
+      </div>
+      <p>React + Vite app: <code>MFRForm.jsx</code> (main form with validation), <code>IngredientInput.jsx</code> (autocomplete with NIOSH badges), <code>RiskAssessmentDisplay.jsx</code> (result rendering), <code>services/api.js</code> (backend HTTP client), <code>services/aiService.js</code> (backend-first + demo fallback logic).</p>
+      <span class="file-path">poc-pharma-risk/src/</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Seed Data</h3>
+        <span class="tag tag-tech">Data</span>
+      </div>
+      <p>All reference data as JSON: <code>ingredients-compounding.json</code> (116 profiles, 140 KB), <code>niosh-hazardous-drugs.json</code> (213 drugs, 50 KB), <code>pubchem-compounds.json</code> (88 compounds, 166 KB), <code>health-canada-matches.json</code> (71 matches, 117 KB), <code>regulatory-references.json</code> (OCP/NAPRA/WHMIS rules, 16 KB).</p>
+      <span class="file-path">server/src/data/seed/</span>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3>Data Fetchers</h3>
+        <span class="tag tag-tech">Data</span>
+      </div>
+      <p>Offline scrapers run via <code>npm run fetch:all</code>: <code>fetch-niosh.js</code> (CDC PDF download + text extraction), <code>fetch-pubchem.js</code> (PUG REST + PUG View API), <code>fetch-health-canada.js</code> (DPD bulk download API, parses 57,788 products), <code>merge-into-ingredients.js</code> (combines all sources into unified profiles).</p>
+      <span class="file-path">server/src/data/fetchers/</span>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Project Tree -->
+  <p class="section-title">Project File Tree</p>
+  <div class="tree">
+<span class="dir">pharma/</span>
+├── <span class="file">README.md</span>                          <span class="comment"># Project overview, quick start, tech stack</span>
+├── <span class="file">package.json</span>                       <span class="comment"># Monorepo scripts (dev, install:all, db:setup)</span>
+├── <span class="file">.gitignore</span>
+│
+├── <span class="dir">server/</span>                            <span class="comment"># Backend API (Node.js + Express + Prisma)</span>
+│   ├── <span class="file">README.md</span>                      <span class="comment"># API endpoint docs, demo accounts, setup</span>
+│   ├── <span class="file">package.json</span>
+│   ├── <span class="file">.env.example</span>                   <span class="comment"># DATABASE_URL + JWT_SECRET template</span>
+│   ├── <span class="dir">prisma/</span>
+│   │   └── <span class="file">schema.prisma</span>              <span class="comment"># 8 models, 11 enums</span>
+│   └── <span class="dir">src/</span>
+│       ├── <span class="file">index.js</span>                   <span class="comment"># Express entry point, CORS, route mounting</span>
+│       ├── <span class="dir">lib/</span>
+│       │   └── <span class="file">prisma.js</span>              <span class="comment"># Prisma client singleton</span>
+│       ├── <span class="dir">middleware/</span>
+│       │   └── <span class="file">auth.js</span>                <span class="comment"># JWT verification + role-based access guards</span>
+│       ├── <span class="dir">routes/</span>
+│       │   ├── <span class="file">auth.js</span>                <span class="comment"># login, register, /me (3 endpoints)</span>
+│       │   ├── <span class="file">ingredients.js</span>         <span class="comment"># CRUD + search + stats (6 endpoints)</span>
+│       │   ├── <span class="file">mfr.js</span>                 <span class="comment"># Master Formulation Records (5 endpoints)</span>
+│       │   └── <span class="file">assessments.js</span>         <span class="comment"># Risk assessment workflow (6 endpoints)</span>
+│       ├── <span class="dir">services/</span>
+│       │   └── <span class="file">ruleEngine.js</span>          <span class="comment"># 8-step deterministic assessment pipeline</span>
+│       └── <span class="dir">data/</span>
+│           ├── <span class="dir">seed/</span>
+│           │   ├── <span class="file">index.js</span>           <span class="comment"># Seed script (loads all JSON into PostgreSQL)</span>
+│           │   ├── <span class="file">ingredients-compounding.json</span>    <span class="comment"># 116 profiles, 140 KB</span>
+│           │   ├── <span class="file">niosh-hazardous-drugs.json</span>      <span class="comment"># 213 drugs, 50 KB</span>
+│           │   ├── <span class="file">pubchem-compounds.json</span>          <span class="comment"># 88 compounds, 166 KB</span>
+│           │   ├── <span class="file">health-canada-matches.json</span>      <span class="comment"># 71 DPD matches, 117 KB</span>
+│           │   └── <span class="file">regulatory-references.json</span>      <span class="comment"># OCP/NAPRA/WHMIS/USP rules, 16 KB</span>
+│           └── <span class="dir">fetchers/</span>
+│               ├── <span class="file">fetch-niosh.js</span>         <span class="comment"># CDC PDF download + text extraction</span>
+│               ├── <span class="file">fetch-pubchem.js</span>       <span class="comment"># PUG REST + PUG View APIs</span>
+│               ├── <span class="file">fetch-health-canada.js</span> <span class="comment"># DPD bulk download, 57K+ products</span>
+│               └── <span class="file">merge-into-ingredients.js</span> <span class="comment"># Merges all sources → unified profiles</span>
+│
+├── <span class="dir">poc-pharma-risk/</span>                   <span class="comment"># Frontend Dev build (React + Vite, Formulation Library)</span>
+│   ├── <span class="file">.env.example</span>
+│   ├── <span class="file">TEST_CASES.md</span>                  <span class="comment"># 20 manual test cases</span>
+│   └── <span class="dir">src/</span>
+│       ├── <span class="dir">components/</span>
+│       │   ├── <span class="file">MFRForm.jsx</span>            <span class="comment"># Main form: all MFR fields + validation</span>
+│       │   ├── <span class="file">IngredientInput.jsx</span>    <span class="comment"># Autocomplete with NIOSH hazard badges</span>
+│       │   └── <span class="file">RiskAssessmentDisplay.jsx</span> <span class="comment"># Renders assessment result</span>
+│       ├── <span class="dir">services/</span>
+│       │   ├── <span class="file">api.js</span>                 <span class="comment"># Backend HTTP client (typed, all 21 endpoints)</span>
+│       │   └── <span class="file">aiService.js</span>           <span class="comment"># Backend-first + demo fallback orchestration</span>
+│       └── <span class="dir">data/</span>
+│           └── <span class="file">ingredientDatabase.js</span>  <span class="comment"># 30-ingredient offline fallback</span>
+│
+├── <span class="dir">docs/</span>                              <span class="comment"># All documentation</span>
+│   ├── <span class="file">index.html</span>                     <span class="comment"># This file — documentation hub</span>
+│   ├── <span class="file">TECHNICAL_ARCHITECTURE.md</span>      <span class="comment"># System design, full schema, API, security</span>
+│   ├── <span class="file">DEV_ROADMAP_2026-02-16.md</span>     <span class="comment"># 12-week implementation plan</span>
+│   ├── <span class="file">DEV_LOG_2026-02-17.md</span>         <span class="comment"># Phase 1 build log</span>
+│   ├── <span class="file">HOW_IT_WORKS.md</span>               <span class="comment"># Plain-language platform explanation</span>
+│   ├── <span class="file">EXECUTIVE_SUMMARY.md</span>          <span class="comment"># Business case, market, pricing</span>
+│   ├── <span class="file">PROJECT_OVERVIEW.md</span>           <span class="comment"># Full business plan</span>
+│   └── <span class="file">AI_ENHANCEMENT_STRATEGY.md</span>    <span class="comment"># AI vision for future phases</span>
+│
+├── <span class="dir">agents/</span>                            <span class="comment"># Agent specifications (7 files)</span>
+│   ├── <span class="file">agent-orchestrator.md</span>          <span class="comment"># Meta-agent: routing + multi-agent workflows</span>
+│   ├── <span class="file">risk-assessment-generator.md</span>   <span class="comment"># Implemented as ruleEngine.js</span>
+│   ├── <span class="file">ingredient-hazard-database.md</span>  <span class="comment"># Partially implemented</span>
+│   ├── <span class="file">compliance-tracker.md</span>          <span class="comment"># Future phase</span>
+│   ├── <span class="file">document-generation.md</span>        <span class="comment"># Future phase</span>
+│   ├── <span class="file">pharmacy-compliance-expert.md</span>  <span class="comment"># Future phase</span>
+│   └── <span class="file">business-intelligence.md</span>      <span class="comment"># Future phase</span>
+│
+├── <span class="dir">features/</span>
+│   └── <span class="file">FEATURE_PLAN.md</span>               <span class="comment"># 5-phase product roadmap (18-24 months)</span>
+│
+└── <span class="dir">input/</span>                             <span class="comment"># Original business idea email + OCP PDFs</span>
+  </div>
+
+</div>
+
+<div class="footer">
+  Pharmacy Compounding Compliance Platform &middot; Phase 1 Foundation &middot; Last updated: February 17, 2026
+</div>
+
+</body>
+</html>

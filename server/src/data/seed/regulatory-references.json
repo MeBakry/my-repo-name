@@ -1,0 +1,275 @@
+{
+  "_metadata": {
+    "source": "Compiled from OCP, NAPRA, USP <795>, WHMIS/GHS regulatory documents",
+    "fetchedDate": "2026-02-17",
+    "description": "Offline regulatory reference data used by the rule engine for risk assessment generation. All data stored locally so no real-time API calls needed.",
+    "nextReviewDate": "2026-06-01"
+  },
+  "ocp_rules": {
+    "source": "Ontario College of Pharmacists",
+    "version": "2026-02",
+    "effectiveDate": "2026-02-01",
+    "documentTitle": "Non-Sterile Compounding Risk Assessment Companion Guide",
+    "facilityLevels": {
+      "A": {
+        "label": "Level A – Low Risk",
+        "description": "For non-hazardous preparations with low complexity. Standard compounding area with general ventilation.",
+        "requirements": [
+          "Clean, dedicated compounding area",
+          "General room ventilation",
+          "Cleanable, non-porous surfaces",
+          "Standard compounding equipment",
+          "Regular nitrile gloves",
+          "Compounding jacket or lab coat"
+        ],
+        "allowedNiosh": ["NONE"],
+        "maxComplexity": "MODERATE"
+      },
+      "B": {
+        "label": "Level B – Moderate Risk",
+        "description": "For occasional small quantities of hazardous drugs (NIOSH Table 2/3) OR moderate complexity preparations.",
+        "requirements": [
+          "Dedicated compounding area with restricted access",
+          "Local exhaust ventilation (verified periodically)",
+          "Cleanable, non-porous surfaces",
+          "Documented cleaning protocol for hazardous drugs",
+          "Chemotherapy-rated gloves (ASTM D6978 tested)",
+          "Disposable hazardous drug gown (closed front, elastic cuffs)",
+          "N95 respirator (fit-tested per CSA Z94.4)",
+          "Safety glasses or goggles",
+          "Eyewash station (accessible within 10 seconds)",
+          "Hazardous drug spill kit",
+          "Staff hazardous drug handling training (documented)"
+        ],
+        "allowedNiosh": ["NONE", "TABLE_2", "TABLE_3"],
+        "occasionalSmallQuantity": true,
+        "notes": "NIOSH Table 2/3 drugs permitted only when compounding frequency qualifies as 'occasional small quantity' per OCP definition."
+      },
+      "C": {
+        "label": "Level C – High Risk",
+        "description": "For NIOSH Table 1 drugs, high-frequency hazardous drug compounding, or when volume exceeds occasional small quantity thresholds.",
+        "requirements": [
+          "Biological Safety Cabinet (BSC) or Containment Ventilated Enclosure (CVE)",
+          "Dedicated negative-pressure compounding room",
+          "Appropriate air handling (HEPA-filtered exhaust)",
+          "Closed-system drug transfer devices (where applicable)",
+          "Chemotherapy-rated double gloving",
+          "Impervious disposable hazardous drug gowns",
+          "N95 respirator minimum; PAPR recommended for extended sessions",
+          "Full eye protection (safety goggles)",
+          "Hair/head covers",
+          "Shoe covers",
+          "Safety shower accessible",
+          "Eyewash station (accessible within 10 seconds)",
+          "Hazardous drug spill kit (Level C specific)",
+          "Environmental monitoring (surface wipe sampling)",
+          "Hazardous pharmaceutical waste handling procedures",
+          "Personnel medical surveillance (baseline + periodic)",
+          "Annual competency assessments for hazardous drug handling"
+        ],
+        "allowedNiosh": ["NONE", "TABLE_1", "TABLE_2", "TABLE_3"],
+        "occasionalSmallQuantity": false,
+        "notes": "Required for all NIOSH Table 1 drugs and for Table 2/3 drugs compounded at frequency exceeding occasional small quantity."
+      }
+    },
+    "occasionalSmallQuantityDefinition": {
+      "description": "OCP defines 'occasional small quantity' based on cumulative compounding frequency and volume. Daily compounding of hazardous drugs does NOT qualify regardless of batch size.",
+      "qualifyingFrequencies": ["Rarely", "Monthly", "Weekly", "2-3x/week"],
+      "disqualifyingFrequencies": ["Daily"],
+      "maxBatchSizeGuidance": 50,
+      "notes": "If batch size exceeds 50 units per session or frequency is daily, reassess for Level C. The pharmacist must exercise professional judgment considering total cumulative exposure."
+    },
+    "riskLevelRules": [
+      {
+        "condition": "No NIOSH-listed ingredients AND complexity is Simple or Moderate",
+        "result": "A",
+        "rationale": "Low-risk preparation with no hazardous drug exposure concerns."
+      },
+      {
+        "condition": "NIOSH Table 2 or 3 ingredient AND occasional small quantity AND adequate engineering controls",
+        "result": "B",
+        "rationale": "Hazardous drug present but mitigated by low frequency/volume and appropriate controls."
+      },
+      {
+        "condition": "NIOSH Table 1 ingredient (any frequency)",
+        "result": "C",
+        "rationale": "Antineoplastic drug requires highest level of containment regardless of frequency."
+      },
+      {
+        "condition": "NIOSH Table 2 ingredient AND daily compounding frequency",
+        "result": "C",
+        "rationale": "Daily exposure to hazardous drug exceeds occasional small quantity threshold."
+      },
+      {
+        "condition": "Multiple NIOSH Table 2/3 ingredients in same preparation",
+        "result": "B or C",
+        "rationale": "Cumulative hazard from multiple hazardous ingredients may warrant Level C. Professional judgment required."
+      }
+    ],
+    "requiredAssessmentFields": [
+      "Product identification (name, concentration, form, route)",
+      "Ingredient hazard assessment (NIOSH, SDS, WHMIS for each ingredient)",
+      "Complexity classification (Simple, Moderate, Complex) with justification",
+      "Frequency and volume assessment",
+      "Occasional small quantity determination (for NIOSH-listed drugs)",
+      "Exposure risk analysis (skin, eye, inhalation, oral)",
+      "Recommended PPE with rationale",
+      "Engineering controls and facility requirements",
+      "Risk level assignment (A, B, or C) with detailed rationale",
+      "Regulatory references cited",
+      "Assessor signature and date",
+      "Next review date (12 months from approval)"
+    ],
+    "reviewCycle": {
+      "interval": 12,
+      "unit": "months",
+      "triggerEvents": [
+        "Annual review due date",
+        "Formulation change (ingredients, concentration, or form)",
+        "New hazard information (NIOSH update, SDS revision)",
+        "Change in compounding frequency or volume",
+        "Facility change (equipment, ventilation, location)",
+        "Regulatory update (OCP, NAPRA, or USP change)",
+        "Incident or near-miss related to preparation"
+      ]
+    }
+  },
+  "napra_complexity": {
+    "source": "NAPRA Model Standards for Pharmacy Compounding of Non-Sterile Preparations",
+    "version": "2023",
+    "classifications": {
+      "SIMPLE": {
+        "label": "Simple",
+        "description": "Reconstitution or mixing of commercially available products according to manufacturer directions, or preparations involving straightforward mixing of a few ingredients.",
+        "criteria": [
+          "Follows a well-established formulation (published, tested)",
+          "Uses commercially available bases/vehicles",
+          "Straightforward mixing or incorporation",
+          "No specialized equipment beyond standard compounding tools",
+          "No critical steps where deviation affects product quality",
+          "Commonly: creams, ointments, simple solutions, basic suspensions"
+        ],
+        "typicalForms": ["Cream", "Ointment", "Gel", "Solution", "Simple_Suspension"],
+        "beyondUseDate": "Up to 180 days based on stability data or USP <795> defaults"
+      },
+      "MODERATE": {
+        "label": "Moderate",
+        "description": "Preparations requiring specific technique, equipment, or environmental controls. May involve calculations, multi-step processes, or dosage form modifications.",
+        "criteria": [
+          "Requires specific compounding technique (e.g., levigation, fusion)",
+          "May require temperature control during preparation",
+          "Involves precise measurements and calculations",
+          "May require specialized equipment (e.g., suppository molds, capsule machine)",
+          "Multi-step process with critical control points",
+          "Trained personnel required",
+          "Commonly: suppositories, capsules, suspensions requiring particle size reduction"
+        ],
+        "typicalForms": ["Suppository", "Capsule", "Troche", "Lozenge", "Suspension", "Paste"],
+        "beyondUseDate": "Based on stability data; typically 90-180 days"
+      },
+      "COMPLEX": {
+        "label": "Complex",
+        "description": "Preparations requiring advanced technique, extensive calculation, specialized equipment, or posing specific quality challenges.",
+        "criteria": [
+          "Advanced compounding technique required",
+          "Extensive calculations (e.g., alligation, weight/volume conversions)",
+          "Specialized equipment mandatory (e.g., tablet press, ointment mill)",
+          "Multiple critical steps where deviations significantly affect quality",
+          "May require in-process testing or quality checks",
+          "Stability challenges requiring specific studies",
+          "Commonly: tablets, controlled-release formulations, transdermal systems"
+        ],
+        "typicalForms": ["Tablet", "Controlled_Release", "Transdermal", "Modified_Release"],
+        "beyondUseDate": "Must be supported by specific stability data"
+      }
+    },
+    "formToComplexityMap": {
+      "Cream": "SIMPLE",
+      "Ointment": "SIMPLE",
+      "Gel": "SIMPLE",
+      "Solution": "SIMPLE",
+      "Lotion": "SIMPLE",
+      "Suppository": "MODERATE",
+      "Capsule": "MODERATE",
+      "Troche": "MODERATE",
+      "Lozenge": "MODERATE",
+      "Suspension": "MODERATE",
+      "Paste": "MODERATE",
+      "Enema": "MODERATE",
+      "Tablet": "COMPLEX",
+      "Rapid_Dissolve_Tablet": "COMPLEX",
+      "Controlled_Release": "COMPLEX",
+      "Transdermal": "COMPLEX"
+    }
+  },
+  "whmis_ghs": {
+    "source": "WHMIS 2015 aligned with GHS Rev. 7",
+    "version": "2015-rev7",
+    "hazardStatements": {
+      "H300": { "text": "Fatal if swallowed", "class": "Acute Toxicity", "category": "1", "pictogram": "skull_crossbones", "signalWord": "Danger" },
+      "H301": { "text": "Toxic if swallowed", "class": "Acute Toxicity", "category": "3", "pictogram": "skull_crossbones", "signalWord": "Danger" },
+      "H302": { "text": "Harmful if swallowed", "class": "Acute Toxicity", "category": "4", "pictogram": "exclamation", "signalWord": "Warning" },
+      "H310": { "text": "Fatal in contact with skin", "class": "Acute Toxicity", "category": "1", "pictogram": "skull_crossbones", "signalWord": "Danger" },
+      "H311": { "text": "Toxic in contact with skin", "class": "Acute Toxicity", "category": "3", "pictogram": "skull_crossbones", "signalWord": "Danger" },
+      "H312": { "text": "Harmful in contact with skin", "class": "Acute Toxicity", "category": "4", "pictogram": "exclamation", "signalWord": "Warning" },
+      "H314": { "text": "Causes severe skin burns and eye damage", "class": "Skin Corrosion", "category": "1", "pictogram": "corrosion", "signalWord": "Danger" },
+      "H315": { "text": "Causes skin irritation", "class": "Skin Irritation", "category": "2", "pictogram": "exclamation", "signalWord": "Warning" },
+      "H317": { "text": "May cause an allergic skin reaction", "class": "Skin Sensitization", "category": "1", "pictogram": "exclamation", "signalWord": "Warning" },
+      "H318": { "text": "Causes serious eye damage", "class": "Eye Damage", "category": "1", "pictogram": "corrosion", "signalWord": "Danger" },
+      "H319": { "text": "Causes serious eye irritation", "class": "Eye Irritation", "category": "2A", "pictogram": "exclamation", "signalWord": "Warning" },
+      "H330": { "text": "Fatal if inhaled", "class": "Acute Toxicity", "category": "1", "pictogram": "skull_crossbones", "signalWord": "Danger" },
+      "H331": { "text": "Toxic if inhaled", "class": "Acute Toxicity", "category": "3", "pictogram": "skull_crossbones", "signalWord": "Danger" },
+      "H332": { "text": "Harmful if inhaled", "class": "Acute Toxicity", "category": "4", "pictogram": "exclamation", "signalWord": "Warning" },
+      "H334": { "text": "May cause allergy or asthma symptoms or breathing difficulties if inhaled", "class": "Respiratory Sensitization", "category": "1", "pictogram": "health_hazard", "signalWord": "Danger" },
+      "H335": { "text": "May cause respiratory irritation", "class": "STOT-SE", "category": "3", "pictogram": "exclamation", "signalWord": "Warning" },
+      "H336": { "text": "May cause drowsiness or dizziness", "class": "STOT-SE", "category": "3", "pictogram": "exclamation", "signalWord": "Warning" },
+      "H340": { "text": "May cause genetic defects", "class": "Germ Cell Mutagenicity", "category": "1", "pictogram": "health_hazard", "signalWord": "Danger" },
+      "H341": { "text": "Suspected of causing genetic defects", "class": "Germ Cell Mutagenicity", "category": "2", "pictogram": "health_hazard", "signalWord": "Warning" },
+      "H350": { "text": "May cause cancer", "class": "Carcinogenicity", "category": "1", "pictogram": "health_hazard", "signalWord": "Danger" },
+      "H351": { "text": "Suspected of causing cancer", "class": "Carcinogenicity", "category": "2", "pictogram": "health_hazard", "signalWord": "Warning" },
+      "H360": { "text": "May damage fertility or the unborn child", "class": "Reproductive Toxicity", "category": "1", "pictogram": "health_hazard", "signalWord": "Danger" },
+      "H361": { "text": "Suspected of damaging fertility or the unborn child", "class": "Reproductive Toxicity", "category": "2", "pictogram": "health_hazard", "signalWord": "Warning" },
+      "H362": { "text": "May cause harm to breast-fed children", "class": "Reproductive Toxicity", "category": "Lactation", "pictogram": "none", "signalWord": "None" },
+      "H225": { "text": "Highly flammable liquid and vapour", "class": "Flammable Liquid", "category": "2", "pictogram": "flame", "signalWord": "Danger" }
+    },
+    "ghsCategoryDescriptions": {
+      "1A": "Known human reproductive toxicant (based on human evidence)",
+      "1B": "Presumed human reproductive toxicant (based on animal evidence)",
+      "2": "Suspected human reproductive toxicant (based on limited evidence)"
+    }
+  },
+  "usp795": {
+    "source": "USP <795> Pharmaceutical Compounding — Non-Sterile Preparations",
+    "version": "2023 (effective November 2023)",
+    "beyondUseDateDefaults": {
+      "description": "Default BUD assignments when no stability data is available",
+      "aqueous": {
+        "bud_days": 14,
+        "storage": "Refrigerated (2-8°C)",
+        "notes": "Aqueous or water-containing formulations without stability data"
+      },
+      "non_aqueous": {
+        "bud_days": 180,
+        "storage": "Controlled room temperature (20-25°C)",
+        "notes": "Non-aqueous formulations (ointments, bases without water)"
+      },
+      "solid_dosage": {
+        "bud_days": 180,
+        "storage": "Controlled room temperature (20-25°C)",
+        "notes": "Capsules, tablets, suppositories (non-aqueous)"
+      },
+      "with_stability_data": {
+        "bud_days": "Up to 365",
+        "storage": "Per stability study results",
+        "notes": "Extended BUD permitted with supporting stability data from testing lab"
+      }
+    },
+    "qualityControlRequirements": [
+      "Visual inspection of every batch",
+      "Weight verification for individual units (capsules, suppositories)",
+      "pH testing for aqueous preparations",
+      "Organoleptic checks (color, odor, consistency)",
+      "Documentation of all quality checks in compounding record"
+    ]
+  }
+}

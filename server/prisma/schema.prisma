@@ -1,0 +1,265 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Enums ───────────────────────────────────────────────────────────
+
+enum UserRole {
+  PHARMACIST
+  SUPERVISOR
+  ADMIN
+}
+
+enum NioshTable {
+  NONE
+  TABLE_1
+  TABLE_2
+  TABLE_3
+}
+
+enum PhysicalForm {
+  POWDER
+  LIQUID
+  SEMI_SOLID
+  GEL
+  CAPSULE
+  TABLET
+  OTHER
+}
+
+enum GloveType {
+  REGULAR_NITRILE
+  CHEMOTHERAPY_RATED
+  DOUBLE_CHEMO
+}
+
+enum RespiratoryType {
+  NOT_REQUIRED
+  DUST_MASK
+  N95
+  PAPR
+}
+
+enum VentilationType {
+  GENERAL
+  LOCAL_EXHAUST
+  BSC
+  CVE
+}
+
+enum RiskLevel {
+  A
+  B
+  C
+}
+
+enum ComplexityLevel {
+  SIMPLE
+  MODERATE
+  COMPLEX
+}
+
+enum AssessmentStatus {
+  DRAFT
+  PENDING_REVIEW
+  APPROVED
+  EXPIRED
+  ARCHIVED
+}
+
+enum MfrStatus {
+  ACTIVE
+  ARCHIVED
+  DRAFT
+}
+
+enum IngredientSource {
+  NIOSH
+  MANUAL
+  SDS
+  PUBCHEM
+  HEALTH_CANADA
+  SEED
+}
+
+// ─── Models ──────────────────────────────────────────────────────────
+
+model Pharmacy {
+  id            String   @id @default(uuid())
+  name          String
+  licenseNumber String?  @unique @map("license_number")
+  address       String?
+  facilityLevel String?  @default("A") @map("facility_level")
+  hasMechanicalVentilation Boolean @default(false) @map("has_mechanical_ventilation")
+  hasBSC        Boolean  @default(false) @map("has_bsc")
+  hasEyewash    Boolean  @default(false) @map("has_eyewash")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  users         User[]
+  mfrs          MasterFormulationRecord[]
+  assessments   RiskAssessment[]
+
+  @@map("pharmacies")
+}
+
+model User {
+  id         String   @id @default(uuid())
+  email      String   @unique
+  password   String
+  name       String
+  role       UserRole @default(PHARMACIST)
+  pharmacyId String   @map("pharmacy_id")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  pharmacy   Pharmacy @relation(fields: [pharmacyId], references: [id])
+
+  createdMfrs       MasterFormulationRecord[] @relation("MfrCreatedBy")
+  createdAssessments RiskAssessment[]         @relation("AssessmentCreatedBy")
+  approvedAssessments RiskAssessment[]        @relation("AssessmentApprovedBy")
+  auditLogs          AssessmentAudit[]
+
+  @@map("users")
+}
+
+model Ingredient {
+  id                   String          @id @default(uuid())
+  name                 String
+  casNumber            String?         @map("cas_number")
+  nioshTable           NioshTable      @default(NONE) @map("niosh_table")
+  nioshDescription     String?         @map("niosh_description")
+  reproductiveToxicity Boolean         @default(false) @map("reproductive_toxicity")
+  ghsCategory          String?         @map("ghs_category")
+  physicalForm         PhysicalForm    @default(POWDER) @map("physical_form")
+  whmisHazards         Json            @default("[]") @map("whmis_hazards")
+  exposureRoutes       Json            @default("{}") @map("exposure_routes")
+  recommendedPPE       Json            @default("{}") @map("recommended_ppe")
+  ventilationRequired  Boolean         @default(false) @map("ventilation_required")
+  ventilationType      VentilationType @default(GENERAL) @map("ventilation_type")
+  sdsDocumentUrl       String?         @map("sds_document_url")
+  sdsExpiryDate        DateTime?       @map("sds_expiry_date")
+  source               IngredientSource @default(MANUAL)
+  healthCanadaDin      String?         @map("health_canada_din")
+  pubchemCid           String?         @map("pubchem_cid")
+  molecularFormula     String?         @map("molecular_formula")
+  molecularWeight      Float?          @map("molecular_weight")
+  synonyms             Json            @default("[]")
+  createdAt            DateTime        @default(now()) @map("created_at")
+  updatedAt            DateTime        @updatedAt @map("updated_at")
+
+  mfrIngredients MfrIngredient[]
+
+  @@unique([name, casNumber])
+  @@map("ingredients")
+}
+
+model MasterFormulationRecord {
+  id             String    @id @default(uuid())
+  pharmacyId     String    @map("pharmacy_id")
+  protocolNumber String?   @map("protocol_number")
+  productName    String    @map("product_name")
+  concentration  String?
+  form           String
+  route          String?
+  frequency      String?
+  batchSize      Int?      @map("batch_size")
+  compoundingMethod String? @map("compounding_method")
+  equipmentRequired Json   @default("[]") @map("equipment_required")
+  qualityControls   Json   @default("[]") @map("quality_controls")
+  storage        String?
+  beyondUseDate  String?   @map("beyond_use_date")
+  status         MfrStatus @default(DRAFT)
+  createdById    String    @map("created_by_id")
+  createdAt      DateTime  @default(now()) @map("created_at")
+  updatedAt      DateTime  @updatedAt @map("updated_at")
+
+  pharmacy    Pharmacy @relation(fields: [pharmacyId], references: [id])
+  createdBy   User     @relation("MfrCreatedBy", fields: [createdById], references: [id])
+  ingredients MfrIngredient[]
+  assessments RiskAssessment[]
+
+  @@map("master_formulation_records")
+}
+
+model MfrIngredient {
+  id                 String  @id @default(uuid())
+  mfrId              String  @map("mfr_id")
+  ingredientId       String  @map("ingredient_id")
+  quantity           String?
+  isActiveIngredient Boolean @default(true) @map("is_active_ingredient")
+
+  mfr        MasterFormulationRecord @relation(fields: [mfrId], references: [id], onDelete: Cascade)
+  ingredient Ingredient              @relation(fields: [ingredientId], references: [id])
+
+  @@unique([mfrId, ingredientId])
+  @@map("mfr_ingredients")
+}
+
+model RiskAssessment {
+  id                     String           @id @default(uuid())
+  mfrId                  String           @map("mfr_id")
+  pharmacyId             String           @map("pharmacy_id")
+  version                Int              @default(1)
+  complexityLevel        ComplexityLevel? @map("complexity_level")
+  complexityJustification String?         @map("complexity_justification")
+  frequencyAssessment    Json?            @map("frequency_assessment")
+  exposureRisks          Json?            @map("exposure_risks")
+  recommendedPPE         Json?            @map("recommended_ppe")
+  facilityControls       Json?            @map("facility_controls")
+  riskLevel              RiskLevel?       @map("risk_level")
+  rationale              String?
+  references             Json             @default("[]")
+  status                 AssessmentStatus @default(DRAFT)
+  createdById            String           @map("created_by_id")
+  approvedById           String?          @map("approved_by_id")
+  approvedAt             DateTime?        @map("approved_at")
+  nextReviewDate         DateTime?        @map("next_review_date")
+  generatedAt            DateTime         @default(now()) @map("generated_at")
+  createdAt              DateTime         @default(now()) @map("created_at")
+  updatedAt              DateTime         @updatedAt @map("updated_at")
+
+  mfr        MasterFormulationRecord @relation(fields: [mfrId], references: [id])
+  pharmacy   Pharmacy               @relation(fields: [pharmacyId], references: [id])
+  createdBy  User                   @relation("AssessmentCreatedBy", fields: [createdById], references: [id])
+  approvedBy User?                  @relation("AssessmentApprovedBy", fields: [approvedById], references: [id])
+  auditLogs  AssessmentAudit[]
+
+  @@map("risk_assessments")
+}
+
+model AssessmentAudit {
+  id              String   @id @default(uuid())
+  assessmentId    String   @map("assessment_id")
+  action          String
+  changedById     String   @map("changed_by_id")
+  changedAt       DateTime @default(now()) @map("changed_at")
+  previousVersion Json?    @map("previous_version")
+  notes           String?
+
+  assessment RiskAssessment @relation(fields: [assessmentId], references: [id])
+  changedBy  User           @relation(fields: [changedById], references: [id])
+
+  @@map("assessment_audit")
+}
+
+// Regulatory reference data (versioned, stored locally)
+model RegulatoryReference {
+  id          String   @id @default(uuid())
+  source      String   // NIOSH, OCP, NAPRA, USP, WHMIS
+  title       String
+  version     String?
+  effectiveDate DateTime? @map("effective_date")
+  content     Json     @default("{}")
+  documentUrl String?  @map("document_url")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  @@unique([source, title, version])
+  @@map("regulatory_references")
+}

@@ -1,0 +1,5033 @@
+{
+  "_metadata": {
+    "source": "Compiled from NIOSH 2024, PubChem, SDS data, and common compounding references",
+    "fetchedDate": "2026-02-17",
+    "description": "Full hazard profiles for 280+ ingredients commonly used in non-sterile compounding pharmacies",
+    "categories": [
+      "NIOSH Table 2 hormones",
+      "NIOSH Table 2 non-hormonal",
+      "NIOSH Table 1 antineoplastic (commonly compounded)",
+      "Non-hazardous actives",
+      "Excipients/bases/vehicles",
+      "Preservatives/additives"
+    ],
+    "totalIngredients": 116,
+    "lastEnriched": "2026-02-17",
+    "enrichedFrom": [
+      "PubChem (2026-02-17): 88 ingredients updated",
+      "Health Canada DPD (2026-02-17): 71 ingredients updated"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Progesterone",
+      "cas": "57-83-0",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C21H30O2",
+      "molecularWeight": 314.46,
+      "synonyms": [
+        "Progestin",
+        "Prometrium",
+        "Endometrin",
+        "progesterone",
+        "57-83-0",
+        "Pregn-4-ene-3,20-dione",
+        "Agolutin",
+        "Crinone",
+        "4-Pregnene-3,20-dione",
+        "Utrogestan",
+        "Luteol",
+        "Gestormone"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "5994",
+      "healthCanadaDin": "00030848"
+    },
+    {
+      "name": "Testosterone",
+      "cas": "58-22-0",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C19H28O2",
+      "molecularWeight": 288.42,
+      "synonyms": [
+        "Androgen",
+        "Andriol",
+        "testosterone",
+        "58-22-0",
+        "Virosterone",
+        "Homosterone",
+        "Mertestate",
+        "Testosteron",
+        "Androderm",
+        "Testim",
+        "Androlin",
+        "Sustanon"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "6013",
+      "healthCanadaDin": "00029246"
+    },
+    {
+      "name": "Estradiol",
+      "cas": "50-28-2",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin, suspected carcinogen",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H351: Suspected of causing cancer"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C18H24O2",
+      "molecularWeight": 272.38,
+      "synonyms": [
+        "17β-Estradiol",
+        "E2",
+        "Estrace",
+        "estradiol",
+        "beta-Estradiol",
+        "50-28-2",
+        "17beta-Estradiol",
+        "Oestradiol",
+        "Dihydrofolliculin",
+        "Aquadiol",
+        "Diogynets",
+        "Divigel"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "5757",
+      "healthCanadaDin": "00297143"
+    },
+    {
+      "name": "Estriol",
+      "cas": "50-27-1",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C18H24O3",
+      "molecularWeight": 288.38,
+      "synonyms": [
+        "E3",
+        "Oestriol",
+        "estriol",
+        "50-27-1",
+        "Trihydroxyestrin",
+        "Aacifemine",
+        "Estratriol",
+        "Ovestrion",
+        "Tridestrin",
+        "Destriol",
+        "Ovestin"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "5756"
+    },
+    {
+      "name": "Estrone",
+      "cas": "53-16-7",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C18H22O2",
+      "molecularWeight": 270.37,
+      "synonyms": [
+        "E1",
+        "Oestrone",
+        "estrone",
+        "53-16-7",
+        "folliculin",
+        "Theelin",
+        "estrovarin",
+        "Thelykinin",
+        "Kestrone",
+        "Ketohydroxyestrin",
+        "Estrugenone",
+        "Tokokin"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "5870",
+      "healthCanadaDin": "00006211"
+    },
+    {
+      "name": "Finasteride",
+      "cas": "98319-26-7",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – 5-alpha reductase inhibitor, teratogenic to male fetus",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C23H36N2O2",
+      "molecularWeight": 372.54,
+      "synonyms": [
+        "Proscar",
+        "Propecia",
+        "finasteride",
+        "98319-26-7",
+        "Finastid",
+        "Prostide",
+        "Chibro-Proscar",
+        "MK-906",
+        "Finasterida",
+        "Finpecia"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "57363",
+      "healthCanadaDin": "02010909"
+    },
+    {
+      "name": "Dutasteride",
+      "cas": "164656-23-9",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – 5-alpha reductase inhibitor, reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C27H30F6N2O2",
+      "molecularWeight": 528.53,
+      "synonyms": [
+        "Avodart",
+        "Dutasteride",
+        "164656-23-9",
+        "Avolve",
+        "GG-745",
+        "Duastride",
+        "GI-198745",
+        "GI 198745",
+        "GG 745",
+        "Dutasterida"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "6918296",
+      "healthCanadaDin": "02247813"
+    },
+    {
+      "name": "Spironolactone",
+      "cas": "52-01-7",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – anti-androgenic, reproductive toxin, suspected carcinogen",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H351: Suspected of causing cancer"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C24H32O4S",
+      "molecularWeight": 416.57,
+      "synonyms": [
+        "Aldactone",
+        "spironolactone",
+        "52-01-7",
+        "Verospirone",
+        "Spirolactone",
+        "Spiresis",
+        "Uractone",
+        "Xenalon",
+        "spironolattone",
+        "Espironolactona"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "5833",
+      "healthCanadaDin": "00657182"
+    },
+    {
+      "name": "Metronidazole",
+      "cas": "443-48-1",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – suspected carcinogen, mutagenic",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H341: Suspected of causing genetic defects",
+        "H351: Suspected of causing cancer"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C6H9N3O3",
+      "molecularWeight": 171.15,
+      "synonyms": [
+        "Flagyl",
+        "MetroGel",
+        "metronidazole",
+        "443-48-1",
+        "Metronidazol",
+        "2-Methyl-5-nitroimidazole-1-ethanol",
+        "Gineflavir",
+        "Deflamon",
+        "Orvagil",
+        "Anagiardil",
+        "Trichazol"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "4173",
+      "healthCanadaDin": "00649074"
+    },
+    {
+      "name": "Nifedipine",
+      "cas": "21829-25-4",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C17H18N2O6",
+      "molecularWeight": 346.34,
+      "synonyms": [
+        "Adalat",
+        "Procardia",
+        "nifedipine",
+        "21829-25-4",
+        "Procardia XL",
+        "Citilat",
+        "Oxcord",
+        "Adalat CC",
+        "Fenihidine",
+        "dimethyl 2,6-dimethyl-4-(2-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "4485",
+      "healthCanadaDin": "00782750"
+    },
+    {
+      "name": "Minoxidil",
+      "cas": "38304-91-5",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child",
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C9H15N5O",
+      "molecularWeight": 209.25,
+      "synonyms": [
+        "Rogaine",
+        "Loniten",
+        "minoxidil",
+        "38304-91-5",
+        "Minoximen",
+        "Theroxidil",
+        "Alopexil",
+        "Alostil",
+        "Regaine",
+        "Tricoxidil"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "4201",
+      "healthCanadaDin": "00708925"
+    },
+    {
+      "name": "Tretinoin",
+      "cas": "302-79-4",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – retinoid, teratogenic",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H315: Causes skin irritation",
+        "H319: Causes serious eye irritation"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C20H28O2",
+      "molecularWeight": 300.44,
+      "synonyms": [
+        "Retin-A",
+        "All-trans retinoic acid",
+        "Vitamin A acid",
+        "Retinoic acid",
+        "tretinoin",
+        "302-79-4",
+        "all-trans-Retinoic acid",
+        "trans-Retinoic acid",
+        "ATRA",
+        "Aberel",
+        "Eudyna",
+        "Renova"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "444795",
+      "healthCanadaDin": "00587966"
+    },
+    {
+      "name": "Tacrolimus",
+      "cas": "104987-11-3",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – immunosuppressive, reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C44H69NO12",
+      "molecularWeight": 804.02,
+      "synonyms": [
+        "Protopic",
+        "FK506",
+        "Prograf",
+        "tacrolimus",
+        "104987-11-3",
+        "Fujimycin",
+        "Tsukubaenolide",
+        "Advagraf",
+        "Tacrolimus anhydrous",
+        "Modigraf"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "445643",
+      "healthCanadaDin": "02175983"
+    },
+    {
+      "name": "Cyclosporine",
+      "cas": "59865-13-3",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – immunosuppressive, carcinogenic",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child",
+        "H351: Suspected of causing cancer"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": []
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C62H111N11O12",
+      "molecularWeight": 1202.61,
+      "synonyms": [
+        "Cyclosporin A",
+        "Sandimmune",
+        "Neoral",
+        "Restasis",
+        "Ciclosporin",
+        "cyclosporine",
+        "59865-13-3",
+        "Sandimmun",
+        "Cyclosporine A",
+        "Ciclosporine",
+        "Neoplanta"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "5284373",
+      "healthCanadaDin": "00755605"
+    },
+    {
+      "name": "Warfarin",
+      "cas": "81-81-2",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – teratogenic (warfarin embryopathy)",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H300: Fatal if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C19H16O4",
+      "molecularWeight": 308.33,
+      "synonyms": [
+        "Coumadin",
+        "warfarin",
+        "81-81-2",
+        "Coumafene",
+        "Zoocoumarin",
+        "Coumafen",
+        "Brumolin",
+        "Coumefene",
+        "Dethmor",
+        "Kumader",
+        "Warfarine"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "54678486",
+      "healthCanadaDin": "01918338"
+    },
+    {
+      "name": "Colchicine",
+      "cas": "64-86-8",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin, spindle poison",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H300: Fatal if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C22H25NO6",
+      "molecularWeight": 399.44,
+      "synonyms": [
+        "Colcrys",
+        "colchicine",
+        "64-86-8",
+        "Colchisol",
+        "Colchineos",
+        "Colchicinum",
+        "Colchicina",
+        "(-)-colchicine",
+        "Mitigare",
+        "7-alpha-H-Colchicine"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "6167",
+      "healthCanadaDin": "00287873"
+    },
+    {
+      "name": "Medroxyprogesterone Acetate",
+      "cas": "71-58-9",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C24H34O4",
+      "molecularWeight": 386.52,
+      "synonyms": [
+        "MPA",
+        "Provera",
+        "Depo-Provera",
+        "Medroxyprogesterone acetate",
+        "71-58-9",
+        "Medroxyprogesterone 17-acetate",
+        "Metigestrona",
+        "Farlutin",
+        "Clinovir",
+        "Gestapuran",
+        "Lutopolar"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "6279",
+      "healthCanadaDin": "00030848"
+    },
+    {
+      "name": "Norethindrone",
+      "cas": "68-22-4",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin, progestational",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C20H26O2",
+      "molecularWeight": 298.42,
+      "synonyms": [
+        "Norethisterone",
+        "Micronor",
+        "Aygestin",
+        "norethindrone",
+        "68-22-4",
+        "Norethisteron",
+        "Norlutin",
+        "19-Norethisterone",
+        "Anovule",
+        "Gestest",
+        "Micronovum"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "6230",
+      "healthCanadaDin": "00315966"
+    },
+    {
+      "name": "Fluconazole",
+      "cas": "86386-73-4",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – teratogenic at high doses",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": []
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C13H12F2N6O",
+      "molecularWeight": 306.27,
+      "synonyms": [
+        "Diflucan",
+        "fluconazole",
+        "86386-73-4",
+        "Triflucan",
+        "Biozolene",
+        "Elazor",
+        "Fluconazol",
+        "Zoltec",
+        "Flucostat",
+        "difluconazole"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "3365",
+      "healthCanadaDin": "00891800"
+    },
+    {
+      "name": "Misoprostol",
+      "cas": "59122-46-2",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – prostaglandin, abortifacient",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C22H38O5",
+      "molecularWeight": 382.53,
+      "synonyms": [
+        "Cytotec",
+        "misoprostol",
+        "59122-46-2",
+        "Misoprostolum",
+        "SC-29333",
+        "SC 29333",
+        "DTXSID7020897",
+        "0E43V0BB57",
+        "DTXCID70897",
+        "ARTHROTEC COMPONENT MISOPROSTOL"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "5282381",
+      "healthCanadaDin": "00813966"
+    },
+    {
+      "name": "Hydrocortisone",
+      "cas": "50-23-7",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361 (86.5%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+        "H373 (31.8%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C21H30O5",
+      "molecularWeight": 362.46,
+      "synonyms": [
+        "Cortisol",
+        "Hydrocort",
+        "hydrocortisone",
+        "50-23-7",
+        "Acticort",
+        "Cetacort",
+        "Hydrocortisyl",
+        "Cobadex",
+        "Hytone",
+        "Cortenema",
+        "Dermacort"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5754",
+      "healthCanadaDin": "00229679"
+    },
+    {
+      "name": "DHEA (Dehydroepiandrosterone)",
+      "cas": "53-43-0",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C19H28O2",
+      "molecularWeight": 288.42,
+      "synonyms": [
+        "Dehydroepiandrosterone",
+        "Prasterone",
+        "DHEA",
+        "53-43-0",
+        "Dehydroisoandrosterone",
+        "Androstenolone",
+        "Diandron",
+        "3beta-hydroxyandrost-5-en-17-one",
+        "17-Hormoforin",
+        "Intrarosa"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5881"
+    },
+    {
+      "name": "Pregnenolone",
+      "cas": "145-13-1",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302 (87%): Harmful if swallowed [Warning Acute toxicity, oral]",
+        "H312 (87%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+        "H332 (87%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+        "H351 (87%): Suspected of causing cancer [Warning Carcinogenicity]",
+        "H361 (87%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C21H32O2",
+      "molecularWeight": 316.48,
+      "synonyms": [
+        "3β-Hydroxypregn-5-en-20-one",
+        "pregnenolone",
+        "145-13-1",
+        "3beta-Hydroxypregn-5-en-20-one",
+        "Arthenolone",
+        "Regnosone",
+        "Skinostelon",
+        "Enelone",
+        "Natolone",
+        "Bina-Skin",
+        "5-Pregnen-3beta-ol-20-one"
+      ],
+      "source": "SEED",
+      "pubchemCid": "8955"
+    },
+    {
+      "name": "Thyroid (Desiccated)",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Armour Thyroid",
+        "Nature-Throid",
+        "NP Thyroid"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Levothyroxine Sodium",
+      "cas": "55-03-8",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C15H10I4NNaO4",
+      "molecularWeight": 798.85,
+      "synonyms": [
+        "Synthroid",
+        "Levoxyl",
+        "T4",
+        "Levothyroxine sodium",
+        "L-Thyroxine sodium",
+        "55-03-8",
+        "Euthyrox",
+        "Unithroid",
+        "levothroid",
+        "Novothyrox",
+        "Letter"
+      ],
+      "source": "SEED",
+      "pubchemCid": "23666112",
+      "healthCanadaDin": "00012297"
+    },
+    {
+      "name": "Liothyronine Sodium",
+      "cas": "6893-02-3",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C15H11I3NNaO4",
+      "molecularWeight": 672.96,
+      "synonyms": [
+        "Cytomel",
+        "T3",
+        "LIOTHYRONINE SODIUM",
+        "55-06-1",
+        "3,3',5-Triiodo-L-thyronine sodium salt",
+        "Triostat",
+        "Basoprocin",
+        "Ibiothyron",
+        "T3 sodium salt",
+        "Cynomel",
+        "L-Triiodothyronine sodium salt",
+        "Cytobin"
+      ],
+      "source": "SEED",
+      "pubchemCid": "23666110",
+      "healthCanadaDin": "01919466"
+    },
+    {
+      "name": "Metformin HCl",
+      "cas": "1115-70-4",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C4H12ClN5",
+      "molecularWeight": 165.62,
+      "synonyms": [
+        "Glucophage",
+        "Metformin Hydrochloride",
+        "1115-70-4",
+        "Metformin HCL",
+        "1,1-Dimethylbiguanide hydrochloride",
+        "Diabefagos",
+        "Riomet",
+        "Siamformet",
+        "Benofomin",
+        "Walaphage"
+      ],
+      "source": "SEED",
+      "pubchemCid": "14219",
+      "healthCanadaDin": "02045710"
+    },
+    {
+      "name": "Gabapentin",
+      "cas": "60142-96-3",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H315 (57.7%): Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H319 (66.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+        "H335 (59.6%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+        "H360 (54.8%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+        "H315: Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+        "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+        "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C9H17NO2",
+      "molecularWeight": 171.24,
+      "synonyms": [
+        "Neurontin",
+        "gabapentin",
+        "60142-96-3",
+        "Gabapentine",
+        "1-(Aminomethyl)cyclohexaneacetic acid",
+        "2-[1-(aminomethyl)cyclohexyl]acetic acid",
+        "Aclonium",
+        "Gabapetin",
+        "Gabapentinum",
+        "gabapentina"
+      ],
+      "source": "SEED",
+      "pubchemCid": "3446",
+      "healthCanadaDin": "02084287"
+    },
+    {
+      "name": "Ketoprofen",
+      "cas": "22071-15-4",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed",
+        "H315: Causes skin irritation"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C16H14O3",
+      "molecularWeight": 254.28,
+      "synonyms": [
+        "Orudis",
+        "Oruvail",
+        "ketoprofen",
+        "22071-15-4",
+        "2-(3-Benzoylphenyl)propanoic acid",
+        "2-(3-Benzoylphenyl)propionic acid",
+        "Capisten",
+        "Actron",
+        "Alrheumat",
+        "Ketoprofene"
+      ],
+      "source": "SEED",
+      "pubchemCid": "3825",
+      "healthCanadaDin": "00761680"
+    },
+    {
+      "name": "Lidocaine",
+      "cas": "137-58-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed",
+        "H312: Harmful in contact with skin"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C14H22N2O",
+      "molecularWeight": 234.34,
+      "synonyms": [
+        "Xylocaine",
+        "Lidocaine Base",
+        "lidocaine",
+        "137-58-6",
+        "2-(Diethylamino)-N-(2,6-dimethylphenyl)acetamide",
+        "Lidoderm",
+        "Duncaine",
+        "Xylestesin",
+        "Esracaine",
+        "Gravocain",
+        "Isicaina"
+      ],
+      "source": "SEED",
+      "pubchemCid": "3676",
+      "healthCanadaDin": "00697753"
+    },
+    {
+      "name": "Lidocaine HCl",
+      "cas": "73-78-9",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed",
+        "H312: Harmful in contact with skin"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C14H23ClN2O",
+      "molecularWeight": 270.8,
+      "synonyms": [
+        "Lidocaine Hydrochloride",
+        "73-78-9",
+        "LIDOCAINE HCL",
+        "Lidothesin",
+        "Lignocaine hydrochloride",
+        "Xylocaine Viscous",
+        "Laryng-O-jet",
+        "Anestacon",
+        "Lidocaton",
+        "Glydo"
+      ],
+      "source": "SEED",
+      "pubchemCid": "6314",
+      "healthCanadaDin": "00697753"
+    },
+    {
+      "name": "Prilocaine",
+      "cas": "721-50-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C13H20N2O",
+      "molecularWeight": 220.31,
+      "synonyms": [
+        "Citanest",
+        "prilocaine",
+        "721-50-6",
+        "Propitocaine",
+        "prilocaine base",
+        "N-(2-Methylphenyl)-2-(propylamino)propanamide",
+        "Prilocaina",
+        "Prilocainum",
+        "Astra 1515",
+        "Propanamide, N-(2-methylphenyl)-2-(propylamino)-",
+        "o-Methyl-2-propylaminopropionanilide"
+      ],
+      "source": "SEED",
+      "pubchemCid": "4906",
+      "healthCanadaDin": "00519227"
+    },
+    {
+      "name": "Tetracaine",
+      "cas": "94-24-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H301: Toxic if swallowed",
+        "H311: Toxic in contact with skin"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C15H24N2O2",
+      "molecularWeight": 264.36,
+      "synonyms": [
+        "Pontocaine",
+        "Amethocaine",
+        "tetracaine",
+        "94-24-6",
+        "2-(Dimethylamino)ethyl 4-(butylamino)benzoate",
+        "Laudocaine",
+        "Metraspray",
+        "Anetain",
+        "Dicaine",
+        "Uromucaesthin"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5411",
+      "healthCanadaDin": "02009080"
+    },
+    {
+      "name": "Benzocaine",
+      "cas": "94-09-7",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed",
+        "H317: May cause an allergic skin reaction"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C9H11NO2",
+      "molecularWeight": 165.19,
+      "synonyms": [
+        "Ethyl aminobenzoate",
+        "Americaine",
+        "benzocaine",
+        "Ethyl 4-aminobenzoate",
+        "94-09-7",
+        "Ethyl p-aminobenzoate",
+        "Parathesin",
+        "Norcaine",
+        "Anaesthesin",
+        "4-Aminobenzoic acid ethyl ester"
+      ],
+      "source": "SEED",
+      "pubchemCid": "2337",
+      "healthCanadaDin": "00096075"
+    },
+    {
+      "name": "Mupirocin",
+      "cas": "12650-69-0",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302 (25%): Harmful if swallowed [Warning Acute toxicity, oral]",
+        "H315 (25%): Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H317 (50%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+        "H319 (25%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C26H44O9",
+      "molecularWeight": 500.62,
+      "synonyms": [
+        "Bactroban",
+        "Mupirocin",
+        "12650-69-0",
+        "Pseudomonic acid",
+        "Pseudomonic acid A",
+        "Mupirocine",
+        "Centany",
+        "Bactoderm",
+        "Mupirocina",
+        "Mupirocinum",
+        "Turixin"
+      ],
+      "source": "SEED",
+      "pubchemCid": "446596",
+      "healthCanadaDin": "01916947"
+    },
+    {
+      "name": "Nystatin",
+      "cas": "1400-61-9",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H335: May cause respiratory irritation"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C47H75NO17",
+      "molecularWeight": 926.09,
+      "synonyms": [
+        "Mycostatin",
+        "Stamycin",
+        "Herniocid",
+        "Nyotran",
+        "Nystatyna",
+        "Candex Lotion",
+        "Zydin E",
+        "Nystatyna [Polish]",
+        "Moronal (antibiotic)",
+        "Caswell No. 607B",
+        "Nystatin LF (liposome)"
+      ],
+      "source": "SEED",
+      "pubchemCid": "6433272",
+      "healthCanadaDin": "00449792"
+    },
+    {
+      "name": "Clotrimazole",
+      "cas": "23593-75-1",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C22H17ClN2",
+      "molecularWeight": 344.84,
+      "synonyms": [
+        "Canesten",
+        "Lotrimin",
+        "clotrimazole",
+        "23593-75-1",
+        "Mycelex",
+        "Mycosporin",
+        "Clotrimazol",
+        "Empecid",
+        "Mykosporin",
+        "Gyne lotrimin"
+      ],
+      "source": "SEED",
+      "pubchemCid": "2812",
+      "healthCanadaDin": "00516813"
+    },
+    {
+      "name": "Miconazole Nitrate",
+      "cas": "22832-87-7",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C18H15Cl4N3O4",
+      "molecularWeight": 479.14,
+      "synonyms": [
+        "Monistat",
+        "Micatin",
+        "Miconazole nitrate",
+        "22832-87-7",
+        "Dermonistat",
+        "Monistat-Derm",
+        "Miconazole 7",
+        "M-zole 7 Dual Pack",
+        "Monistat 3",
+        "Monistat 5",
+        "Monistat 7"
+      ],
+      "source": "SEED",
+      "pubchemCid": "68553",
+      "healthCanadaDin": "02126257"
+    },
+    {
+      "name": "Baclofen",
+      "cas": "1134-47-0",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C10H12ClNO2",
+      "molecularWeight": 213.66,
+      "synonyms": [
+        "Lioresal",
+        "baclofen",
+        "1134-47-0",
+        "4-Amino-3-(4-chlorophenyl)butanoic acid",
+        "Baclon",
+        "Kemstro",
+        "DL-Baclofen",
+        "Baclofene",
+        "Baclofeno",
+        "(+-)-Baclofen"
+      ],
+      "source": "SEED",
+      "pubchemCid": "2284",
+      "healthCanadaDin": "00455881"
+    },
+    {
+      "name": "Cyclobenzaprine",
+      "cas": "303-53-7",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C20H21N",
+      "molecularWeight": 275.39,
+      "synonyms": [
+        "Flexeril",
+        "cyclobenzaprine",
+        "303-53-7",
+        "Proheptatriene",
+        "Proheptatrien",
+        "Ciclobenzaprina",
+        "Proeptatriene",
+        "Lisseril",
+        "Fexmid",
+        "Cyclobenzaprinum",
+        "10,11-Dehydroamitriptyline"
+      ],
+      "source": "SEED",
+      "pubchemCid": "2895",
+      "healthCanadaDin": "00782742"
+    },
+    {
+      "name": "Omeprazole",
+      "cas": "73590-58-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C17H19N3O3S",
+      "molecularWeight": 345.42,
+      "synonyms": [
+        "Losec",
+        "Prilosec",
+        "RefChem:929978",
+        "omeprazole",
+        "73590-58-6",
+        "Antra",
+        "Omeprazon",
+        "Audazol",
+        "Omepral",
+        "Omapren"
+      ],
+      "source": "SEED",
+      "pubchemCid": "4594",
+      "healthCanadaDin": "02190915"
+    },
+    {
+      "name": "Lansoprazole",
+      "cas": "103577-45-3",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C16H14F3N3O2S",
+      "molecularWeight": 369.36,
+      "synonyms": [
+        "Prevacid",
+        "lansoprazole",
+        "103577-45-3",
+        "Limpidex",
+        "Agopton",
+        "Lanzor",
+        "Takepron",
+        "Zoton",
+        "Prevacid SoluTab",
+        "Lansoprazol"
+      ],
+      "source": "SEED",
+      "pubchemCid": "3883",
+      "healthCanadaDin": "02165503"
+    },
+    {
+      "name": "Prednisone",
+      "cas": "53-03-2",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360 (33.7%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+        "H361 (65.1%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+        "H372 (32%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+        "H373 (20.1%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+        "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C21H26O5",
+      "molecularWeight": 358.43,
+      "synonyms": [
+        "Deltasone",
+        "prednisone",
+        "53-03-2",
+        "Dehydrocortisone",
+        "Decortin",
+        "Meticorten",
+        "Metacortandracin",
+        "Supercortil",
+        "Orasone",
+        "Paracort"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5865",
+      "healthCanadaDin": "00598194"
+    },
+    {
+      "name": "Prednisolone",
+      "cas": "50-24-8",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302 (31.9%): Harmful if swallowed [Warning Acute toxicity, oral]",
+        "H332 (10.1%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+        "H360 (66.2%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+        "H361 (27.1%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+        "H372 (16.9%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+        "H373 (13%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+        "H411 (17.4%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C21H28O5",
+      "molecularWeight": 360.44,
+      "synonyms": [
+        "Prelone",
+        "Pediapred",
+        "prednisolone",
+        "50-24-8",
+        "Metacortandralone",
+        "Hydroretrocortine",
+        "Deltacortril",
+        "Delta-Cortef",
+        "Codelcortone",
+        "Prenolone",
+        "Sterane",
+        "Deltahydrocortisone"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5755",
+      "healthCanadaDin": "00307246"
+    },
+    {
+      "name": "Dexamethasone",
+      "cas": "50-02-2",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H315 (24.6%): Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H317 (26.2%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+        "H319 (25.1%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+        "H334 (24.1%): May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]",
+        "H335 (24.1%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+        "H360 (51.9%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+        "H360D (12.8%): May damage the unborn child [Danger Reproductive toxicity]",
+        "H373 (35.8%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+        "H410 (33.2%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C22H29FO5",
+      "molecularWeight": 392.46,
+      "synonyms": [
+        "Decadron",
+        "dexamethasone",
+        "50-02-2",
+        "Aeroseb-Dex",
+        "Cortisumman",
+        "Calonat",
+        "Decaderm",
+        "Dexacortal",
+        "Dexacortin",
+        "Prednisolone F"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5743",
+      "healthCanadaDin": "00042579"
+    },
+    {
+      "name": "Betamethasone",
+      "cas": "378-44-9",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H330 (51%): Fatal if inhaled [Danger Acute toxicity, inhalation]",
+        "H360 (97.1%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+        "H372 (51%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+        "H373 (47.1%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+        "H410 (51%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C22H29FO5",
+      "molecularWeight": 392.46,
+      "synonyms": [
+        "Celestone",
+        "Betnovate",
+        "betamethasone",
+        "378-44-9",
+        "Betadexamethasone",
+        "Flubenisolone",
+        "Rinderon",
+        "Visubeta",
+        "Celestene",
+        "Betnelan",
+        "beta-Methasone",
+        "Desacort-Beta"
+      ],
+      "source": "SEED",
+      "pubchemCid": "9782",
+      "healthCanadaDin": "00804541"
+    },
+    {
+      "name": "Triamcinolone Acetonide",
+      "cas": "76-25-5",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302 (12.7%): Harmful if swallowed [Warning Acute toxicity, oral]",
+        "H360 (83.6%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+        "H361 (12.7%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+        "H372 (10.9%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C24H31FO6",
+      "molecularWeight": 434.5,
+      "synonyms": [
+        "Kenalog",
+        "Aristocort",
+        "TRIAMCINOLONE ACETONIDE",
+        "76-25-5",
+        "Azmacort",
+        "Nasacort",
+        "Vetalog",
+        "Solodelf",
+        "Tricinolon",
+        "Kenacort-A",
+        "Volon A",
+        "Aristogel"
+      ],
+      "source": "SEED",
+      "pubchemCid": "6436",
+      "healthCanadaDin": "00716987"
+    },
+    {
+      "name": "Clobetasol Propionate",
+      "cas": "25122-46-7",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H315 (34.1%): Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H319 (34.1%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+        "H335 (33%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+        "H360 (61.5%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+        "H373 (62.6%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+        "H413 (62.6%): May cause long lasting harmful effects to aquatic life [Hazardous to the aquatic environment, long-term hazard]"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C25H32ClFO5",
+      "molecularWeight": 466.97,
+      "synonyms": [
+        "Temovate",
+        "Dermovate",
+        "CLOBETASOL PROPIONATE",
+        "25122-46-7",
+        "Clobetasol 17-propionate",
+        "Clobex",
+        "Embeline",
+        "Cormax",
+        "Olux",
+        "Embeline E"
+      ],
+      "source": "SEED",
+      "pubchemCid": "32798",
+      "healthCanadaDin": "00479012"
+    },
+    {
+      "name": "Diclofenac Sodium",
+      "cas": "15307-79-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed",
+        "H315: Causes skin irritation"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C14H10Cl2NNaO2",
+      "molecularWeight": 318.13,
+      "synonyms": [
+        "Voltaren",
+        "Diclofenac sodium",
+        "15307-79-6",
+        "Diclofenac sodium salt",
+        "Sodium diclofenac",
+        "Solaraze",
+        "Neriodin",
+        "Prophenatin",
+        "Diclophenac sodium",
+        "Abitren"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5018304",
+      "healthCanadaDin": "00590827"
+    },
+    {
+      "name": "Piroxicam",
+      "cas": "36322-90-4",
+      "nioshTable": "TABLE_3",
+      "nioshDescription": "Drug with reproductive risk",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child",
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C15H13N3O4S",
+      "molecularWeight": 331.35,
+      "synonyms": [
+        "Feldene",
+        "piroxicam",
+        "36322-90-4",
+        "Piroxicamum",
+        "Pyroxycam",
+        "Roxicam",
+        "BAXO",
+        "Piroftal",
+        "CP-16171",
+        "Larapam"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "54676228",
+      "healthCanadaDin": "00632716"
+    },
+    {
+      "name": "Indomethacin",
+      "cas": "53-86-1",
+      "nioshTable": "TABLE_3",
+      "nioshDescription": "Drug with reproductive risk",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child",
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C19H16ClNO4",
+      "molecularWeight": 357.79,
+      "synonyms": [
+        "Indocin",
+        "Indocid",
+        "indomethacin",
+        "53-86-1",
+        "indometacin",
+        "Indomethacine",
+        "Indometacine",
+        "Metindol",
+        "Reumacide",
+        "Indomethazine",
+        "Idomethine"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "3715",
+      "healthCanadaDin": "00646288"
+    },
+    {
+      "name": "Zinc Oxide",
+      "cas": "1314-13-2",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+        "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+        "H400 (98.4%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+        "H410 (99.6%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+        "H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+        "H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+        "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+        "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+        "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+        "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+        "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+        "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+        "H333: May be harmful if inhaled [Warning Acute toxicity, inhalation]",
+        "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+        "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+        "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "ZnO",
+      "molecularWeight": 81.38,
+      "synonyms": [
+        "Zinc white",
+        "Flowers of zinc",
+        "Zincum Oxydatum",
+        "Zinc paste",
+        "Zinci Oxydum",
+        "Zinc (as oxide)",
+        "Zinc oxide emulsion",
+        "DTXSID7035016",
+        "Zinc (as zinc oxide)",
+        "SOI2LOH54Z",
+        "CI 77947",
+        "C.I. 77947"
+      ],
+      "source": "SEED",
+      "pubchemCid": "3007857",
+      "healthCanadaDin": "00179922"
+    },
+    {
+      "name": "Salicylic Acid",
+      "cas": "69-72-7",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed",
+        "H318: Causes serious eye damage"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C7H6O3",
+      "molecularWeight": 138.12,
+      "synonyms": [
+        "2-Hydroxybenzoic acid",
+        "BHA",
+        "salicylic acid",
+        "69-72-7",
+        "o-hydroxybenzoic acid",
+        "2-Carboxyphenol",
+        "o-Carboxyphenol",
+        "Retarder W",
+        "Rutranex",
+        "Salonil",
+        "Keralyt"
+      ],
+      "source": "SEED",
+      "pubchemCid": "338",
+      "healthCanadaDin": "00216666"
+    },
+    {
+      "name": "Urea",
+      "cas": "57-13-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 4430 of 4611 companies (only 3.9% companies provided GHS information). For more detailed information, please visit  ECHA C&L website.",
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 1 of 1 companies. For more detailed information, please visit  ECHA C&L website."
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "CH4N2O",
+      "molecularWeight": 60.06,
+      "synonyms": [
+        "Carbamide",
+        "Uremol",
+        "urea",
+        "57-13-6",
+        "Carbonyldiamide",
+        "Ureophil",
+        "Carbonyldiamine",
+        "Ureaphil",
+        "Keratinamin",
+        "Urevert",
+        "Alphadrate"
+      ],
+      "source": "SEED",
+      "pubchemCid": "1176",
+      "healthCanadaDin": "00465283"
+    },
+    {
+      "name": "Sulfur (Precipitated)",
+      "cas": "7704-34-9",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H315: Causes skin irritation"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "S",
+      "molecularWeight": 32.07,
+      "synonyms": [
+        "Precipitated sulfur",
+        "Sublimed sulfur",
+        "Anacardium",
+        "Bioelements",
+        "Armarita",
+        "Celesty",
+        "Naturasil",
+        "Prosacea",
+        "Sulfaderm",
+        "DermaWash",
+        "Motto",
+        "Acne Treatment"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5362487",
+      "healthCanadaDin": "00237205"
+    },
+    {
+      "name": "Methotrexate",
+      "cas": "59-05-2",
+      "nioshTable": "TABLE_1",
+      "nioshDescription": "Antineoplastic – antimetabolite, teratogenic",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H340: May cause genetic defects",
+        "H350: May cause cancer"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "DOUBLE_CHEMO",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers",
+          "shoe_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "BSC",
+      "molecularFormula": "C20H22N8O5",
+      "molecularWeight": 454.44,
+      "synonyms": [
+        "MTX",
+        "Trexall",
+        "Rheumatrex",
+        "methotrexate",
+        "59-05-2",
+        "Amethopterin",
+        "Metatrexan",
+        "Hdmtx",
+        "Ledertrexate",
+        "Methylaminopterinum",
+        "Methotrexatum",
+        "Metotrexato"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "126941",
+      "healthCanadaDin": "00519286"
+    },
+    {
+      "name": "Fluorouracil",
+      "cas": "51-21-8",
+      "nioshTable": "TABLE_1",
+      "nioshDescription": "Antineoplastic – antimetabolite, reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H350: May cause cancer",
+        "H301: Toxic if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "DOUBLE_CHEMO",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers",
+          "shoe_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "BSC",
+      "molecularFormula": "C4H3FN2O2",
+      "molecularWeight": 130.08,
+      "synonyms": [
+        "5-FU",
+        "Efudex",
+        "Adrucil",
+        "5-Fluorouracil",
+        "fluorouracil",
+        "51-21-8",
+        "Fluracil",
+        "Fluoroblastin",
+        "Carzonal",
+        "Queroplex",
+        "Fluril",
+        "Phthoruracil"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "3385",
+      "healthCanadaDin": "00330582"
+    },
+    {
+      "name": "Cyclophosphamide",
+      "cas": "50-18-0",
+      "nioshTable": "TABLE_1",
+      "nioshDescription": "Antineoplastic – alkylating agent, carcinogenic, reproductive toxin",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H340: May cause genetic defects",
+        "H350: May cause cancer"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "DOUBLE_CHEMO",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers",
+          "shoe_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "BSC",
+      "molecularFormula": "C7H15Cl2N2O2P",
+      "molecularWeight": 261.08,
+      "synonyms": [
+        "Cytoxan",
+        "Procytox",
+        "cyclophosphamide",
+        "50-18-0",
+        "Cyclophosphamid",
+        "Cyclophosphane",
+        "Clafen",
+        "Endoxan",
+        "Cyclophosphan",
+        "Cytophosphan"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "2907",
+      "healthCanadaDin": "00013749"
+    },
+    {
+      "name": "Capsaicin",
+      "cas": "404-86-4",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed",
+        "H315: Causes skin irritation",
+        "H319: Causes serious eye irritation"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C18H27NO3",
+      "molecularWeight": 305.41,
+      "synonyms": [
+        "Trans-capsaicin",
+        "Capsaicin",
+        "404-86-4",
+        "Zostrix",
+        "CAPSAICINE",
+        "Qutenza",
+        "Styptysat",
+        "Axsain",
+        "Isodecenoic acid vanillylamide",
+        "Ausanil"
+      ],
+      "source": "SEED",
+      "pubchemCid": "1548943",
+      "healthCanadaDin": "00234575"
+    },
+    {
+      "name": "Amitriptyline HCl",
+      "cas": "549-18-8",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H301: Toxic if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C20H24ClN",
+      "molecularWeight": 313.86,
+      "synonyms": [
+        "Elavil",
+        "Amitriptyline hydrochloride",
+        "549-18-8",
+        "Amitriptyline HCl",
+        "Syneudon",
+        "Etravil",
+        "Novoprotect",
+        "Amitid",
+        "Amitril",
+        "Saroten Retard",
+        "NIH 10794"
+      ],
+      "source": "SEED",
+      "pubchemCid": "11065",
+      "healthCanadaDin": "00176966"
+    },
+    {
+      "name": "Clonidine HCl",
+      "cas": "4205-91-8",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H301: Toxic if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C9H10Cl3N3",
+      "molecularWeight": 266.56,
+      "synonyms": [
+        "Catapres",
+        "CLONIDINE HYDROCHLORIDE",
+        "4205-91-8",
+        "Clonidine HCl",
+        "Duraclon",
+        "Kapvay",
+        "ST-155",
+        "Onyda XR",
+        "Jenloga",
+        "NSC-756699",
+        "W76I6XXF06"
+      ],
+      "source": "SEED",
+      "pubchemCid": "20179",
+      "healthCanadaDin": "00519251"
+    },
+    {
+      "name": "Diphenhydramine HCl",
+      "cas": "147-24-0",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C17H22ClNO",
+      "molecularWeight": 291.82,
+      "synonyms": [
+        "Benadryl",
+        "DIPHENHYDRAMINE HYDROCHLORIDE",
+        "147-24-0",
+        "Diphenhydramine HCl",
+        "Allergival",
+        "Bendylate",
+        "Antitussive",
+        "Denydryl",
+        "Dibenil",
+        "Eldadryl",
+        "Fenylhist"
+      ],
+      "source": "SEED",
+      "pubchemCid": "8980",
+      "healthCanadaDin": "00687677"
+    },
+    {
+      "name": "Sildenafil Citrate",
+      "cas": "171599-83-0",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C28H38N6O11S",
+      "molecularWeight": 666.7,
+      "synonyms": [
+        "Viagra",
+        "Sildenafil citrate",
+        "171599-83-0",
+        "Revatio",
+        "Caverta",
+        "LIQREV",
+        "Sildenafil (as citrate)",
+        "NSC-744009",
+        "NSC-758669",
+        "BW9B0ZE037"
+      ],
+      "source": "SEED",
+      "pubchemCid": "135413523",
+      "healthCanadaDin": "02239768"
+    },
+    {
+      "name": "Tadalafil",
+      "cas": "171596-29-5",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302 (54.8%): Harmful if swallowed [Warning Acute toxicity, oral]",
+        "H312 (53.8%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+        "H315 (92.3%): Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H319 (92.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+        "H332 (53.8%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+        "H335 (89.4%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C22H19N3O4",
+      "molecularWeight": 389.4,
+      "synonyms": [
+        "Cialis",
+        "Tadalafil",
+        "171596-29-5",
+        "Ic351",
+        "ADCIRCA",
+        "IC 351",
+        "IC-351",
+        "Tadalafilo",
+        "Tadalafil mylan",
+        "Trans-tadalafil"
+      ],
+      "source": "SEED",
+      "pubchemCid": "110635",
+      "healthCanadaDin": "02448696"
+    },
+    {
+      "name": "Oxytocin",
+      "cas": "50-56-6",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive effects, uterine stimulant",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C43H66N12O12S2",
+      "molecularWeight": 1007.19,
+      "synonyms": [
+        "Pitocin",
+        "Syntocinon",
+        "OXYTOCIN",
+        "50-56-6",
+        "Endopituitrina",
+        "Ocytocin",
+        "Oxytocinum",
+        "Orasthin",
+        "Oxitocina",
+        "Oxystin"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "439302",
+      "healthCanadaDin": "00497398"
+    },
+    {
+      "name": "Methimazole",
+      "cas": "60-56-0",
+      "nioshTable": "TABLE_3",
+      "nioshDescription": "Drug with reproductive risk – teratogenic",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child",
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C4H6N2S",
+      "molecularWeight": 114.17,
+      "synonyms": [
+        "Tapazole",
+        "methimazole",
+        "60-56-0",
+        "thiamazole",
+        "1-Methyl-1H-imidazole-2-thiol",
+        "1-Methylimidazole-2-thiol",
+        "Mercazolyl",
+        "Methimazol",
+        "Mercazole",
+        "Thiamazol"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "1349907",
+      "healthCanadaDin": "00015741"
+    },
+    {
+      "name": "Propylthiouracil",
+      "cas": "51-52-5",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive effects, hepatotoxic",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child",
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": []
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C7H10N2OS",
+      "molecularWeight": 170.23,
+      "synonyms": [
+        "PTU",
+        "propylthiouracil",
+        "51-52-5",
+        "6-Propyl-2-thiouracil",
+        "Propacil",
+        "Prothyran",
+        "Procasil",
+        "Propycil",
+        "Prothiurone",
+        "Thiuragyl",
+        "Prothiucil"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "657298",
+      "healthCanadaDin": "00010219"
+    },
+    {
+      "name": "Ketoconazole",
+      "cas": "65277-42-1",
+      "nioshTable": "TABLE_3",
+      "nioshDescription": "Drug with reproductive risk – anti-androgenic",
+      "reproductiveToxicity": true,
+      "ghsCategory": "2",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H361: Suspected of damaging fertility or the unborn child",
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C26H28Cl2N4O4",
+      "molecularWeight": 531.43,
+      "synonyms": [
+        "Nizoral",
+        "ketoconazole",
+        "65277-42-1",
+        "Panfungol",
+        "Ketoderm",
+        "Fungarest",
+        "Fungoral",
+        "Ketoisdin",
+        "Ketozole",
+        "Extina"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "47576",
+      "healthCanadaDin": "00788813"
+    },
+    {
+      "name": "Phenytoin Sodium",
+      "cas": "630-93-3",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – teratogenic (fetal hydantoin syndrome)",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C15H11N2NaO2",
+      "molecularWeight": 274.25,
+      "synonyms": [
+        "Dilantin",
+        "PHENYTOIN SODIUM",
+        "630-93-3",
+        "5,5-Diphenylhydantoin sodium salt",
+        "Diphenylhydantoin Sodium",
+        "Tacosal",
+        "Antisacer",
+        "Phenytoin sodium salt",
+        "Diphenylan sodium",
+        "PHENYTEK",
+        "Prompt Phenytoin Sodium"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "657302",
+      "healthCanadaDin": "00022780"
+    },
+    {
+      "name": "Carbamazepine",
+      "cas": "298-46-4",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – teratogenic (neural tube defects)",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C15H12N2O",
+      "molecularWeight": 236.27,
+      "synonyms": [
+        "Tegretol",
+        "carbamazepine",
+        "298-46-4",
+        "Carbamazepen",
+        "5H-Dibenz[b,f]azepine-5-carboxamide",
+        "Finlepsin",
+        "Tegretal",
+        "Biston",
+        "Equetro",
+        "Telesmin"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "2554",
+      "healthCanadaDin": "00667110"
+    },
+    {
+      "name": "Valproic Acid",
+      "cas": "99-66-1",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – teratogenic (neural tube defects)",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1A",
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": []
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C8H16O2",
+      "molecularWeight": 144.21,
+      "synonyms": [
+        "Depakene",
+        "Divalproex",
+        "VALPROIC ACID",
+        "2-Propylpentanoic acid",
+        "99-66-1",
+        "2-Propylvaleric acid",
+        "Dipropylacetic acid",
+        "Depakine",
+        "Mylproin",
+        "Di-n-propylacetic acid",
+        "Propylvaleric acid"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "3121",
+      "healthCanadaDin": "00596434"
+    },
+    {
+      "name": "Nicotine",
+      "cas": "54-11-5",
+      "nioshTable": "TABLE_2",
+      "nioshDescription": "Non-antineoplastic hazardous drug – reproductive toxin, developmental toxicity",
+      "reproductiveToxicity": true,
+      "ghsCategory": "1B",
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "H360: May damage fertility or the unborn child",
+        "H301: Toxic if swallowed",
+        "H311: Toxic in contact with skin",
+        "H331: Toxic if inhaled"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "CHEMOTHERAPY_RATED",
+        "gown": "disposable_hazardous",
+        "respiratory": "N95",
+        "eye": "required",
+        "other": [
+          "hair_covers"
+        ]
+      },
+      "ventilationRequired": true,
+      "ventilationType": "LOCAL_EXHAUST",
+      "molecularFormula": "C10H14N2",
+      "molecularWeight": 162.23,
+      "synonyms": [
+        "(S)-Nicotine",
+        "nicotine",
+        "L-Nicotine",
+        "54-11-5",
+        "(-)-Nicotine",
+        "(S)-3-(1-methylpyrrolidin-2-yl)pyridine",
+        "(S)-(-)-Nicotine",
+        "Habitrol",
+        "Nicotrol",
+        "3-[(2S)-1-methylpyrrolidin-2-yl]pyridine"
+      ],
+      "source": "NIOSH",
+      "pubchemCid": "89594",
+      "healthCanadaDin": "00580325"
+    },
+    {
+      "name": "Naltrexone HCl",
+      "cas": "16676-29-2",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H302: Harmful if swallowed"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C20H24ClNO4",
+      "molecularWeight": 377.86,
+      "synonyms": [
+        "ReVia",
+        "Vivitrol",
+        "Low Dose Naltrexone",
+        "LDN",
+        "Naltrexone hydrochloride",
+        "16676-29-2",
+        "Naltrexone Hcl",
+        "Depade",
+        "naltrexone.HCl",
+        "En 1639A",
+        "EN-1639A",
+        "N-Cyclopropylmethyl-noroxymorphone hydrochloride",
+        "Z6375YW9SF",
+        "EN-1639A (AS HYDROCHLORIDE)"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5485201",
+      "healthCanadaDin": "02213826"
+    },
+    {
+      "name": "Cromolyn Sodium",
+      "cas": "15826-37-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H315 (96.9%): Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H319 (96.9%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+        "H335 (95.9%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C23H14Na2O11",
+      "molecularWeight": 512.33,
+      "synonyms": [
+        "Intal",
+        "Gastrocrom",
+        "Sodium cromoglycate",
+        "CROMOLYN SODIUM",
+        "15826-37-6",
+        "Disodium cromoglycate",
+        "sodium cromoglicate",
+        "Sodium cromolyn",
+        "Cromolyn disodium salt",
+        "Cromoptic",
+        "Crolom"
+      ],
+      "source": "SEED",
+      "pubchemCid": "27503",
+      "healthCanadaDin": "00394300"
+    },
+    {
+      "name": "Cholestyramine Resin",
+      "cas": "11041-12-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Questran"
+      ],
+      "source": "SEED",
+      "healthCanadaDin": "00634093"
+    },
+    {
+      "name": "Witepsol H15",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "SEMI_SOLID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Hard fat",
+        "Suppository base"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Witepsol H5",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "SEMI_SOLID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Soft suppository base"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Fattibase",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "SEMI_SOLID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Cocoa butter substitute"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Cocoa Butter",
+      "cas": "8002-31-1",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "SEMI_SOLID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Theobroma oil"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "VersaBase Cream",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "SEMI_SOLID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "VersaBase",
+        "PCCA VersaBase"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "VersaBase Gel",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "GEL",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "PCCA VersaBase Gel"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Aquaphor",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "SEMI_SOLID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Aquaphor Healing Ointment",
+        "Petrolatum-based ointment"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Vanicream",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "SEMI_SOLID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Vanicream Moisturizing Cream"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "PLO Gel Base",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "GEL",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Pluronic Lecithin Organogel",
+        "PLO"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Glycerin",
+      "cas": "56-81-5",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 5522 of 5617 companies (only 1.7% companies provided GHS information). For more detailed information, please visit  ECHA C&L website."
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C3H8O3",
+      "molecularWeight": 92.09,
+      "synonyms": [
+        "Glycerol",
+        "Glycerine",
+        "glycerin",
+        "56-81-5",
+        "1,2,3-Propanetriol",
+        "Glycyl alcohol",
+        "Trihydroxypropane",
+        "Glyceritol",
+        "Osmoglyn",
+        "1,2,3-trihydroxypropane"
+      ],
+      "source": "SEED",
+      "pubchemCid": "753"
+    },
+    {
+      "name": "Propylene Glycol",
+      "cas": "57-55-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 6762 of 6899 companies (only 2% companies provided GHS information). For more detailed information, please visit  ECHA C&L website.",
+        "H336: May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+        "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+        "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C3H8O2",
+      "molecularWeight": 76.09,
+      "synonyms": [
+        "PG",
+        "1,2-Propanediol",
+        "propylene glycol",
+        "propane-1,2-diol",
+        "57-55-6",
+        "1,2-Propylene glycol",
+        "1,2-dihydroxypropane",
+        "2-Hydroxypropanol",
+        "Isopropylene glycol",
+        "Methylethyl glycol",
+        "Methylethylene glycol"
+      ],
+      "source": "SEED",
+      "pubchemCid": "1030"
+    },
+    {
+      "name": "Polyethylene Glycol 400",
+      "cas": "25322-68-3",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "H(OCH2CH2)nOH",
+      "molecularWeight": 400,
+      "synonyms": [
+        "PEG 400",
+        "Macrogol 400"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Polyethylene Glycol 3350",
+      "cas": "25322-68-3",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "H(OCH2CH2)nOH",
+      "molecularWeight": 3350,
+      "synonyms": [
+        "PEG 3350",
+        "Macrogol 3350",
+        "MiraLAX"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "White Petrolatum",
+      "cas": "8009-03-8",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "SEMI_SOLID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Vaseline",
+        "Petroleum jelly"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Mineral Oil",
+      "cas": "8042-47-5",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Liquid paraffin",
+        "Paraffin oil"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Lanolin (Anhydrous)",
+      "cas": "8006-54-0",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "SEMI_SOLID",
+      "whmisHazards": [
+        "H317: May cause an allergic skin reaction"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Wool fat",
+        "Wool wax"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Cetyl Alcohol",
+      "cas": "36653-82-4",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H319 (21.9%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 55 of 55 companies. For more detailed information, please visit  ECHA C&L website.",
+        "Not Classified"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C16H34O",
+      "molecularWeight": 242.44,
+      "synonyms": [
+        "1-Hexadecanol",
+        "Palmityl alcohol",
+        "cetyl alcohol",
+        "Hexadecan-1-ol",
+        "36653-82-4",
+        "Cetanol",
+        "Hexadecyl alcohol",
+        "N-Hexadecanol",
+        "Cetaffine",
+        "Cetylol"
+      ],
+      "source": "SEED",
+      "pubchemCid": "2682"
+    },
+    {
+      "name": "Stearic Acid",
+      "cas": "57-11-4",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H315 (25.1%): Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]",
+        "H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C18H36O2",
+      "molecularWeight": 284.48,
+      "synonyms": [
+        "Octadecanoic acid",
+        "stearic acid",
+        "57-11-4",
+        "n-Octadecanoic acid",
+        "Stearophanic acid",
+        "Stearex Beads",
+        "Cetylacetic acid",
+        "1-Heptadecanecarboxylic acid",
+        "Pearl stearic",
+        "Industrene R"
+      ],
+      "source": "SEED",
+      "pubchemCid": "5281"
+    },
+    {
+      "name": "Methylcellulose",
+      "cas": "9004-67-5",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "MC",
+        "Methocel"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Hydroxypropyl Methylcellulose",
+      "cas": "9004-65-3",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "HPMC",
+        "Hypromellose",
+        "Methocel E"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Carbomer 940",
+      "cas": "9003-01-4",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H319: Causes serious eye irritation"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Carbopol 940"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Xanthan Gum",
+      "cas": "11138-66-2",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Xantural"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Lactose Monohydrate",
+      "cas": "5989-81-1",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 78 of 78 companies. For more detailed information, please visit  ECHA C&L website.",
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 63 of 63 companies. For more detailed information, please visit  ECHA C&L website.",
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 43 of 43 companies. For more detailed information, please visit  ECHA C&L website."
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C12H22O11·H2O",
+      "molecularWeight": 360.31,
+      "synonyms": [
+        "Lactose",
+        "Milk sugar",
+        "5989-81-1",
+        "alpha-Lactose monohydrate",
+        "DTXSID1052828",
+        "alpha-D-Glucopyranose, 4-O-beta-D-galactopyranosyl-, monohydrate",
+        "RefChem:1076517",
+        "DTXCID90820517",
+        "611-913-4",
+        "Lactose monohydrate",
+        "alpha-D-Lactose monohydrate",
+        "D-Lactose monohydrate"
+      ],
+      "source": "SEED",
+      "pubchemCid": "104938"
+    },
+    {
+      "name": "Microcrystalline Cellulose",
+      "cas": "9004-34-6",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "MCC",
+        "Avicel"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Magnesium Stearate",
+      "cas": "557-04-0",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H315 (22.4%): Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H319 (25.9%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+        "H335 (22.7%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+        "H413 (18.4%): May cause long lasting harmful effects to aquatic life [Hazardous to the aquatic environment, long-term hazard]",
+        "H316: Causes mild skin irritation [Warning Skin corrosion/irritation]",
+        "H320: Causes eye irritation [Warning Serious eye damage/eye irritation]"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C36H70MgO4",
+      "molecularWeight": 591.24,
+      "synonyms": [
+        "Mag stearate",
+        "MAGNESIUM STEARATE",
+        "557-04-0",
+        "Magnesium distearate",
+        "Magnesium octadecanoate",
+        "Dibasic magnesium stearate",
+        "Octadecanoic acid, magnesium salt",
+        "Synpro 90",
+        "Petrac MG 20NF",
+        "Stearic acid, magnesium salt",
+        "Magnesium stearate g"
+      ],
+      "source": "SEED",
+      "pubchemCid": "11177"
+    },
+    {
+      "name": "Silica Gel (Colloidal Silicon Dioxide)",
+      "cas": "7631-86-9",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "SiO2",
+      "molecularWeight": 60.08,
+      "synonyms": [
+        "Aerosil",
+        "Cab-O-Sil",
+        "Syloid"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Citric Acid",
+      "cas": "77-92-9",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H319: Causes serious eye irritation"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C6H8O7",
+      "molecularWeight": 192.12,
+      "synonyms": [
+        "2-Hydroxypropane-1,2,3-tricarboxylic acid",
+        "citric acid",
+        "77-92-9",
+        "Citric acid, anhydrous",
+        "Aciletten",
+        "Anhydrous citric acid",
+        "Citro",
+        "Citretten",
+        "Citric acid anhydrous",
+        "Chemfill"
+      ],
+      "source": "SEED",
+      "pubchemCid": "311"
+    },
+    {
+      "name": "Sodium Bicarbonate",
+      "cas": "144-55-8",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 6796 of 6838 companies (only 0.6% companies provided GHS information). For more detailed information, please visit  ECHA C&L website.",
+        "Not Classified"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "DUST_MASK",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "NaHCO3",
+      "molecularWeight": 84.01,
+      "synonyms": [
+        "Baking soda",
+        "SODIUM BICARBONATE",
+        "144-55-8",
+        "Sodium hydrogen carbonate",
+        "Sodium hydrogencarbonate",
+        "Sodium acid carbonate",
+        "Bicarbonate of soda",
+        "Carbonic acid monosodium salt",
+        "Monosodium carbonate",
+        "Meylon"
+      ],
+      "source": "SEED",
+      "pubchemCid": "516892"
+    },
+    {
+      "name": "Methylparaben",
+      "cas": "99-76-3",
+      "nioshTable": "NONE",
+      "nioshDescription": "Preservative – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H317: May cause an allergic skin reaction"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C8H8O3",
+      "molecularWeight": 152.15,
+      "synonyms": [
+        "Methyl paraben",
+        "Methyl 4-hydroxybenzoate",
+        "METHYLPARABEN",
+        "99-76-3",
+        "Methyl p-hydroxybenzoate",
+        "Nipagin",
+        "Tegosept M",
+        "Moldex",
+        "Methyl parahydroxybenzoate",
+        "Maseptol"
+      ],
+      "source": "SEED",
+      "pubchemCid": "7456"
+    },
+    {
+      "name": "Propylparaben",
+      "cas": "94-13-3",
+      "nioshTable": "NONE",
+      "nioshDescription": "Preservative – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "POWDER",
+      "whmisHazards": [
+        "H317: May cause an allergic skin reaction"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C10H12O3",
+      "molecularWeight": 180.2,
+      "synonyms": [
+        "Propyl paraben",
+        "Propyl 4-hydroxybenzoate",
+        "PROPYLPARABEN",
+        "94-13-3",
+        "Nipasol",
+        "Propyl p-hydroxybenzoate",
+        "Nipazol",
+        "Propagin",
+        "Propyl parahydroxybenzoate",
+        "Tegosept P",
+        "4-Hydroxybenzoic acid propyl ester"
+      ],
+      "source": "SEED",
+      "pubchemCid": "7175"
+    },
+    {
+      "name": "Benzalkonium Chloride",
+      "cas": "8001-54-5",
+      "nioshTable": "NONE",
+      "nioshDescription": "Preservative – irritant",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "H302: Harmful if swallowed",
+        "H312: Harmful in contact with skin",
+        "H314: Causes severe skin burns and eye damage"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "Variable",
+      "molecularWeight": 354,
+      "synonyms": [
+        "BAK",
+        "BKC",
+        "Zephiran",
+        "pentonium",
+        "Alpagelle",
+        "Benzalkonii chloridum",
+        "Cloruro de benzalconio",
+        "Chlorure de benzalkonium",
+        "NSC-758480",
+        "Fundamentals",
+        "Greenberry",
+        "Prosanitize"
+      ],
+      "source": "SEED",
+      "pubchemCid": "3014024"
+    },
+    {
+      "name": "Purified Water",
+      "cas": "7732-18-5",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 1866 of 1876 companies (only 0.5% companies provided GHS information). For more detailed information, please visit  ECHA C&L website.",
+        "Not Classified",
+        "Reported as not meeting GHS hazard criteria by 1 of 1 companies. For more detailed information, please visit  ECHA C&L website."
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "H2O",
+      "molecularWeight": 18.02,
+      "synonyms": [
+        "USP Water",
+        "Distilled water",
+        "water",
+        "7732-18-5",
+        "Dihydrogen oxide",
+        "Purified water",
+        "Sterile water",
+        "Water vapor",
+        "Water, deionized",
+        "aqua",
+        "oxidane"
+      ],
+      "source": "SEED",
+      "pubchemCid": "962"
+    },
+    {
+      "name": "Ethanol (Ethyl Alcohol)",
+      "cas": "64-17-5",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – flammable solvent",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "H225: Highly flammable liquid and vapour",
+        "H319: Causes serious eye irritation"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C2H6O",
+      "molecularWeight": 46.07,
+      "synonyms": [
+        "Alcohol USP",
+        "Grain alcohol",
+        "EtOH",
+        "ethanol",
+        "ethyl alcohol",
+        "alcohol",
+        "64-17-5",
+        "Methylcarbinol",
+        "Ethyl hydroxide",
+        "Ethyl hydrate",
+        "Tecsol",
+        "Algrain"
+      ],
+      "source": "SEED",
+      "pubchemCid": "702"
+    },
+    {
+      "name": "Isopropyl Alcohol",
+      "cas": "67-63-0",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – flammable solvent",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "H225: Highly flammable liquid and vapour",
+        "H319: Causes serious eye irritation",
+        "H336: May cause drowsiness or dizziness"
+      ],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": true,
+        "inhalation": true,
+        "oral": true
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C3H8O",
+      "molecularWeight": 60.1,
+      "synonyms": [
+        "IPA",
+        "Isopropanol",
+        "Rubbing alcohol",
+        "Isopropyl alcohol",
+        "2-Propanol",
+        "Propan-2-ol",
+        "67-63-0",
+        "2-Hydroxypropane",
+        "Dimethylcarbinol",
+        "sec-Propyl alcohol",
+        "Alkolave",
+        "Avantine"
+      ],
+      "source": "SEED",
+      "pubchemCid": "3776"
+    },
+    {
+      "name": "Dimethyl Sulfoxide",
+      "cas": "67-68-5",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – penetration enhancer",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [
+        "H315 (28.4%): Causes skin irritation [Warning Skin corrosion/irritation]",
+        "H319 (33.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+        "H335 (13.8%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+        "H227: Combustible liquid [Warning Flammable liquids]",
+        "H371: May cause damage to organs [Warning Specific target organ toxicity, single exposure]",
+        "H227: Combustible liquid [Warning Flammable liquids]"
+      ],
+      "exposureRoutes": {
+        "skin": true,
+        "eye": true,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "recommended",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "C2H6OS",
+      "molecularWeight": 78.13,
+      "synonyms": [
+        "DMSO",
+        "dimethyl sulfoxide",
+        "67-68-5",
+        "Methylsulfinylmethane",
+        "Methyl sulfoxide",
+        "Dimethyl sulphoxide",
+        "Dimethylsulfoxide",
+        "Demasorb",
+        "Domoso",
+        "sulfinylbismethane"
+      ],
+      "source": "SEED",
+      "pubchemCid": "679"
+    },
+    {
+      "name": "OraPlus",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Ora-Plus",
+        "Suspending vehicle"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "OraSweet",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Ora-Sweet",
+        "Sweetened flavoring vehicle"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "OraSweet SF",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Ora-Sweet Sugar Free"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Simple Syrup NF",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Sucrose syrup",
+        "Sugar syrup USP"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Cherry Flavor",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Cherry flavoring concentrate"
+      ],
+      "source": "SEED"
+    },
+    {
+      "name": "Bubblegum Flavor",
+      "cas": "N/A",
+      "nioshTable": "NONE",
+      "nioshDescription": "Excipient – Not classified as hazardous",
+      "reproductiveToxicity": false,
+      "ghsCategory": null,
+      "physicalForm": "LIQUID",
+      "whmisHazards": [],
+      "exposureRoutes": {
+        "skin": false,
+        "eye": false,
+        "inhalation": false,
+        "oral": false
+      },
+      "recommendedPPE": {
+        "gloves": "REGULAR_NITRILE",
+        "gown": "compounding_jacket",
+        "respiratory": "NOT_REQUIRED",
+        "eye": "not_required",
+        "other": []
+      },
+      "ventilationRequired": false,
+      "ventilationType": "GENERAL",
+      "molecularFormula": "N/A",
+      "molecularWeight": null,
+      "synonyms": [
+        "Bubblegum flavoring concentrate"
+      ],
+      "source": "SEED"
+    }
+  ]
+}

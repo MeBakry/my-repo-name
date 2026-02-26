@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+poc-pharma-risk/dist/
+
+# Environment files
+.env
+server/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Downloaded data files (re-fetched via npm run fetch:*)
+server/src/data/fetchers/niosh-2024.pdf
+
+# Prisma
+server/prisma/migrations/

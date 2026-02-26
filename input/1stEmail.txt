@@ -1,0 +1,179 @@
+In a compounding pharmacy, a risk assessment is the intellectual blueprint behind your operation. It answers the uncomfortable but necessary question:
+
+“What could go wrong — and how are we preventing it?”
+
+It determines:
+
+The level of compounding facility requirements (A, B, or C)
+
+How we protect staff
+
+How we protect the preparation
+
+Whether our facility is actually fit for what we’re doing
+
+Whether we’re compounding with intention — or vibes
+
+The Ontario College of Pharmacists has released a revised Non-Sterile Compounding Risk Assessment Template along with a Companion Guide (February 2026). This is not intended to be a mandatory shift from a pharmacy’s current process, but rather a reference point to reflect on and identify opportunities for improvement.
+
+And it is thorough — so let’s talk about it.
+
+What the Companion Guide Makes Very Clear
+The Guide doesn’t tiptoe around its purpose. It states plainly that the risk assessment is a documentation tool to ensure registrants are considering both risk to the preparation and risk to the person.
+
+In other words:
+
+Will this get contaminated and potentially harm the patient?
+Will this harm the compounder?
+
+The current requirements expect that every compounding pharmacy implements:
+
+One risk assessment per preparation — essentially, every Master Formulation Record must be linked to a Risk Assessment Record. This includes different strengths of the same compound.
+
+A review of each Risk Assessment Record every 12 months.
+
+An assessment of cumulative risk across all compounds.
+
+Risk Assessment Records for all existing preparations.
+
+Essentially, if you compound 120 formulations, you must have 120 different Risk Assessment Records. You also now have a new annual hobby.
+
+Where the Template Really Shines
+Let’s anchor this in the Progesterone 400 mg suppository example provided as part of the sample documentation from the Ontario College of Pharmacists.
+
+The first thing this resource does well is eliminate guesswork. It does not allow you to say, “We’ve always treated this as Level B.” It forces a disciplined walk through hazard identification — including SDS references, hazardous chemical references such as the NIOSH list, WHMIS health hazard classifications, reproductive toxicity, ventilation requirements, microbial contamination risks, cross-contamination risks, and more.
+
+In the example provided, progesterone is clearly identified as a NIOSH Table 2 drug with reproductive toxicity and carcinogenicity concerns, requiring mechanical ventilation. This sort of traceability matters because it moves us from opinion to documented reasoning.
+
+The Companion Guide reinforces this by reminding us that NIOSH is not an exhaustive reference for hazardous substances. A drug not appearing on the list does not automatically make it safe. That nuance is important. It subtly pushes pharmacists to exercise professional judgment rather than outsource thinking to a list.
+
+The expectation is not “follow the table.”
+It is “understand the hazard.”
+
+Moving on to assessing risk, there is the section on “occasional small quantity.” There is a deliberate avoidance of defining a numeric threshold. Instead, the responsibility is placed on the facility to justify its interpretation based on intensity, frequency, and cumulative exposure. This makes sense because the definition of occasional small quantity will differ from facility to facility, depending on engineering controls and other safeguards in place.
+
+The Guide even prompts facilities to consider whether they have a process to assess cumulative risk across all preparations. This elevates the discussion from single-preparation thinking to systems-level oversight.
+
+It’s not just:
+
+“Is this safe?”
+
+It’s:
+
+“Is everything we’re doing collectively safe?”
+
+The complexity section is another strong point. The Companion Guide reintroduces the definitions of simple, moderate, and complex preparations from NAPRA — definitions rooted in older editions of USP <795>. These definitions remain recognized because the College adopted the NAPRA guidance in its entirety, even though current USP <795> now emphasizes consistent risk evaluation and quality controls without categorizing CNSPs by complexity.
+
+This section makes you examine whether a compound requires specialized facilities, training, equipment, or environmental controls. It reframes complexity as operational infrastructure — not just formulation difficulty.
+
+The Companion Guide also emphasizes the hierarchy of controls. By explicitly reminding supervisors that PPE is the least effective control, it subtly elevates elimination, substitution, engineering controls, and administrative safeguards above personal protective equipment. It challenges the reflex to “add another layer of PPE” and instead asks:
+
+Have we designed the environment properly?
+Is the workflow structured?
+Is elimination or substitution possible?
+
+Finally, the Guide makes supervisor accountability unmistakable. Risk assessments must be reviewed every 12 months, signed, dated, and reassessed if practice or standards change. This embeds governance into routine operations.
+
+Practicalizing This at the Pharmacy Level
+This is where it gets real.
+
+Pharmacies are often using the same ingredients in similar preparations — same formulation, different strengths.
+
+The requirements and Companion Guide are clear: different strengths of the same preparation require separate risk assessments.
+
+Same ingredient.
+Same hazard profile.
+Same compounding room.
+
+Change the strength? Start a new document.
+
+I understand the logic. Exposure intensity can change. That’s fair.
+
+But in practice, this multiplies quickly. If you compound three strengths of the same formulation, you are now maintaining three assessments that are largely identical in structure and reasoning.
+
+That’s not theoretical work. That’s hours.
+
+Then there’s the repetition.
+
+In the progesterone example, you document hazard identification, facility requirements, complexity rationale, and final level assignment. It’s thorough.
+
+But scale that across 50 preparations and you are rewriting the same ventilation standards, the same PPE logic, the same environmental controls — again and again.
+
+The thinking is important.
+The duplication is heavy.
+
+And then the annual review requirement.
+
+Every assessment must be reviewed at least every 12 months, signed, dated, and defensible.
+
+On paper, that means tracking cycles manually, updating SDS references, printing revisions, archiving old copies, and chasing signatures.
+
+At some point, governance starts to feel like paperwork logistics.
+
+The Part We Don’t Talk About
+The template itself is strong.
+
+But volume changes behavior.
+
+When supervisors are juggling cumulative exposure tracking, MFR updates, environmental logs, staff training, and quality control, the mental shift is subtle.
+
+You may stop asking:
+
+“Is my reasoning solid?”
+
+And start asking:
+
+“Is every box filled?”
+
+That’s human.
+
+And that’s the real operational risk.
+
+How I’m Handling This
+Risk Assessment Record Generation on Compounded.
+
+
+When I read the template and Companion Guide, my reaction wasn’t frustration.
+
+It was:
+
+“This logic is good — but the format needs evolution.”
+
+Inside Compounded (my digital compliance system), I’ve restructured risk assessments so that:
+
+Ingredient hazards are stored once and presented in a visually appealing, reusable format across different components of the system.
+
+Completion of any Master Formulation Record automatically triggers a Risk Assessment Record with pertinent information pre-populated for evaluation.
+
+NIOSH/hazardous status auto-tags on chemicals.
+
+PPE populates based on hazard profile and my SOPs.
+
+Cumulative risk dashboards are being built to help rationalize risk levels across the entire facility.
+
+12-month reminders trigger automatically.
+
+Version history is clean — no paper stacking.
+
+The thinking remains rigorous.
+The repetition disappears.
+And the process can be seamlessly passed from supervisor to supervisor for continuity.
+
+Final Thought
+The new OCP template reinforces:
+
+Demonstrable reasoning
+
+Supervisor accountability
+
+Structured hazard analysis
+
+Ongoing review
+
+That’s appropriate.
+
+But governance must be executable.
+
+If documentation becomes so heavy that it crowds out clarity, we’ve improved the form — but not the function.
+
+If you’re curious about learning more about Compounded and streamlining documentation and governance in your compounding pharmacy, reach out to me.

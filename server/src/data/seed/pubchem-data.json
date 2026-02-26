@@ -1,0 +1,3841 @@
+{
+  "_metadata": {
+    "source": "PubChem PUG REST + PUG View APIs (NIH/NLM)",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/",
+    "fetchedDate": "2026-02-17",
+    "method": "Automated API fetch: PUG REST for properties, PUG View for GHS classification",
+    "totalFetched": 88,
+    "totalErrors": 0,
+    "totalSkipped": 13
+  },
+  "compounds": [
+    {
+      "name": "Progesterone",
+      "cid": "5994",
+      "molecularFormula": "C21H30O2",
+      "molecularWeight": 314.5,
+      "iupacName": "(8S,9S,10R,13S,14S,17S)-17-acetyl-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one",
+      "inchiKey": "RJKFOVLPORLFTN-LEKSSAKUSA-N",
+      "synonyms": [
+        "progesterone",
+        "57-83-0",
+        "Pregn-4-ene-3,20-dione",
+        "Agolutin",
+        "Crinone",
+        "Progestin",
+        "4-Pregnene-3,20-dione",
+        "Utrogestan",
+        "Luteol",
+        "Gestormone"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H350 (12.2%): May cause cancer [Danger Carcinogenicity]",
+          "H351 (87.1%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (64.6%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H360FD (17.3%): May damage fertility; May damage the unborn child [Danger Reproductive toxicity]",
+          "H361 (16.6%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H362 (51.3%): May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H410 (10.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P263, P264, P270, P273, P280, P318, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:16.476Z"
+    },
+    {
+      "name": "Testosterone",
+      "cid": "6013",
+      "molecularFormula": "C19H28O2",
+      "molecularWeight": 288.4,
+      "iupacName": "(8R,9S,10R,13S,14S,17S)-17-hydroxy-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one",
+      "inchiKey": "MUMGGOZAMZWBJJ-DYKIIFRCSA-N",
+      "synonyms": [
+        "testosterone",
+        "58-22-0",
+        "Virosterone",
+        "Homosterone",
+        "Mertestate",
+        "Testosteron",
+        "Androderm",
+        "Testim",
+        "Androlin",
+        "Sustanon"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (64.9%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H350 (34.2%): May cause cancer [Danger Carcinogenicity]",
+          "H351 (66.2%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (76.2%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H361 (19%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H362 (28.1%): May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H372 (15.6%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H400 (64.9%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (15.2%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H351: Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P263, P264, P270, P273, P280, P301+P317, P318, P319, P330, P391, P405, and P501",
+          "P203, P264, P270, P273, P280, P301+P317, P318, P330, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:18.287Z"
+    },
+    {
+      "name": "Estradiol",
+      "cid": "5757",
+      "molecularFormula": "C18H24O2",
+      "molecularWeight": 272.4,
+      "iupacName": "(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,17-diol",
+      "inchiKey": "VOXZDWNPVJITMN-ZBRFXRBCSA-N",
+      "synonyms": [
+        "estradiol",
+        "beta-Estradiol",
+        "50-28-2",
+        "17beta-Estradiol",
+        "Oestradiol",
+        "Dihydrofolliculin",
+        "Estrace",
+        "Aquadiol",
+        "Diogynets",
+        "Divigel"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H350 (39.6%): May cause cancer [Danger Carcinogenicity]",
+          "H351 (57.9%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (82.4%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H360FD (11.9%): May damage fertility; May damage the unborn child [Danger Reproductive toxicity]",
+          "H362 (32.7%): May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H372 (34.6%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H400 (30.8%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (36.5%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P263, P264, P270, P273, P280, P318, P319, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:20.180Z"
+    },
+    {
+      "name": "Estriol",
+      "cid": "5756",
+      "molecularFormula": "C18H24O3",
+      "molecularWeight": 288.4,
+      "iupacName": "(8R,9S,13S,14S,16R,17R)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,16,17-triol",
+      "inchiKey": "PROQIPRRNZUXQM-ZXXIGWHRSA-N",
+      "synonyms": [
+        "estriol",
+        "50-27-1",
+        "Oestriol",
+        "Trihydroxyestrin",
+        "Aacifemine",
+        "Estratriol",
+        "Ovestrion",
+        "Tridestrin",
+        "Destriol",
+        "Ovestin"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H350 (23.9%): May cause cancer [Danger Carcinogenicity]",
+          "H351 (74.8%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (97.4%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H362 (49.7%): May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H372 (23.9%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H410 (23.2%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P263, P264, P270, P273, P280, P318, P319, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:21.759Z"
+    },
+    {
+      "name": "Estrone",
+      "cid": "5870",
+      "molecularFormula": "C18H22O2",
+      "molecularWeight": 270.4,
+      "iupacName": "(8R,9S,13S,14S)-3-hydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one",
+      "inchiKey": "DNXHEGUUPJUMQT-CBZIJGRNSA-N",
+      "synonyms": [
+        "estrone",
+        "53-16-7",
+        "folliculin",
+        "Theelin",
+        "estrovarin",
+        "Thelykinin",
+        "Kestrone",
+        "Ketohydroxyestrin",
+        "Estrugenone",
+        "Tokokin"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Health Hazard",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H350 (39.1%): May cause cancer [Danger Carcinogenicity]",
+          "H351 (58%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (78.3%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H360FD (13%): May damage fertility; May damage the unborn child [Danger Reproductive toxicity]",
+          "H362 (50%): May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H350: May cause cancer [Danger Carcinogenicity]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H401: Toxic to aquatic life [Hazardous to the aquatic environment, acute hazard]",
+          "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P263, P264, P270, P280, P318, P405, and P501",
+          "P203, P260, P264, P270, P273, P280, P318, P319, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:23.395Z"
+    },
+    {
+      "name": "Finasteride",
+      "cid": "57363",
+      "molecularFormula": "C23H36N2O2",
+      "molecularWeight": 372.5,
+      "iupacName": "(1S,3aS,3bS,5aR,9aR,9bS,11aS)-N-tert-butyl-9a,11a-dimethyl-7-oxo-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinoline-1-carboxamide",
+      "inchiKey": "DBEPLOCGEIEOCV-WSBQPABSSA-N",
+      "synonyms": [
+        "finasteride",
+        "98319-26-7",
+        "Proscar",
+        "Propecia",
+        "Finastid",
+        "Prostide",
+        "Chibro-Proscar",
+        "MK-906",
+        "Finasterida",
+        "Finpecia"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (99.1%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H360 (34.5%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H360D (15.5%): May damage the unborn child [Danger Reproductive toxicity]",
+          "H372 (47.3%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H410 (48.2%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P270, P273, P280, P301+P317, P318, P319, P330, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:26.082Z"
+    },
+    {
+      "name": "Dutasteride",
+      "cid": "6918296",
+      "molecularFormula": "C27H30F6N2O2",
+      "molecularWeight": 528.5,
+      "iupacName": "(1S,3aS,3bS,5aR,9aR,9bS,11aS)-N-[2,5-bis(trifluoromethyl)phenyl]-9a,11a-dimethyl-7-oxo-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinoline-1-carboxamide",
+      "inchiKey": "JWJOTENAMICLJG-QWBYCMEYSA-N",
+      "synonyms": [
+        "Dutasteride",
+        "164656-23-9",
+        "Avodart",
+        "Avolve",
+        "GG-745",
+        "Duastride",
+        "GI-198745",
+        "GI 198745",
+        "GG 745",
+        "Dutasterida"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H351 (15.8%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (84.2%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H360FD (10.5%): May damage fertility; May damage the unborn child [Danger Reproductive toxicity]",
+          "H410 (31.6%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H412 (52.6%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P273, P280, P318, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:27.876Z"
+    },
+    {
+      "name": "Spironolactone",
+      "cid": "5833",
+      "molecularFormula": "C24H32O4S",
+      "molecularWeight": 416.6,
+      "iupacName": "S-[(7R,8R,9S,10R,13S,14S,17R)-10,13-dimethyl-3,5'-dioxospiro[2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthrene-17,2'-oxolane]-7-yl] ethanethioate",
+      "inchiKey": "LXMSZDCAJNLERA-ZHYRCANASA-N",
+      "synonyms": [
+        "spironolactone",
+        "52-01-7",
+        "Aldactone",
+        "Verospirone",
+        "Spirolactone",
+        "Spiresis",
+        "Uractone",
+        "Xenalon",
+        "spironolattone",
+        "Espironolactona"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (35.6%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312 (31%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H332 (31%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H351 (66.1%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (52.9%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H373 (25.3%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P264, P270, P271, P280, P301+P317, P302+P352, P304+P340, P317, P318, P319, P321, P330, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:29.550Z"
+    },
+    {
+      "name": "Metronidazole",
+      "cid": "4173",
+      "molecularFormula": "C6H9N3O3",
+      "molecularWeight": 171.15,
+      "iupacName": "2-(2-methyl-5-nitroimidazol-1-yl)ethanol",
+      "inchiKey": "VAOCPAMSLUNLGC-UHFFFAOYSA-N",
+      "synonyms": [
+        "metronidazole",
+        "443-48-1",
+        "Metronidazol",
+        "2-Methyl-5-nitroimidazole-1-ethanol",
+        "Gineflavir",
+        "Deflamon",
+        "Orvagil",
+        "Anagiardil",
+        "Trichazol",
+        "MetroGel"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (15.3%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312 (16.4%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H332 (16.9%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H341 (53.7%): Suspected of causing genetic defects [Warning Germ cell mutagenicity]",
+          "H350 (49.7%): May cause cancer [Danger Carcinogenicity]",
+          "H351 (34.5%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H373 (29.4%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H412 (39.5%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P264, P270, P271, P273, P280, P301+P317, P302+P352, P304+P340, P317, P318, P319, P321, P330, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:31.288Z"
+    },
+    {
+      "name": "Nifedipine",
+      "cid": "4485",
+      "molecularFormula": "C17H18N2O6",
+      "molecularWeight": 346.3,
+      "iupacName": "dimethyl 2,6-dimethyl-4-(2-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate",
+      "inchiKey": "HYIMSNHJOBLJNT-UHFFFAOYSA-N",
+      "synonyms": [
+        "nifedipine",
+        "21829-25-4",
+        "Procardia",
+        "Adalat",
+        "Procardia XL",
+        "Citilat",
+        "Oxcord",
+        "Adalat CC",
+        "Fenihidine",
+        "dimethyl 2,6-dimethyl-4-(2-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (98.3%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H361 (25.8%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P264, P270, P280, P301+P317, P318, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:32.867Z"
+    },
+    {
+      "name": "Minoxidil",
+      "cid": "4201",
+      "molecularFormula": "C9H15N5O",
+      "molecularWeight": 209.25,
+      "iupacName": "3-hydroxy-2-imino-6-piperidin-1-ylpyrimidin-4-amine",
+      "inchiKey": "ZIMGGGWCDYVHOY-UHFFFAOYSA-N",
+      "synonyms": [
+        "minoxidil",
+        "38304-91-5",
+        "Rogaine",
+        "Loniten",
+        "Minoximen",
+        "Theroxidil",
+        "Alopexil",
+        "Alostil",
+        "Regaine",
+        "Tricoxidil"
+      ],
+      "ghs": null,
+      "fetchedAt": "2026-02-17T22:33:35.751Z"
+    },
+    {
+      "name": "Tretinoin",
+      "cid": "444795",
+      "molecularFormula": "C20H28O2",
+      "molecularWeight": 300.4,
+      "iupacName": "(2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenoic acid",
+      "inchiKey": "SHGAZHPCJJPHSC-YCNIQYBTSA-N",
+      "synonyms": [
+        "Retinoic acid",
+        "tretinoin",
+        "302-79-4",
+        "all-trans-Retinoic acid",
+        "Vitamin A acid",
+        "trans-Retinoic acid",
+        "ATRA",
+        "Aberel",
+        "Eudyna",
+        "Renova"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Irritant",
+          "Health Hazard",
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (29.8%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (73.4%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (16.5%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (14.9%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H360 (72.9%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H400 (59%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (58%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H411 (16%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (97.6%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H360 (97.6%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H401: Toxic to aquatic life [Hazardous to the aquatic environment, acute hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P261, P264, P264+P265, P270, P271, P273, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P318, P319, P321, P330, P332+P317, P337+P317, P362+P364, P391, P403+P233, P405, and P501",
+          "P203, P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P318, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P264, P270, P273, P301+P317, P330, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:37.342Z"
+    },
+    {
+      "name": "Tacrolimus",
+      "cid": "445643",
+      "molecularFormula": "C44H69NO12",
+      "molecularWeight": 804,
+      "iupacName": "(1R,9S,12S,13R,14S,17R,18E,21S,23S,24R,25S,27R)-1,14-dihydroxy-12-[(E)-1-[(1R,3R,4R)-4-hydroxy-3-methoxycyclohexyl]prop-1-en-2-yl]-23,25-dimethoxy-13,19,21,27-tetramethyl-17-prop-2-enyl-11,28-dioxa-4-azatricyclo[22.3.1.04,9]octacos-18-ene-2,3,10,16-tetrone",
+      "inchiKey": "QJJXYPPXXYFBGM-LFZNUXCKSA-N",
+      "synonyms": [
+        "tacrolimus",
+        "104987-11-3",
+        "Fujimycin",
+        "Prograf",
+        "Tsukubaenolide",
+        "Protopic",
+        "Advagraf",
+        "Tacrolimus anhydrous",
+        "FK506",
+        "Modigraf"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Health Hazard",
+          "Acute Toxic",
+          "Health Hazard",
+          "Acute Toxic"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (97.6%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H361 (92.7%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (91.5%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H361 (100%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H301: Toxic if swallowed [Danger Acute toxicity, oral]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P270, P280, P301+P316, P318, P319, P321, P330, P405, and P501",
+          "P203, P260, P264, P270, P280, P301+P316, P318, P319, P321, P330, P405, and P501",
+          "P264, P270, P301+P316, P321, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:38.909Z"
+    },
+    {
+      "name": "Cyclosporine",
+      "cid": "5284373",
+      "molecularFormula": "C62H111N11O12",
+      "molecularWeight": 1202.6,
+      "iupacName": "(3S,6S,9S,12R,15S,18S,21S,24S,30S,33S)-30-ethyl-33-[(E,1R,2R)-1-hydroxy-2-methylhex-4-enyl]-1,4,7,10,12,15,19,25,28-nonamethyl-6,9,18,24-tetrakis(2-methylpropyl)-3,21-di(propan-2-yl)-1,4,7,10,13,16,19,22,25,28,31-undecazacyclotritriacontane-2,5,8,11,14,17,20,23,26,29,32-undecone",
+      "inchiKey": "PMATZTZNYRCHOR-CGLBZJNRSA-N",
+      "synonyms": [
+        "cyclosporin A",
+        "Ciclosporin",
+        "cyclosporine",
+        "59865-13-3",
+        "Sandimmune",
+        "Neoral",
+        "Sandimmun",
+        "Cyclosporine A",
+        "Ciclosporine",
+        "Neoplanta"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H350 (99.3%): May cause cancer [Danger Carcinogenicity]",
+          "H360 (96.5%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H372 (13.1%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H350: May cause cancer [Danger Carcinogenicity]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H362: May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P270, P280, P301+P317, P318, P319, P330, P405, and P501",
+          "P203, P260, P263, P264, P270, P280, P301+P317, P308+P316, P318, P319, P321, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:40.510Z"
+    },
+    {
+      "name": "Warfarin",
+      "cid": "54678486",
+      "molecularFormula": "C19H16O4",
+      "molecularWeight": 308.3,
+      "iupacName": "4-hydroxy-3-(3-oxo-1-phenylbutyl)chromen-2-one",
+      "inchiKey": "PJVWKTKQMONHTI-UHFFFAOYSA-N",
+      "synonyms": [
+        "warfarin",
+        "81-81-2",
+        "Coumafene",
+        "Zoocoumarin",
+        "Coumafen",
+        "Brumolin",
+        "Coumefene",
+        "Dethmor",
+        "Kumader",
+        "Warfarine"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Acute Toxic",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H310: Fatal in contact with skin [Danger Acute toxicity, dermal]",
+          "H330: Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H360D: May damage the unborn child [Danger Reproductive toxicity]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H300 (97%): Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H310 (78.1%): Fatal in contact with skin [Danger Acute toxicity, dermal]",
+          "H312 (18.9%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H319 (17.4%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H330 (78.1%): Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H360 (98%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H411 (77.6%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H412 (22.4%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H312: Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H330: Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H310: Fatal in contact with skin [Danger Acute toxicity, dermal]",
+          "H330: Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H360D: May damage the unborn child [Danger Reproductive toxicity]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P262, P264, P270, P271, P273, P280, P284, P301+P316, P302+P352, P304+P340, P316, P318, P319, P320, P321, P330, P361+P364, P391, P403+P233, P405, and P501",
+          "P203, P260, P262, P264, P264+P265, P270, P271, P273, P280, P284, P301+P316, P302+P352, P304+P340, P305+P351+P338, P316, P317, P318, P319, P320, P321, P330, P337+P317, P361+P364, P362+P364, P391, P403+P233, P405, and P501",
+          "P203, P260, P264, P270, P271, P280, P284, P301+P316, P302+P352, P304+P340, P308+P316, P316, P317, P318, P319, P320, P321, P330, P362+P364, P403+P233, P405, and P501",
+          "P203, P260, P262, P264, P270, P271, P273, P280, P284, P301+P316, P302+P352, P304+P340, P316, P318, P319, P320, P321, P330, P361+P364, P391, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:42.130Z"
+    },
+    {
+      "name": "Colchicine",
+      "cid": "6167",
+      "molecularFormula": "C22H25NO6",
+      "molecularWeight": 399.4,
+      "iupacName": "N-[(7S)-1,2,3,10-tetramethoxy-9-oxo-6,7-dihydro-5H-benzo[a]heptalen-7-yl]acetamide",
+      "inchiKey": "IAKHMKGGTNLKSZ-INIZCTEOSA-N",
+      "synonyms": [
+        "colchicine",
+        "64-86-8",
+        "Colchisol",
+        "Colchineos",
+        "Colchicinum",
+        "Colchicina",
+        "Colcrys",
+        "(-)-colchicine",
+        "Mitigare",
+        "7-alpha-H-Colchicine"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Health Hazard",
+          "Corrosive",
+          "Acute Toxic",
+          "Health Hazard",
+          "Acute Toxic",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H340: May cause genetic defects [Danger Germ cell mutagenicity]",
+          "H300+H330 (25.9%): Fatal if swallowed or if inhaled [Danger Acute toxicity, oral; acute toxicity, inhalation]",
+          "H300 (63.9%): Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H310 (35.4%): Fatal in contact with skin [Danger Acute toxicity, dermal]",
+          "H318 (26.5%): Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H330 (27.2%): Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H340 (98%): May cause genetic defects [Danger Germ cell mutagenicity]",
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H340: May cause genetic defects [Danger Germ cell mutagenicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P264, P270, P280, P301+P316, P318, P321, P330, P405, and P501",
+          "P203, P260, P262, P264, P264+P265, P270, P271, P280, P284, P301+P316, P302+P352, P304+P340, P305+P354+P338, P316, P317, P318, P320, P321, P330, P361+P364, P403+P233, P405, and P501",
+          "P203, P264, P270, P280, P301+P316, P318, P321, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:44.703Z"
+    },
+    {
+      "name": "Medroxyprogesterone Acetate",
+      "cid": "6279",
+      "molecularFormula": "C24H34O4",
+      "molecularWeight": 386.5,
+      "iupacName": "[(6S,8R,9S,10R,13S,14S,17R)-17-acetyl-6,10,13-trimethyl-3-oxo-2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthren-17-yl] acetate",
+      "inchiKey": "PSGAAPLEWMOORI-PEINSRQWSA-N",
+      "synonyms": [
+        "Medroxyprogesterone acetate",
+        "71-58-9",
+        "Medroxyprogesterone 17-acetate",
+        "Provera",
+        "Depo-Provera",
+        "Metigestrona",
+        "Farlutin",
+        "Clinovir",
+        "Gestapuran",
+        "Lutopolar"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (19.3%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312 (19.3%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H332 (18.7%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H351 (98.8%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (55.4%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H362 (15.7%): May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H413 (17.5%): May cause long lasting harmful effects to aquatic life [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P263, P264, P270, P271, P273, P280, P301+P317, P302+P352, P304+P340, P317, P318, P321, P330, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:46.644Z"
+    },
+    {
+      "name": "Norethindrone",
+      "cid": "6230",
+      "molecularFormula": "C20H26O2",
+      "molecularWeight": 298.4,
+      "iupacName": "(8R,9S,10R,13S,14S,17R)-17-ethynyl-17-hydroxy-13-methyl-1,2,6,7,8,9,10,11,12,14,15,16-dodecahydrocyclopenta[a]phenanthren-3-one",
+      "inchiKey": "VIKNJXKGJWUCNN-XGXHKTLJSA-N",
+      "synonyms": [
+        "norethindrone",
+        "Norethisterone",
+        "68-22-4",
+        "Micronor",
+        "Norethisteron",
+        "Norlutin",
+        "19-Norethisterone",
+        "Anovule",
+        "Gestest",
+        "Micronovum"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H312 (28.4%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H332 (28.4%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H351 (97%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (32.8%): May damage fertility or the unborn child [Danger Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P261, P271, P280, P302+P352, P304+P340, P317, P318, P321, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:48.480Z"
+    },
+    {
+      "name": "Fluconazole",
+      "cid": "3365",
+      "molecularFormula": "C13H12F2N6O",
+      "molecularWeight": 306.27,
+      "iupacName": "2-(2,4-difluorophenyl)-1,3-bis(1,2,4-triazol-1-yl)propan-2-ol",
+      "inchiKey": "RFHAOTPXVQNOHP-UHFFFAOYSA-N",
+      "synonyms": [
+        "fluconazole",
+        "86386-73-4",
+        "Diflucan",
+        "Triflucan",
+        "Biozolene",
+        "Elazor",
+        "Fluconazol",
+        "Zoltec",
+        "Flucostat",
+        "difluconazole"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (99.5%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (68.5%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (57.4%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (29.4%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H360 (54.3%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H362 (47.7%): May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H371 (31%): May cause damage to organs [Warning Specific target organ toxicity, single exposure]",
+          "H412 (46.7%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P263, P264, P264+P265, P270, P271, P273, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P308+P316, P318, P319, P321, P330, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P261, P264, P264+P265, P270, P271, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P319, P321, P330, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:50.167Z"
+    },
+    {
+      "name": "Misoprostol",
+      "cid": "5282381",
+      "molecularFormula": "C22H38O5",
+      "molecularWeight": 382.5,
+      "iupacName": "methyl 7-[(1R,2R,3R)-3-hydroxy-2-[(E)-4-hydroxy-4-methyloct-1-enyl]-5-oxocyclopentyl]heptanoate",
+      "inchiKey": "OJLOPKGSLYJEMD-URPKTTJQSA-N",
+      "synonyms": [
+        "misoprostol",
+        "59122-46-2",
+        "Cytotec",
+        "Misoprostolum",
+        "SC-29333",
+        "SC 29333",
+        "DTXSID7020897",
+        "0E43V0BB57",
+        "DTXCID70897",
+        "ARTHROTEC COMPONENT MISOPROSTOL"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H360 (100%): May damage fertility or the unborn child [Danger Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P264, P270, P280, P301+P316, P318, P321, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:51.865Z"
+    },
+    {
+      "name": "Hydrocortisone",
+      "cid": "5754",
+      "molecularFormula": "C21H30O5",
+      "molecularWeight": 362.5,
+      "iupacName": "(8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthren-3-one",
+      "inchiKey": "JYGXADMDTFJGBT-VWUMJDOOSA-N",
+      "synonyms": [
+        "hydrocortisone",
+        "Cortisol",
+        "50-23-7",
+        "Acticort",
+        "Cetacort",
+        "Hydrocortisyl",
+        "Cobadex",
+        "Hytone",
+        "Cortenema",
+        "Dermacort"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Health Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H361 (86.5%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H373 (31.8%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P280, P318, P319, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:54.671Z"
+    },
+    {
+      "name": "DHEA (Dehydroepiandrosterone)",
+      "cid": "5881",
+      "molecularFormula": "C19H28O2",
+      "molecularWeight": 288.4,
+      "iupacName": "(3S,8R,9S,10R,13S,14S)-3-hydroxy-10,13-dimethyl-1,2,3,4,7,8,9,11,12,14,15,16-dodecahydrocyclopenta[a]phenanthren-17-one",
+      "inchiKey": "FMGSKLZLMKYGDP-USOAJAOKSA-N",
+      "synonyms": [
+        "Dehydroepiandrosterone",
+        "DHEA",
+        "PRASTERONE",
+        "53-43-0",
+        "Dehydroisoandrosterone",
+        "Androstenolone",
+        "Diandron",
+        "3beta-hydroxyandrost-5-en-17-one",
+        "17-Hormoforin",
+        "Intrarosa"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (11.3%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312 (10.7%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H315 (24.5%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (24.5%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H332 (10.7%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H335 (24.5%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H351 (10.7%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (74.2%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H362 (63.5%): May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H400 (62.9%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (63.5%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P263, P264, P264+P265, P270, P271, P273, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P317, P318, P319, P321, P330, P332+P317, P337+P317, P362+P364, P391, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:56.242Z"
+    },
+    {
+      "name": "Pregnenolone",
+      "cid": "8955",
+      "molecularFormula": "C21H32O2",
+      "molecularWeight": 316.5,
+      "iupacName": "1-[(3S,8S,9S,10R,13S,14S,17S)-3-hydroxy-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]ethanone",
+      "inchiKey": "ORNBQBCIOKFOEO-QGVNFLHTSA-N",
+      "synonyms": [
+        "pregnenolone",
+        "145-13-1",
+        "3beta-Hydroxypregn-5-en-20-one",
+        "Arthenolone",
+        "Regnosone",
+        "Skinostelon",
+        "Enelone",
+        "Natolone",
+        "Bina-Skin",
+        "5-Pregnen-3beta-ol-20-one"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (87%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312 (87%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H332 (87%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H351 (87%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H361 (87%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P261, P264, P270, P271, P280, P301+P317, P302+P352, P304+P340, P317, P318, P321, P330, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:57.915Z"
+    },
+    {
+      "name": "Levothyroxine Sodium",
+      "cid": "23666112",
+      "molecularFormula": "C15H10I4NNaO4",
+      "molecularWeight": 798.85,
+      "iupacName": "sodium (2S)-2-amino-3-[4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl]propanoate",
+      "inchiKey": "YDTFRJLNMPSCFM-YDALLXLXSA-M",
+      "synonyms": [
+        "Levothyroxine sodium",
+        "L-Thyroxine sodium",
+        "55-03-8",
+        "Euthyrox",
+        "Unithroid",
+        "levothroid",
+        "Levoxyl",
+        "Novothyrox",
+        "Letter",
+        "synthroid"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Health Hazard",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H361 (92.5%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (94.3%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H361 (25%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (75%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H373 (25%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P270, P280, P318, P319, P405, and P501",
+          "P203, P260, P264, P270, P280, P318, P319, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:33:59.545Z"
+    },
+    {
+      "name": "Liothyronine Sodium",
+      "cid": "23666110",
+      "molecularFormula": "C15H11I3NNaO4",
+      "molecularWeight": 672.95,
+      "iupacName": "sodium (2S)-2-amino-3-[4-(4-hydroxy-3-iodophenoxy)-3,5-diiodophenyl]propanoate",
+      "inchiKey": "SBXXSUDPJJJJLC-YDALLXLXSA-M",
+      "synonyms": [
+        "LIOTHYRONINE SODIUM",
+        "55-06-1",
+        "3,3',5-Triiodo-L-thyronine sodium salt",
+        "Triostat",
+        "Basoprocin",
+        "Ibiothyron",
+        "T3 sodium salt",
+        "Cynomel",
+        "L-Triiodothyronine sodium salt",
+        "Cytobin"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (40%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312 (20%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H319 (20%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H332 (20%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H373 (20%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P260, P261, P264, P264+P265, P270, P271, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P317, P319, P321, P330, P337+P317, P362+P364, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:01.149Z"
+    },
+    {
+      "name": "Metformin HCl",
+      "cid": "14219",
+      "molecularFormula": "C4H12ClN5",
+      "molecularWeight": 165.62,
+      "iupacName": "3-(diaminomethylidene)-1,1-dimethylguanidine;hydrochloride",
+      "inchiKey": "OETHQSJEHLVLGH-UHFFFAOYSA-N",
+      "synonyms": [
+        "Metformin hydrochloride",
+        "1115-70-4",
+        "Metformin HCL",
+        "1,1-Dimethylbiguanide hydrochloride",
+        "Glucophage",
+        "Diabefagos",
+        "Riomet",
+        "Siamformet",
+        "Benofomin",
+        "Walaphage"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (99.6%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (42.3%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (64.5%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (11.7%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H412 (15.1%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315: Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P270, P271, P273, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P319, P321, P330, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P264, P264+P265, P270, P280, P301+P317, P302+P352, P305+P351+P338, P321, P330, P332+P317, P337+P317, P362+P364, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:03.890Z"
+    },
+    {
+      "name": "Gabapentin",
+      "cid": "3446",
+      "molecularFormula": "C9H17NO2",
+      "molecularWeight": 171.24,
+      "iupacName": "2-[1-(aminomethyl)cyclohexyl]acetic acid",
+      "inchiKey": "UGJMXCAKCUNAIE-UHFFFAOYSA-N",
+      "synonyms": [
+        "gabapentin",
+        "60142-96-3",
+        "Neurontin",
+        "Gabapentine",
+        "1-(Aminomethyl)cyclohexaneacetic acid",
+        "2-[1-(aminomethyl)cyclohexyl]acetic acid",
+        "Aclonium",
+        "Gabapetin",
+        "Gabapentinum",
+        "gabapentina"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H315 (57.7%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (66.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (59.6%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H360 (54.8%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H315: Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P318, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P203, P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P318, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:05.533Z"
+    },
+    {
+      "name": "Ketoprofen",
+      "cid": "3825",
+      "molecularFormula": "C16H14O3",
+      "molecularWeight": 254.28,
+      "iupacName": "2-(3-benzoylphenyl)propanoic acid",
+      "inchiKey": "DKYWVDODHFEZIM-UHFFFAOYSA-N",
+      "synonyms": [
+        "ketoprofen",
+        "22071-15-4",
+        "2-(3-Benzoylphenyl)propanoic acid",
+        "2-(3-Benzoylphenyl)propionic acid",
+        "Orudis",
+        "Oruvail",
+        "Capisten",
+        "Actron",
+        "Alrheumat",
+        "Ketoprofene"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (99.7%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H315 (14.7%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (14.7%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (14.6%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P270, P271, P280, P301+P316, P302+P352, P304+P340, P305+P351+P338, P319, P321, P330, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:07.101Z"
+    },
+    {
+      "name": "Lidocaine",
+      "cid": "3676",
+      "molecularFormula": "C14H22N2O",
+      "molecularWeight": 234.34,
+      "iupacName": "2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide",
+      "inchiKey": "NNJVILVZKWQKPM-UHFFFAOYSA-N",
+      "synonyms": [
+        "lidocaine",
+        "137-58-6",
+        "Xylocaine",
+        "2-(Diethylamino)-N-(2,6-dimethylphenyl)acetamide",
+        "Lidoderm",
+        "Duncaine",
+        "Xylestesin",
+        "Esracaine",
+        "Gravocain",
+        "Isicaina"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Irritant",
+          "Irritant",
+          "Health Hazard",
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (98.2%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H317: May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H362: May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]"
+        ],
+        "precautionaryStatements": [
+          "P264, P270, P301+P317, P330, and P501",
+          "P264, P270, P301+P317, P330, and P501",
+          "P203, P260, P261, P263, P264, P270, P272, P280, P301+P317, P302+P352, P308+P316, P318, P319, P321, P330, P333+P317, P362+P364, P405, and P501",
+          "P264, P270, P301+P317, P330, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:08.764Z"
+    },
+    {
+      "name": "Lidocaine HCl",
+      "cid": "6314",
+      "molecularFormula": "C14H23ClN2O",
+      "molecularWeight": 270.8,
+      "iupacName": "2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide;hydrochloride",
+      "inchiKey": "IYBQHJMYDGVZRY-UHFFFAOYSA-N",
+      "synonyms": [
+        "Lidocaine hydrochloride",
+        "73-78-9",
+        "LIDOCAINE HCL",
+        "Lidothesin",
+        "Lignocaine hydrochloride",
+        "Xylocaine Viscous",
+        "Laryng-O-jet",
+        "Anestacon",
+        "Lidocaton",
+        "Glydo"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (82.5%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H302 (17.5%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H301 (46.3%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H302 (53.7%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (40.3%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (40.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H334 (37.3%): May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]",
+          "H335 (40.3%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H412 (37.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P264, P270, P301+P316, P301+P317, P321, P330, P405, and P501",
+          "P233, P260, P261, P264, P264+P265, P270, P271, P273, P280, P284, P301+P316, P301+P317, P302+P352, P304+P340, P305+P351+P338, P319, P321, P330, P332+P317, P337+P317, P342+P316, P362+P364, P403, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:10.409Z"
+    },
+    {
+      "name": "Prilocaine",
+      "cid": "4906",
+      "molecularFormula": "C13H20N2O",
+      "molecularWeight": 220.31,
+      "iupacName": "N-(2-methylphenyl)-2-(propylamino)propanamide",
+      "inchiKey": "MVFGUOIZUNYYSO-UHFFFAOYSA-N",
+      "synonyms": [
+        "prilocaine",
+        "721-50-6",
+        "Propitocaine",
+        "prilocaine base",
+        "N-(2-Methylphenyl)-2-(propylamino)propanamide",
+        "Prilocaina",
+        "Prilocainum",
+        "Astra 1515",
+        "Propanamide, N-(2-methylphenyl)-2-(propylamino)-",
+        "o-Methyl-2-propylaminopropionanilide"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (98.6%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (91.3%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (92.8%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H412 (97.1%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P264, P264+P265, P270, P273, P280, P301+P317, P302+P352, P305+P351+P338, P321, P330, P332+P317, P337+P317, P362+P364, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:13.214Z"
+    },
+    {
+      "name": "Tetracaine",
+      "cid": "5411",
+      "molecularFormula": "C15H24N2O2",
+      "molecularWeight": 264.36,
+      "iupacName": "2-(dimethylamino)ethyl 4-(butylamino)benzoate",
+      "inchiKey": "GKCBAIGFKIBETG-UHFFFAOYSA-N",
+      "synonyms": [
+        "tetracaine",
+        "94-24-6",
+        "Amethocaine",
+        "2-(Dimethylamino)ethyl 4-(butylamino)benzoate",
+        "Laudocaine",
+        "Metraspray",
+        "Pontocaine",
+        "Anetain",
+        "Dicaine",
+        "Uromucaesthin"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (97.7%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H317 (93%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H351 (93%): Suspected of causing cancer [Warning Carcinogenicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P261, P264, P270, P272, P280, P301+P316, P302+P352, P318, P321, P330, P333+P317, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:14.800Z"
+    },
+    {
+      "name": "Benzocaine",
+      "cid": "2337",
+      "molecularFormula": "C9H11NO2",
+      "molecularWeight": 165.19,
+      "iupacName": "ethyl 4-aminobenzoate",
+      "inchiKey": "BLFLLBZGZJTVJG-UHFFFAOYSA-N",
+      "synonyms": [
+        "benzocaine",
+        "Ethyl 4-aminobenzoate",
+        "94-09-7",
+        "Ethyl p-aminobenzoate",
+        "Parathesin",
+        "Ethyl aminobenzoate",
+        "Norcaine",
+        "Americaine",
+        "Anaesthesin",
+        "4-Aminobenzoic acid ethyl ester"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H317 (77.8%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H370 (47.3%): Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H411 (11.4%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H402: Harmful to aquatic life [Hazardous to the aquatic environment, acute hazard]",
+          "H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H317: May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P260, P261, P264, P270, P272, P273, P280, P302+P352, P308+P316, P321, P333+P317, P362+P364, P391, P405, and P501",
+          "P273, and P501",
+          "P260, P261, P264, P270, P272, P280, P302+P352, P308+P316, P319, P321, P333+P317, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:16.396Z"
+    },
+    {
+      "name": "Mupirocin",
+      "cid": "446596",
+      "molecularFormula": "C26H44O9",
+      "molecularWeight": 500.6,
+      "iupacName": "9-[(E)-4-[(2S,3R,4R,5S)-3,4-dihydroxy-5-[[(2S,3S)-3-[(2S,3S)-3-hydroxybutan-2-yl]oxiran-2-yl]methyl]oxan-2-yl]-3-methylbut-2-enoyl]oxynonanoic acid",
+      "inchiKey": "MINDHVHHQZYEEK-HBBNESRFSA-N",
+      "synonyms": [
+        "Mupirocin",
+        "12650-69-0",
+        "Pseudomonic acid",
+        "Pseudomonic acid A",
+        "Mupirocine",
+        "Centany",
+        "Bactoderm",
+        "Mupirocina",
+        "Mupirocinum",
+        "Turixin"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (25%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (25%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H317 (50%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H319 (25%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P270, P272, P280, P301+P317, P302+P352, P305+P351+P338, P321, P330, P332+P317, P333+P317, P337+P317, P362+P364, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:18.162Z"
+    },
+    {
+      "name": "Nystatin",
+      "cid": "6433272",
+      "molecularFormula": "C47H75NO17",
+      "molecularWeight": 926.1,
+      "iupacName": "(1S,15S,16R,17R,18S,19E,21E,25E,27E,29E,31E)-33-[(2S,3S,4S,5S,6R)-4-amino-3,5-dihydroxy-6-methyloxan-2-yl]oxy-1,3,4,7,9,11,17,37-octahydroxy-15,16,18-trimethyl-13-oxo-14,39-dioxabicyclo[33.3.1]nonatriaconta-19,21,25,27,29,31-hexaene-36-carboxylic acid",
+      "inchiKey": "VQOXZBDYSJBXMA-RKEBNKJGSA-N",
+      "synonyms": [
+        "Stamycin",
+        "Herniocid",
+        "Nyotran",
+        "Nystatyna",
+        "Candex Lotion",
+        "Zydin E",
+        "Nystatyna [Polish]",
+        "Moronal (antibiotic)",
+        "Caswell No. 607B",
+        "Nystatin LF (liposome)"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H300 (12.5%): Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H335 (12.5%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H372 (12.5%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P260, P261, P264, P270, P271, P301+P316, P304+P340, P319, P321, P330, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:20.302Z"
+    },
+    {
+      "name": "Clotrimazole",
+      "cid": "2812",
+      "molecularFormula": "C22H17ClN2",
+      "molecularWeight": 344.8,
+      "iupacName": "1-[(2-chlorophenyl)-diphenylmethyl]imidazole",
+      "inchiKey": "VNFPBHJOKIVQEB-UHFFFAOYSA-N",
+      "synonyms": [
+        "clotrimazole",
+        "23593-75-1",
+        "Lotrimin",
+        "Canesten",
+        "Mycelex",
+        "Mycosporin",
+        "Clotrimazol",
+        "Empecid",
+        "Mykosporin",
+        "Gyne lotrimin"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (96.9%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H311 (17.9%): Toxic in contact with skin [Danger Acute toxicity, dermal]",
+          "H315 (65.3%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (74.5%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H361 (17.9%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H373 (17.9%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H400 (71.4%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (72.4%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P262, P264, P264+P265, P270, P273, P280, P301+P317, P302+P352, P305+P351+P338, P316, P318, P319, P321, P330, P332+P317, P337+P317, P361+P364, P362+P364, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:22.891Z"
+    },
+    {
+      "name": "Miconazole Nitrate",
+      "cid": "68553",
+      "molecularFormula": "C18H15Cl4N3O4",
+      "molecularWeight": 479.1,
+      "iupacName": "1-[2-(2,4-dichlorophenyl)-2-[(2,4-dichlorophenyl)methoxy]ethyl]imidazole;nitric acid",
+      "inchiKey": "MCCACAIVAXEFAL-UHFFFAOYSA-N",
+      "synonyms": [
+        "Miconazole nitrate",
+        "22832-87-7",
+        "Dermonistat",
+        "Micatin",
+        "Monistat-Derm",
+        "Miconazole 7",
+        "M-zole 7 Dual Pack",
+        "Monistat 3",
+        "Monistat 5",
+        "Monistat 7"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H317 (56.5%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H319 (11.2%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H410 (41%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P270, P272, P273, P280, P301+P317, P302+P352, P305+P351+P338, P321, P330, P333+P317, P337+P317, P362+P364, P391, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:24.666Z"
+    },
+    {
+      "name": "Baclofen",
+      "cid": "2284",
+      "molecularFormula": "C10H12ClNO2",
+      "molecularWeight": 213.66,
+      "iupacName": "4-amino-3-(4-chlorophenyl)butanoic acid",
+      "inchiKey": "KPYSYYIEGFHWSV-UHFFFAOYSA-N",
+      "synonyms": [
+        "baclofen",
+        "1134-47-0",
+        "Lioresal",
+        "4-Amino-3-(4-chlorophenyl)butanoic acid",
+        "Baclon",
+        "Kemstro",
+        "DL-Baclofen",
+        "Baclofene",
+        "Baclofeno",
+        "(+-)-Baclofen"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (93.1%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H315 (75.9%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H317 (74.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H319 (75.9%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H334 (74.1%): May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]",
+          "H335 (74.1%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H336 (15.5%): May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+          "H360 (67.2%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H361 (19%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P233, P260, P261, P264, P264+P265, P270, P271, P272, P280, P284, P301+P316, P302+P352, P304+P340, P305+P351+P338, P318, P319, P321, P330, P332+P317, P333+P317, P337+P317, P342+P316, P362+P364, P403, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:26.486Z"
+    },
+    {
+      "name": "Cyclobenzaprine",
+      "cid": "2895",
+      "molecularFormula": "C20H21N",
+      "molecularWeight": 275.4,
+      "iupacName": "N,N-dimethyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,9,11,13-heptaenylidene)propan-1-amine",
+      "inchiKey": "JURKNVYFZMSNLP-UHFFFAOYSA-N",
+      "synonyms": [
+        "cyclobenzaprine",
+        "303-53-7",
+        "Proheptatriene",
+        "Proheptatrien",
+        "Ciclobenzaprina",
+        "Proeptatriene",
+        "Lisseril",
+        "Fexmid",
+        "Cyclobenzaprinum",
+        "10,11-Dehydroamitriptyline"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 1 of 1 companies. For more detailed information, please visit  ECHA C&L website.",
+          "H301: Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H312: Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H332: Harmful if inhaled [Warning Acute toxicity, inhalation]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P270, P271, P280, P301+P316, P302+P352, P304+P340, P317, P321, P330, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:28.148Z"
+    },
+    {
+      "name": "Omeprazole",
+      "cid": "4594",
+      "molecularFormula": "C17H19N3O3S",
+      "molecularWeight": 345.4,
+      "iupacName": "6-methoxy-2-[(4-methoxy-3,5-dimethyl-2-pyridinyl)methylsulfinyl]-1H-benzimidazole",
+      "inchiKey": "SUBDBMMJDZJVOS-UHFFFAOYSA-N",
+      "synonyms": [
+        "Prilosec",
+        "RefChem:929978",
+        "omeprazole",
+        "73590-58-6",
+        "Losec",
+        "Antra",
+        "Omeprazon",
+        "Audazol",
+        "Omepral",
+        "Omapren"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]"
+        ],
+        "precautionaryStatements": [
+          "P264, P270, P301+P317, P330, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:29.705Z"
+    },
+    {
+      "name": "Lansoprazole",
+      "cid": "3883",
+      "molecularFormula": "C16H14F3N3O2S",
+      "molecularWeight": 369.4,
+      "iupacName": "2-[[3-methyl-4-(2,2,2-trifluoroethoxy)-2-pyridinyl]methylsulfinyl]-1H-benzimidazole",
+      "inchiKey": "MJIHNNLFOKEZEW-UHFFFAOYSA-N",
+      "synonyms": [
+        "lansoprazole",
+        "103577-45-3",
+        "Prevacid",
+        "Limpidex",
+        "Agopton",
+        "Lanzor",
+        "Takepron",
+        "Zoton",
+        "Prevacid SoluTab",
+        "Lansoprazol"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H315 (96.3%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (96.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (95.6%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:32.321Z"
+    },
+    {
+      "name": "Prednisone",
+      "cid": "5865",
+      "molecularFormula": "C21H26O5",
+      "molecularWeight": 358.4,
+      "iupacName": "(8S,9S,10R,13S,14S,17R)-17-hydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-6,7,8,9,12,14,15,16-octahydrocyclopenta[a]phenanthrene-3,11-dione",
+      "inchiKey": "XOFYZVNMUHMLCC-ZPOLXVRWSA-N",
+      "synonyms": [
+        "prednisone",
+        "53-03-2",
+        "Dehydrocortisone",
+        "Deltasone",
+        "Decortin",
+        "Meticorten",
+        "Metacortandracin",
+        "Supercortil",
+        "Orasone",
+        "Paracort"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Health Hazard",
+          "Health Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H360 (33.7%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H361 (65.1%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (32%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H373 (20.1%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P270, P280, P318, P319, P405, and P501",
+          "P203, P280, P318, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:34.128Z"
+    },
+    {
+      "name": "Prednisolone",
+      "cid": "5755",
+      "molecularFormula": "C21H28O5",
+      "molecularWeight": 360.4,
+      "iupacName": "(8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-3-one",
+      "inchiKey": "OIGNJSKKLXVSLS-VWUMJDOOSA-N",
+      "synonyms": [
+        "prednisolone",
+        "50-24-8",
+        "Metacortandralone",
+        "Hydroretrocortine",
+        "Deltacortril",
+        "Delta-Cortef",
+        "Codelcortone",
+        "Prenolone",
+        "Sterane",
+        "Deltahydrocortisone"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (31.9%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H332 (10.1%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H360 (66.2%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H361 (27.1%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (16.9%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H373 (13%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H411 (17.4%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P264, P270, P271, P273, P280, P301+P317, P304+P340, P317, P318, P319, P330, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:35.762Z"
+    },
+    {
+      "name": "Dexamethasone",
+      "cid": "5743",
+      "molecularFormula": "C22H29FO5",
+      "molecularWeight": 392.5,
+      "iupacName": "(8S,9R,10S,11S,13S,14S,16R,17R)-9-fluoro-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13,16-trimethyl-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-3-one",
+      "inchiKey": "UREBDLICKHMUKA-CXSFZGCWSA-N",
+      "synonyms": [
+        "dexamethasone",
+        "50-02-2",
+        "Decadron",
+        "Aeroseb-Dex",
+        "Cortisumman",
+        "Calonat",
+        "Decaderm",
+        "Dexacortal",
+        "Dexacortin",
+        "Prednisolone F"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H315 (24.6%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H317 (26.2%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H319 (25.1%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H334 (24.1%): May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]",
+          "H335 (24.1%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H360 (51.9%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H360D (12.8%): May damage the unborn child [Danger Reproductive toxicity]",
+          "H373 (35.8%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H410 (33.2%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P233, P260, P261, P264, P264+P265, P271, P272, P273, P280, P284, P302+P352, P304+P340, P305+P351+P338, P318, P319, P321, P332+P317, P333+P317, P337+P317, P342+P316, P362+P364, P391, P403, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:37.377Z"
+    },
+    {
+      "name": "Betamethasone",
+      "cid": "9782",
+      "molecularFormula": "C22H29FO5",
+      "molecularWeight": 392.5,
+      "iupacName": "(8S,9R,10S,11S,13S,14S,16S,17R)-9-fluoro-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13,16-trimethyl-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-3-one",
+      "inchiKey": "UREBDLICKHMUKA-DVTGEIKXSA-N",
+      "synonyms": [
+        "betamethasone",
+        "378-44-9",
+        "Betadexamethasone",
+        "Flubenisolone",
+        "Rinderon",
+        "Visubeta",
+        "Celestene",
+        "Betnelan",
+        "beta-Methasone",
+        "Desacort-Beta"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H330 (51%): Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H360 (97.1%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H372 (51%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H373 (47.1%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H410 (51%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P270, P271, P273, P280, P284, P304+P340, P316, P318, P319, P320, P391, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:39.044Z"
+    },
+    {
+      "name": "Triamcinolone Acetonide",
+      "cid": "6436",
+      "molecularFormula": "C24H31FO6",
+      "molecularWeight": 434.5,
+      "iupacName": "(1S,2S,4R,8S,9S,11S,12R,13S)-12-fluoro-11-hydroxy-8-(2-hydroxyacetyl)-6,6,9,13-tetramethyl-5,7-dioxapentacyclo[10.8.0.02,9.04,8.013,18]icosa-14,17-dien-16-one",
+      "inchiKey": "YNDXUCZADRHECN-JNQJZLCISA-N",
+      "synonyms": [
+        "TRIAMCINOLONE ACETONIDE",
+        "76-25-5",
+        "Azmacort",
+        "Nasacort",
+        "Vetalog",
+        "Solodelf",
+        "Tricinolon",
+        "Kenacort-A",
+        "Volon A",
+        "Aristogel"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (12.7%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H360 (83.6%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H361 (12.7%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (10.9%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P270, P280, P301+P317, P318, P319, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:41.622Z"
+    },
+    {
+      "name": "Clobetasol Propionate",
+      "cid": "32798",
+      "molecularFormula": "C25H32ClFO5",
+      "molecularWeight": 467,
+      "iupacName": "[(8S,9R,10S,11S,13S,14S,16S,17R)-17-(2-chloroacetyl)-9-fluoro-11-hydroxy-10,13,16-trimethyl-3-oxo-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-17-yl] propanoate",
+      "inchiKey": "CBGUOGMQLZIXBE-XGQKBEPLSA-N",
+      "synonyms": [
+        "CLOBETASOL PROPIONATE",
+        "25122-46-7",
+        "Clobetasol 17-propionate",
+        "Clobex",
+        "Dermovate",
+        "Temovate",
+        "Embeline",
+        "Cormax",
+        "Olux",
+        "Embeline E"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H315 (34.1%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (34.1%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (33%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H360 (61.5%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H373 (62.6%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H413 (62.6%): May cause long lasting harmful effects to aquatic life [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P264, P264+P265, P271, P273, P280, P302+P352, P304+P340, P305+P351+P338, P318, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:43.164Z"
+    },
+    {
+      "name": "Diclofenac Sodium",
+      "cid": "5018304",
+      "molecularFormula": "C14H10Cl2NNaO2",
+      "molecularWeight": 318.1,
+      "iupacName": "sodium 2-[2-(2,6-dichloroanilino)phenyl]acetate",
+      "inchiKey": "KPHWPUGNDIVLNH-UHFFFAOYSA-M",
+      "synonyms": [
+        "Diclofenac sodium",
+        "15307-79-6",
+        "Diclofenac sodium salt",
+        "Sodium diclofenac",
+        "Solaraze",
+        "Neriodin",
+        "Prophenatin",
+        "Voltaren",
+        "Diclophenac sodium",
+        "Abitren"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (96.7%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H315 (15.6%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (15.2%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H331 (24.3%): Toxic if inhaled [Danger Acute toxicity, inhalation]",
+          "H361 (51.9%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (50.2%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H411 (47.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P264, P264+P265, P270, P271, P273, P280, P301+P316, P302+P352, P304+P340, P305+P351+P338, P316, P318, P319, P321, P330, P332+P317, P337+P317, P362+P364, P391, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:44.767Z"
+    },
+    {
+      "name": "Piroxicam",
+      "cid": "54676228",
+      "molecularFormula": "C15H13N3O4S",
+      "molecularWeight": 331.3,
+      "iupacName": "4-hydroxy-2-methyl-1,1-dioxo-N-pyridin-2-yl-1lambda6,2-benzothiazine-3-carboxamide",
+      "inchiKey": "QYSPLQLAKJAUJT-UHFFFAOYSA-N",
+      "synonyms": [
+        "piroxicam",
+        "36322-90-4",
+        "Feldene",
+        "Piroxicamum",
+        "Pyroxycam",
+        "Roxicam",
+        "BAXO",
+        "Piroftal",
+        "CP-16171",
+        "Larapam"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (99%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H360 (16.6%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H361 (17.6%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (34.6%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P270, P280, P301+P316, P318, P319, P321, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:46.487Z"
+    },
+    {
+      "name": "Indomethacin",
+      "cid": "3715",
+      "molecularFormula": "C19H16ClNO4",
+      "molecularWeight": 357.8,
+      "iupacName": "2-[1-(4-chlorobenzoyl)-5-methoxy-2-methylindol-3-yl]acetic acid",
+      "inchiKey": "CGIGDMFJXJATDK-UHFFFAOYSA-N",
+      "synonyms": [
+        "indomethacin",
+        "53-86-1",
+        "indometacin",
+        "Indomethacine",
+        "Indometacine",
+        "Indocid",
+        "Metindol",
+        "Reumacide",
+        "Indomethazine",
+        "Idomethine"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Corrosive",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Acute Toxic"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H300 (81%): Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H301 (19%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H317 (24.9%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H318 (18.5%): Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H335 (18.5%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H336 (18.5%): May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+          "H360 (25.4%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H373 (19%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H413 (19%): May cause long lasting harmful effects to aquatic life [Hazardous to the aquatic environment, long-term hazard]",
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P264, P264+P265, P270, P271, P272, P273, P280, P301+P316, P302+P352, P304+P340, P305+P354+P338, P317, P318, P319, P321, P330, P333+P317, P362+P364, P403+P233, P405, and P501",
+          "P264, P270, P301+P316, P321, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:48.081Z"
+    },
+    {
+      "name": "Zinc Oxide",
+      "cid": "3007857",
+      "molecularFormula": "OZn",
+      "molecularWeight": 81.4,
+      "iupacName": "zinc oxygen(2-)",
+      "inchiKey": "RNWHGQJWIACOKP-UHFFFAOYSA-N",
+      "synonyms": [
+        "Zincum Oxydatum",
+        "Zinc paste",
+        "Zinci Oxydum",
+        "Zinc (as oxide)",
+        "Zinc oxide emulsion",
+        "DTXSID7035016",
+        "Zinc (as zinc oxide)",
+        "SOI2LOH54Z",
+        "CI 77947",
+        "C.I. 77947"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Environmental Hazard",
+          "Environmental Hazard",
+          "Environmental Hazard",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H400 (98.4%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (99.6%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H333: May be harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P273, P391, and P501",
+          "P273, P391, and P501",
+          "P273, P391, and P501",
+          "P203, P260, P264, P270, P273, P280, P308+P316, P318, P321, P391, P405, and P501",
+          "P203, P260, P264, P270, P280, P308+P316, P318, P321, P405, and P501",
+          "P260, P264, P270, P304+P317, P308+P316, P319, P321, P405, and P501",
+          "P273, P391, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:51.065Z"
+    },
+    {
+      "name": "Salicylic Acid",
+      "cid": "338",
+      "molecularFormula": "C7H6O3",
+      "molecularWeight": 138.12,
+      "iupacName": "2-hydroxybenzoic acid",
+      "inchiKey": "YGSDEFSMJLZEOE-UHFFFAOYSA-N",
+      "synonyms": [
+        "salicylic acid",
+        "2-Hydroxybenzoic acid",
+        "69-72-7",
+        "o-hydroxybenzoic acid",
+        "2-Carboxyphenol",
+        "o-Carboxyphenol",
+        "Retarder W",
+        "Rutranex",
+        "Salonil",
+        "Keralyt"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Corrosive",
+          "Irritant",
+          "Health Hazard",
+          "Corrosive",
+          "Irritant",
+          "Corrosive",
+          "Irritant",
+          "Health Hazard",
+          "Corrosive",
+          "Irritant"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]",
+          "H302 (98%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312 (45.5%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H318 (50.1%): Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H319 (49.7%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "Not Classified",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]"
+        ],
+        "precautionaryStatements": [
+          "P203, P264, P264+P265, P270, P280, P301+P317, P305+P354+P338, P317, P318, P330, P405, and P501",
+          "P264, P264+P265, P270, P280, P301+P317, P302+P352, P305+P351+P338, P305+P354+P338, P317, P321, P330, P337+P317, P362+P364, and P501",
+          "P264+P265, P280, P305+P354+P338, and P317",
+          "P264, P264+P265, P270, P280, P301+P317, P305+P354+P338, P317, P330, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:52.777Z"
+    },
+    {
+      "name": "Urea",
+      "cid": "1176",
+      "molecularFormula": "CH4N2O",
+      "molecularWeight": 60.056,
+      "iupacName": "urea",
+      "inchiKey": "XSQUKJJJFZCRTK-UHFFFAOYSA-N",
+      "synonyms": [
+        "urea",
+        "57-13-6",
+        "carbamide",
+        "Carbonyldiamide",
+        "Ureophil",
+        "Carbonyldiamine",
+        "Ureaphil",
+        "Keratinamin",
+        "Urevert",
+        "Alphadrate"
+      ],
+      "ghs": {
+        "pictograms": [],
+        "signalWord": null,
+        "hazardStatements": [
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 4430 of 4611 companies (only 3.9% companies provided GHS information). For more detailed information, please visit  ECHA C&L website.",
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 1 of 1 companies. For more detailed information, please visit  ECHA C&L website."
+        ],
+        "precautionaryStatements": []
+      },
+      "fetchedAt": "2026-02-17T22:34:54.465Z"
+    },
+    {
+      "name": "Sulfur (Precipitated)",
+      "cid": "5362487",
+      "molecularFormula": "S",
+      "molecularWeight": 32.07,
+      "iupacName": "sulfane",
+      "inchiKey": "NINIDFKCEFEMDL-UHFFFAOYSA-N",
+      "synonyms": [
+        "Anacardium",
+        "Bioelements",
+        "Armarita",
+        "Celesty",
+        "Naturasil",
+        "Prosacea",
+        "Sulfaderm",
+        "DermaWash",
+        "Motto",
+        "Acne Treatment"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Irritant",
+          "Flammable",
+          "Flammable",
+          "Health Hazard",
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H315: Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H315 (99.7%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 38 of 42 companies (only 9.5% companies provided GHS information). For more detailed information, please visit  ECHA C&L website.",
+          "H228 (100%): Flammable solid [Danger Flammable solids]",
+          "H228: Flammable solid [Danger Flammable solids]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H315: Causes skin irritation [Warning Skin corrosion/irritation]"
+        ],
+        "precautionaryStatements": [
+          "P264, P280, P302+P352, P321, P332+P317, and P362+P364",
+          "P264, P280, P302+P352, P321, P332+P317, and P362+P364",
+          "P210, P240, P241, P280, and P370+P378",
+          "P210, P240, P241, P260, P264, P270, P280, P308+P316, P319, P321, P370+P378, P405, and P501",
+          "P264, P280, P302+P352, P321, P332+P317, and P362+P364"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:56.144Z"
+    },
+    {
+      "name": "Methotrexate",
+      "cid": "126941",
+      "molecularFormula": "C20H22N8O5",
+      "molecularWeight": 454.4,
+      "iupacName": "(2S)-2-[[4-[(2,4-diaminopteridin-6-yl)methyl-methylamino]benzoyl]amino]pentanedioic acid",
+      "inchiKey": "FBOZXECLQNJBKD-ZDUSSCGKSA-N",
+      "synonyms": [
+        "methotrexate",
+        "59-05-2",
+        "Rheumatrex",
+        "Amethopterin",
+        "Metatrexan",
+        "Hdmtx",
+        "Ledertrexate",
+        "Methylaminopterinum",
+        "Methotrexatum",
+        "Metotrexato"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H315 (96.2%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (97%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H340 (34.1%): May cause genetic defects [Danger Germ cell mutagenicity]",
+          "H360 (94.7%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H315 (97.5%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (97.5%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H360 (97.5%): May damage fertility or the unborn child [Danger Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P264, P264+P265, P270, P280, P301+P316, P302+P352, P305+P351+P338, P318, P321, P330, P332+P317, P337+P317, P362+P364, P405, and P501",
+          "P203, P264, P264+P265, P270, P280, P301+P316, P302+P352, P305+P351+P338, P318, P321, P330, P332+P317, P337+P317, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:34:57.808Z"
+    },
+    {
+      "name": "Fluorouracil",
+      "cid": "3385",
+      "molecularFormula": "C4H3FN2O2",
+      "molecularWeight": 130.08,
+      "iupacName": "5-fluoro-1H-pyrimidine-2,4-dione",
+      "inchiKey": "GHASVSINZRGABV-UHFFFAOYSA-N",
+      "synonyms": [
+        "5-Fluorouracil",
+        "fluorouracil",
+        "51-21-8",
+        "Efudex",
+        "Fluracil",
+        "Fluoroblastin",
+        "Carzonal",
+        "Queroplex",
+        "Fluril",
+        "Phthoruracil"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Acute Toxic",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (66.7%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H312 (33.9%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H315 (36.3%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (36.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (35.1%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H340 (35.1%): May cause genetic defects [Danger Germ cell mutagenicity]",
+          "H360 (37.4%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H412 (24.6%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H301: Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H341: Suspected of causing genetic defects [Warning Germ cell mutagenicity]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P261, P264, P264+P265, P270, P271, P273, P280, P301+P316, P302+P352, P304+P340, P305+P351+P338, P317, P318, P319, P321, P330, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P203, P260, P264, P270, P280, P301+P316, P318, P319, P321, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:00.372Z"
+    },
+    {
+      "name": "Cyclophosphamide",
+      "cid": "2907",
+      "molecularFormula": "C7H15Cl2N2O2P",
+      "molecularWeight": 261.08,
+      "iupacName": "N,N-bis(2-chloroethyl)-2-oxo-1,3,2lambda5-oxazaphosphinan-2-amine",
+      "inchiKey": "CMSMOCZEIVJLDB-UHFFFAOYSA-N",
+      "synonyms": [
+        "cyclophosphamide",
+        "50-18-0",
+        "Cytoxan",
+        "Cyclophosphamid",
+        "Cyclophosphane",
+        "Clafen",
+        "Endoxan",
+        "Cyclophosphan",
+        "Cytophosphan",
+        "Procytox"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Corrosive",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Acute Toxic",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (63.2%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H302 (35.3%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H318 (36.8%): Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H340 (95.6%): May cause genetic defects [Danger Germ cell mutagenicity]",
+          "H350 (98.5%): May cause cancer [Danger Carcinogenicity]",
+          "H360 (94.1%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H372 (36.8%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H301: Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H340: May cause genetic defects [Danger Germ cell mutagenicity]",
+          "H350: May cause cancer [Danger Carcinogenicity]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H362: May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P264+P265, P270, P280, P301+P316, P301+P317, P305+P354+P338, P317, P318, P319, P321, P330, P405, and P501",
+          "P203, P260, P263, P264, P270, P280, P301+P316, P308+P316, P318, P319, P321, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:02.021Z"
+    },
+    {
+      "name": "Capsaicin",
+      "cid": "1548943",
+      "molecularFormula": "C18H27NO3",
+      "molecularWeight": 305.4,
+      "iupacName": "(E)-N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnon-6-enamide",
+      "inchiKey": "YKPUWZUDDOIDPM-SOFGYWHQSA-N",
+      "synonyms": [
+        "Capsaicin",
+        "404-86-4",
+        "Zostrix",
+        "CAPSAICINE",
+        "Qutenza",
+        "trans-Capsaicin",
+        "Styptysat",
+        "Axsain",
+        "Isodecenoic acid vanillylamide",
+        "Ausanil"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Corrosive",
+          "Acute Toxic",
+          "Irritant",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (21.9%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H302 (78%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (99.7%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H318 (97.2%): Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H301: Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H315: Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H317: May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H334: May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+        ],
+        "precautionaryStatements": [
+          "P264, P264+P265, P270, P280, P301+P316, P301+P317, P302+P352, P305+P354+P338, P317, P321, P330, P332+P317, P362+P364, P405, and P501",
+          "P233, P260, P261, P264, P264+P265, P270, P271, P272, P280, P284, P301+P316, P302+P352, P304+P340, P305+P351+P338, P319, P321, P330, P332+P317, P333+P317, P337+P317, P342+P316, P362+P364, P403, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:03.757Z"
+    },
+    {
+      "name": "Amitriptyline HCl",
+      "cid": "11065",
+      "molecularFormula": "C20H24ClN",
+      "molecularWeight": 313.9,
+      "iupacName": "N,N-dimethyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,11,13-hexaenylidene)propan-1-amine;hydrochloride",
+      "inchiKey": "KFYRPLNVJVHZGT-UHFFFAOYSA-N",
+      "synonyms": [
+        "Amitriptyline hydrochloride",
+        "549-18-8",
+        "Amitriptyline HCl",
+        "Syneudon",
+        "Etravil",
+        "Novoprotect",
+        "Amitid",
+        "Amitril",
+        "Saroten Retard",
+        "NIH 10794"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Corrosive",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (71.3%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H302 (27.9%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H318 (27.2%): Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H319 (35.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H361 (25.7%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H361d (13.2%): Suspected of damaging the unborn child [Warning Reproductive toxicity]",
+          "H362 (26.5%): May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H370 (40.4%): Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H400 (72.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (72.8%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P263, P264, P264+P265, P270, P273, P280, P301+P316, P301+P317, P305+P351+P338, P305+P354+P338, P308+P316, P317, P318, P321, P330, P337+P317, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:05.365Z"
+    },
+    {
+      "name": "Clonidine HCl",
+      "cid": "20179",
+      "molecularFormula": "C9H10Cl3N3",
+      "molecularWeight": 266.6,
+      "iupacName": "N-(2,6-dichlorophenyl)-4,5-dihydro-1H-imidazol-2-amine;hydrochloride",
+      "inchiKey": "ZNIFSRGNXRYGHF-UHFFFAOYSA-N",
+      "synonyms": [
+        "CLONIDINE HYDROCHLORIDE",
+        "4205-91-8",
+        "Clonidine HCl",
+        "Duraclon",
+        "Kapvay",
+        "ST-155",
+        "Onyda XR",
+        "Jenloga",
+        "NSC-756699",
+        "W76I6XXF06"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H330 (93.9%): Fatal if inhaled [Danger Acute toxicity, inhalation]"
+        ],
+        "precautionaryStatements": [
+          "P260, P264, P270, P271, P284, P301+P316, P304+P340, P316, P320, P321, P330, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:06.955Z"
+    },
+    {
+      "name": "Diphenhydramine HCl",
+      "cid": "8980",
+      "molecularFormula": "C17H22ClNO",
+      "molecularWeight": 291.8,
+      "iupacName": "2-benzhydryloxy-N,N-dimethylethanamine;hydrochloride",
+      "inchiKey": "PCHPORCSPXIHLZ-UHFFFAOYSA-N",
+      "synonyms": [
+        "DIPHENHYDRAMINE HYDROCHLORIDE",
+        "147-24-0",
+        "Diphenhydramine HCl",
+        "Allergival",
+        "Bendylate",
+        "Antitussive",
+        "Denydryl",
+        "Dibenil",
+        "Eldadryl",
+        "Fenylhist"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (99.1%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "Not Classified"
+        ],
+        "precautionaryStatements": [
+          "P264, P270, P301+P317, P330, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:09.764Z"
+    },
+    {
+      "name": "Sildenafil Citrate",
+      "cid": "135413523",
+      "molecularFormula": "C28H38N6O11S",
+      "molecularWeight": 666.7,
+      "iupacName": "5-[2-ethoxy-5-(4-methylpiperazin-1-yl)sulfonylphenyl]-1-methyl-3-propyl-6H-pyrazolo[4,5-d]pyrimidin-7-one;2-hydroxypropane-1,2,3-tricarboxylic acid",
+      "inchiKey": "DEIYFTQMQPDXOT-UHFFFAOYSA-N",
+      "synonyms": [
+        "Sildenafil citrate",
+        "171599-83-0",
+        "Revatio",
+        "VIAGRA",
+        "Caverta",
+        "LIQREV",
+        "Sildenafil (as citrate)",
+        "NSC-744009",
+        "NSC-758669",
+        "BW9B0ZE037"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (28.4%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (72.3%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (73%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H320 (20.6%): Causes eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (71.6%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H412 (21.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P270, P271, P273, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P319, P321, P330, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:11.336Z"
+    },
+    {
+      "name": "Tadalafil",
+      "cid": "110635",
+      "molecularFormula": "C22H19N3O4",
+      "molecularWeight": 389.4,
+      "iupacName": "(2R,8R)-2-(1,3-benzodioxol-5-yl)-6-methyl-3,6,17-triazatetracyclo[8.7.0.03,8.011,16]heptadeca-1(10),11,13,15-tetraene-4,7-dione",
+      "inchiKey": "WOXKDUGGOYFFRN-IIBYNOLFSA-N",
+      "synonyms": [
+        "Tadalafil",
+        "Cialis",
+        "171596-29-5",
+        "Ic351",
+        "ADCIRCA",
+        "IC 351",
+        "IC-351",
+        "Tadalafilo",
+        "Tadalafil mylan",
+        "Trans-tadalafil"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (54.8%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312 (53.8%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H315 (92.3%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (92.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H332 (53.8%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H335 (89.4%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P270, P271, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P317, P319, P321, P330, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:12.998Z"
+    },
+    {
+      "name": "Oxytocin",
+      "cid": "439302",
+      "molecularFormula": "C43H66N12O12S2",
+      "molecularWeight": 1007.2,
+      "iupacName": "(2S)-1-[(4R,7S,10S,13S,16S,19R)-19-amino-7-(2-amino-2-oxoethyl)-10-(3-amino-3-oxopropyl)-13-[(2S)-butan-2-yl]-16-[(4-hydroxyphenyl)methyl]-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carbonyl]-N-[(2S)-1-[(2-amino-2-oxoethyl)amino]-4-methyl-1-oxopentan-2-yl]pyrrolidine-2-carboxamide",
+      "inchiKey": "XNOPRXBHLZRZKH-DSZYJQQASA-N",
+      "synonyms": [
+        "OXYTOCIN",
+        "50-56-6",
+        "Pitocin",
+        "Endopituitrina",
+        "Ocytocin",
+        "Syntocinon",
+        "Oxytocinum",
+        "Orasthin",
+        "Oxitocina",
+        "Oxystin"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (10.2%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H361 (14.3%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P264, P270, P280, P301+P317, P318, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:14.689Z"
+    },
+    {
+      "name": "Methimazole",
+      "cid": "1349907",
+      "molecularFormula": "C4H6N2S",
+      "molecularWeight": 114.17,
+      "iupacName": "3-methyl-1H-imidazole-2-thione",
+      "inchiKey": "PMRYVIKBURPHAH-UHFFFAOYSA-N",
+      "synonyms": [
+        "methimazole",
+        "60-56-0",
+        "thiamazole",
+        "Tapazole",
+        "1-Methyl-1H-imidazole-2-thiol",
+        "1-Methylimidazole-2-thiol",
+        "Mercazolyl",
+        "Methimazol",
+        "Mercazole",
+        "Thiamazol"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H302 (17.5%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H317 (84.2%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H361 (80.7%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P261, P264, P270, P272, P280, P301+P317, P302+P352, P318, P321, P330, P333+P317, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:16.293Z"
+    },
+    {
+      "name": "Propylthiouracil",
+      "cid": "657298",
+      "molecularFormula": "C7H10N2OS",
+      "molecularWeight": 170.23,
+      "iupacName": "6-propyl-2-sulfanylidene-1H-pyrimidin-4-one",
+      "inchiKey": "KNAHARQHSZJURB-UHFFFAOYSA-N",
+      "synonyms": [
+        "propylthiouracil",
+        "51-52-5",
+        "6-Propyl-2-thiouracil",
+        "Propacil",
+        "Prothyran",
+        "Procasil",
+        "Propycil",
+        "Prothiurone",
+        "Thiuragyl",
+        "Prothiucil"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard",
+          "Health Hazard",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H351 (93.8%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H350: May cause cancer [Danger Carcinogenicity]",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H351: Suspected of causing cancer [Warning Carcinogenicity]",
+          "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P264, P270, P280, P301+P317, P318, P330, P405, and P501",
+          "P203, P280, P318, P405, and P501",
+          "P203, P260, P264, P270, P280, P301+P317, P318, P319, P330, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:18.947Z"
+    },
+    {
+      "name": "Ketoconazole",
+      "cid": "47576",
+      "molecularFormula": "C26H28Cl2N4O4",
+      "molecularWeight": 531.4,
+      "iupacName": "1-[4-[4-[[(2S,4R)-2-(2,4-dichlorophenyl)-2-(imidazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]piperazin-1-yl]ethanone",
+      "inchiKey": "XMAYWYJOQHXEEK-ZEQKJWHPSA-N",
+      "synonyms": [
+        "ketoconazole",
+        "Nizoral",
+        "65277-42-1",
+        "Panfungol",
+        "Ketoderm",
+        "Fungarest",
+        "Fungoral",
+        "Ketoisdin",
+        "Ketozole",
+        "Extina"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Acute Toxic",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Acute Toxic",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Acute Toxic",
+          "Health Hazard",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301: Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H360F ***: May damage fertility [Danger Reproductive toxicity]",
+          "H373 **: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H301 (98.5%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H360 (78.1%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H360F (20.4%): May damage fertility [Danger Reproductive toxicity]",
+          "H373 (97.8%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H400 (97.8%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (98.5%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H301: Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H360F: May damage fertility [Danger Reproductive toxicity]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H301: Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P264, P270, P273, P280, P301+P316, P318, P319, P321, P330, P391, P405, and P501",
+          "P203, P260, P264, P270, P273, P280, P301+P316, P318, P319, P321, P330, P391, P405, and P501",
+          "P203, P260, P264, P270, P273, P280, P301+P316, P318, P319, P321, P330, P391, P405, and P501",
+          "P203, P260, P264, P270, P273, P280, P301+P316, P318, P319, P321, P330, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:20.631Z"
+    },
+    {
+      "name": "Phenytoin Sodium",
+      "cid": "657302",
+      "molecularFormula": "C15H11N2NaO2",
+      "molecularWeight": 274.25,
+      "iupacName": "sodium 5,5-diphenylimidazolidin-3-ide-2,4-dione",
+      "inchiKey": "FJPYVLNWWICYDW-UHFFFAOYSA-M",
+      "synonyms": [
+        "PHENYTOIN SODIUM",
+        "630-93-3",
+        "5,5-Diphenylhydantoin sodium salt",
+        "Diphenylhydantoin Sodium",
+        "Tacosal",
+        "Antisacer",
+        "Phenytoin sodium salt",
+        "Diphenylan sodium",
+        "PHENYTEK",
+        "Prompt Phenytoin Sodium"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (18.6%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H302 (81.4%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H317 (82.5%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H351 (77.8%): Suspected of causing cancer [Warning Carcinogenicity]",
+          "H360 (15.5%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H361 (83%): Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H372 (18%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P260, P261, P264, P270, P272, P280, P301+P316, P301+P317, P302+P352, P318, P319, P321, P330, P333+P317, P362+P364, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:22.394Z"
+    },
+    {
+      "name": "Carbamazepine",
+      "cid": "2554",
+      "molecularFormula": "C15H12N2O",
+      "molecularWeight": 236.27,
+      "iupacName": "benzo[b][1]benzazepine-11-carboxamide",
+      "inchiKey": "FFGPTBGBLSHEPO-UHFFFAOYSA-N",
+      "synonyms": [
+        "carbamazepine",
+        "298-46-4",
+        "Tegretol",
+        "Carbamazepen",
+        "5H-Dibenz[b,f]azepine-5-carboxamide",
+        "Finlepsin",
+        "Tegretal",
+        "Biston",
+        "Equetro",
+        "Telesmin"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (96.2%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H317 (94.3%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H334 (87.6%): May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]"
+        ],
+        "precautionaryStatements": [
+          "P233, P260, P261, P264, P270, P271, P272, P280, P284, P301+P317, P302+P352, P304+P340, P321, P330, P333+P317, P342+P316, P362+P364, P403, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:23.974Z"
+    },
+    {
+      "name": "Valproic Acid",
+      "cid": "3121",
+      "molecularFormula": "C8H16O2",
+      "molecularWeight": 144.21,
+      "iupacName": "2-propylpentanoic acid",
+      "inchiKey": "NIJJYAXOARWZEE-UHFFFAOYSA-N",
+      "synonyms": [
+        "VALPROIC ACID",
+        "2-Propylpentanoic acid",
+        "99-66-1",
+        "2-Propylvaleric acid",
+        "Dipropylacetic acid",
+        "Depakene",
+        "Depakine",
+        "Mylproin",
+        "Di-n-propylacetic acid",
+        "Propylvaleric acid"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Corrosive",
+          "Irritant",
+          "Health Hazard",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H315 (92.9%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H318 (12.7%): Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H319 (80.2%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (31.7%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H360 (64.3%): May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H336: May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H362: May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P203, P261, P264, P264+P265, P270, P271, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P305+P354+P338, P317, P318, P319, P321, P330, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P203, P260, P261, P263, P264, P270, P271, P280, P301+P317, P304+P340, P308+P316, P318, P319, P321, P330, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:25.714Z"
+    },
+    {
+      "name": "Nicotine",
+      "cid": "89594",
+      "molecularFormula": "C10H14N2",
+      "molecularWeight": 162.23,
+      "iupacName": "3-[(2S)-1-methylpyrrolidin-2-yl]pyridine",
+      "inchiKey": "SNICXCGAKADSCV-JTQLQIEISA-N",
+      "synonyms": [
+        "nicotine",
+        "L-Nicotine",
+        "54-11-5",
+        "(-)-Nicotine",
+        "(S)-Nicotine",
+        "(S)-3-(1-methylpyrrolidin-2-yl)pyridine",
+        "(S)-(-)-Nicotine",
+        "Habitrol",
+        "Nicotrol",
+        "3-[(2S)-1-methylpyrrolidin-2-yl]pyridine"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Acute Toxic",
+          "Environmental Hazard",
+          "Corrosive",
+          "Acute Toxic",
+          "Irritant",
+          "Environmental Hazard",
+          "Acute Toxic",
+          "Corrosive",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Acute Toxic",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H310: Fatal in contact with skin [Danger Acute toxicity, dermal]",
+          "H330: Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H300 (68%): Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H301 (32%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H310 (99.3%): Fatal in contact with skin [Danger Acute toxicity, dermal]",
+          "H315 (17.6%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H318 (17.6%): Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H330 (66.4%): Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H400 (10.8%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H411 (100%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H330: Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H310: Fatal in contact with skin [Danger Acute toxicity, dermal]",
+          "H315: Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H341: Suspected of causing genetic defects [Warning Germ cell mutagenicity]",
+          "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H401: Toxic to aquatic life [Hazardous to the aquatic environment, acute hazard]",
+          "H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H310: Fatal in contact with skin [Danger Acute toxicity, dermal]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H300: Fatal if swallowed [Danger Acute toxicity, oral]",
+          "H310: Fatal in contact with skin [Danger Acute toxicity, dermal]",
+          "H330: Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P260, P262, P264, P270, P271, P273, P280, P284, P301+P316, P302+P352, P304+P340, P316, P320, P321, P330, P361+P364, P391, P403+P233, P405, and P501",
+          "P260, P262, P264, P264+P265, P270, P271, P273, P280, P284, P301+P316, P302+P352, P304+P340, P305+P354+P338, P316, P317, P320, P321, P330, P332+P317, P361+P364, P362+P364, P391, P403+P233, P405, and P501",
+          "P260, P271, P284, P304+P340, P316, P320, P403+P233, P405, and P501",
+          "P203, P260, P262, P264, P264+P265, P270, P273, P280, P301+P316, P302+P352, P305+P354+P338, P308+P316, P316, P317, P318, P321, P330, P332+P317, P361+P364, P362+P364, P391, P405, and P501",
+          "P203, P260, P261, P262, P264, P270, P271, P280, P301+P316, P302+P352, P304+P340, P308+P316, P316, P318, P319, P321, P330, P361+P364, P403+P233, P405, and P501",
+          "P260, P262, P264, P270, P271, P273, P280, P284, P301+P316, P302+P352, P304+P340, P316, P320, P321, P330, P361+P364, P391, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:28.626Z"
+    },
+    {
+      "name": "Naltrexone HCl",
+      "cid": "5485201",
+      "molecularFormula": "C20H24ClNO4",
+      "molecularWeight": 377.9,
+      "iupacName": "(4R,4aS,7aR,12bS)-3-(cyclopropylmethyl)-4a,9-dihydroxy-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one;hydrochloride",
+      "inchiKey": "RHBRMCOKKKZVRY-ITLPAZOVSA-N",
+      "synonyms": [
+        "Naltrexone hydrochloride",
+        "16676-29-2",
+        "Naltrexone Hcl",
+        "Depade",
+        "naltrexone.HCl",
+        "En 1639A",
+        "EN-1639A",
+        "N-Cyclopropylmethyl-noroxymorphone hydrochloride",
+        "Z6375YW9SF",
+        "EN-1639A (AS HYDROCHLORIDE)"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H302 (97.6%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312 (21.7%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H317 (34.9%): May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H332 (22.9%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H334 (21.7%): May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]",
+          "H341 (12%): Suspected of causing genetic defects [Warning Germ cell mutagenicity]"
+        ],
+        "precautionaryStatements": [
+          "P203, P233, P260, P261, P264, P270, P271, P272, P280, P284, P301+P317, P302+P352, P304+P340, P317, P318, P321, P330, P333+P317, P342+P316, P362+P364, P403, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:30.268Z"
+    },
+    {
+      "name": "Cromolyn Sodium",
+      "cid": "27503",
+      "molecularFormula": "C23H14Na2O11",
+      "molecularWeight": 512.3,
+      "iupacName": "disodium;5-[3-(2-carboxylato-4-oxochromen-5-yl)oxy-2-hydroxypropoxy]-4-oxochromene-2-carboxylate",
+      "inchiKey": "VLARUOGDXDTHEH-UHFFFAOYSA-L",
+      "synonyms": [
+        "CROMOLYN SODIUM",
+        "15826-37-6",
+        "Sodium cromoglycate",
+        "Disodium cromoglycate",
+        "sodium cromoglicate",
+        "Sodium cromolyn",
+        "Gastrocrom",
+        "Cromolyn disodium salt",
+        "Cromoptic",
+        "Crolom"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H315 (96.9%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (96.9%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (95.9%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:31.875Z"
+    },
+    {
+      "name": "Glycerin",
+      "cid": "753",
+      "molecularFormula": "C3H8O3",
+      "molecularWeight": 92.09,
+      "iupacName": "propane-1,2,3-triol",
+      "inchiKey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+      "synonyms": [
+        "glycerol",
+        "glycerin",
+        "56-81-5",
+        "Glycerine",
+        "1,2,3-Propanetriol",
+        "Glycyl alcohol",
+        "Trihydroxypropane",
+        "Glyceritol",
+        "Osmoglyn",
+        "1,2,3-trihydroxypropane"
+      ],
+      "ghs": {
+        "pictograms": [],
+        "signalWord": null,
+        "hazardStatements": [
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 5522 of 5617 companies (only 1.7% companies provided GHS information). For more detailed information, please visit  ECHA C&L website."
+        ],
+        "precautionaryStatements": []
+      },
+      "fetchedAt": "2026-02-17T22:35:35.196Z"
+    },
+    {
+      "name": "Propylene Glycol",
+      "cid": "1030",
+      "molecularFormula": "C3H8O2",
+      "molecularWeight": 76.09,
+      "iupacName": "propane-1,2-diol",
+      "inchiKey": "DNIAPMSPPWPWGF-UHFFFAOYSA-N",
+      "synonyms": [
+        "propylene glycol",
+        "1,2-propanediol",
+        "propane-1,2-diol",
+        "57-55-6",
+        "1,2-Propylene glycol",
+        "1,2-dihydroxypropane",
+        "2-Hydroxypropanol",
+        "Isopropylene glycol",
+        "Methylethyl glycol",
+        "Methylethylene glycol"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 6762 of 6899 companies (only 2% companies provided GHS information). For more detailed information, please visit  ECHA C&L website.",
+          "H336: May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        ],
+        "precautionaryStatements": [
+          "P260, P261, P264, P270, P271, P304+P340, P308+P316, P319, P321, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:36.765Z"
+    },
+    {
+      "name": "Cetyl Alcohol",
+      "cid": "2682",
+      "molecularFormula": "C16H34O",
+      "molecularWeight": 242.44,
+      "iupacName": "hexadecan-1-ol",
+      "inchiKey": "BXWNKGSJHAJOGX-UHFFFAOYSA-N",
+      "synonyms": [
+        "1-Hexadecanol",
+        "cetyl alcohol",
+        "Hexadecan-1-ol",
+        "36653-82-4",
+        "Palmityl alcohol",
+        "Cetanol",
+        "Hexadecyl alcohol",
+        "N-Hexadecanol",
+        "Cetaffine",
+        "Cetylol"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H319 (21.9%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 55 of 55 companies. For more detailed information, please visit  ECHA C&L website.",
+          "Not Classified"
+        ],
+        "precautionaryStatements": [
+          "P264+P265, P280, P305+P351+P338, and P337+P317"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:40.092Z"
+    },
+    {
+      "name": "Stearic Acid",
+      "cid": "5281",
+      "molecularFormula": "C18H36O2",
+      "molecularWeight": 284.5,
+      "iupacName": "octadecanoic acid",
+      "inchiKey": "QIQXTHQIDYTFRH-UHFFFAOYSA-N",
+      "synonyms": [
+        "stearic acid",
+        "Octadecanoic acid",
+        "57-11-4",
+        "n-Octadecanoic acid",
+        "Stearophanic acid",
+        "Stearex Beads",
+        "Cetylacetic acid",
+        "1-Heptadecanecarboxylic acid",
+        "Pearl stearic",
+        "Industrene R"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Acute Toxic",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H315 (25.1%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]"
+        ],
+        "precautionaryStatements": [
+          "P264, P280, P302+P352, P321, P332+P317, and P362+P364",
+          "P264, P270, P273, P301+P316, P321, P330, P391, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:41.671Z"
+    },
+    {
+      "name": "Lactose Monohydrate",
+      "cid": "104938",
+      "molecularFormula": "C12H24O12",
+      "molecularWeight": 360.31,
+      "iupacName": "(2R,3R,4S,5R,6S)-2-(hydroxymethyl)-6-[(2R,3S,4R,5R,6S)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxane-3,4,5-triol;hydrate",
+      "inchiKey": "WSVLPVUVIUVCRA-KPKNDVKVSA-N",
+      "synonyms": [
+        "5989-81-1",
+        "alpha-Lactose monohydrate",
+        "DTXSID1052828",
+        "alpha-D-Glucopyranose, 4-O-beta-D-galactopyranosyl-, monohydrate",
+        "RefChem:1076517",
+        "DTXCID90820517",
+        "611-913-4",
+        "Lactose monohydrate",
+        "alpha-D-Lactose monohydrate",
+        "D-Lactose monohydrate"
+      ],
+      "ghs": {
+        "pictograms": [],
+        "signalWord": null,
+        "hazardStatements": [
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 78 of 78 companies. For more detailed information, please visit  ECHA C&L website.",
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 63 of 63 companies. For more detailed information, please visit  ECHA C&L website.",
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 43 of 43 companies. For more detailed information, please visit  ECHA C&L website."
+        ],
+        "precautionaryStatements": []
+      },
+      "fetchedAt": "2026-02-17T22:35:45.544Z"
+    },
+    {
+      "name": "Magnesium Stearate",
+      "cid": "11177",
+      "molecularFormula": "C36H70MgO4",
+      "molecularWeight": 591.2,
+      "iupacName": "magnesium bis(octadecanoate)",
+      "inchiKey": "HQKMJHAJHXVSDF-UHFFFAOYSA-L",
+      "synonyms": [
+        "MAGNESIUM STEARATE",
+        "557-04-0",
+        "Magnesium distearate",
+        "Magnesium octadecanoate",
+        "Dibasic magnesium stearate",
+        "Octadecanoic acid, magnesium salt",
+        "Synpro 90",
+        "Petrac MG 20NF",
+        "Stearic acid, magnesium salt",
+        "Magnesium stearate g"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H315 (22.4%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (25.9%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (22.7%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H413 (18.4%): May cause long lasting harmful effects to aquatic life [Hazardous to the aquatic environment, long-term hazard]",
+          "H316: Causes mild skin irritation [Warning Skin corrosion/irritation]",
+          "H320: Causes eye irritation [Warning Serious eye damage/eye irritation]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P271, P273, P280, P302+P352, P304+P340, P305+P351+P338, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P264+P265, P305+P351+P338, P332+P317, and P337+P317"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:48.227Z"
+    },
+    {
+      "name": "Citric Acid",
+      "cid": "311",
+      "molecularFormula": "C6H8O7",
+      "molecularWeight": 192.12,
+      "iupacName": "2-hydroxypropane-1,2,3-tricarboxylic acid",
+      "inchiKey": "KRKNYBCHXYNGOX-UHFFFAOYSA-N",
+      "synonyms": [
+        "citric acid",
+        "77-92-9",
+        "2-hydroxypropane-1,2,3-tricarboxylic acid",
+        "Citric acid, anhydrous",
+        "Aciletten",
+        "Anhydrous citric acid",
+        "Citro",
+        "Citretten",
+        "Citric acid anhydrous",
+        "Chemfill"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Irritant",
+          "Irritant",
+          "Irritant"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H319 (84.7%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (23%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H315: Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264+P265, P271, P280, P304+P340, P305+P351+P338, P319, P337+P317, P403+P233, P405, and P501",
+          "P261, P264+P265, P271, P280, P304+P340, P305+P351+P338, P319, P337+P317, P403+P233, P405, and P501",
+          "P264+P265, P280, P305+P351+P338, and P337+P317",
+          "P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:50.511Z"
+    },
+    {
+      "name": "Sodium Bicarbonate",
+      "cid": "516892",
+      "molecularFormula": "CHNaO3",
+      "molecularWeight": 84.007,
+      "iupacName": "sodium hydrogen carbonate",
+      "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+      "synonyms": [
+        "SODIUM BICARBONATE",
+        "144-55-8",
+        "Sodium hydrogen carbonate",
+        "Baking soda",
+        "Sodium hydrogencarbonate",
+        "Sodium acid carbonate",
+        "Bicarbonate of soda",
+        "Carbonic acid monosodium salt",
+        "Monosodium carbonate",
+        "Meylon"
+      ],
+      "ghs": {
+        "pictograms": [],
+        "signalWord": null,
+        "hazardStatements": [
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 6796 of 6838 companies (only 0.6% companies provided GHS information). For more detailed information, please visit  ECHA C&L website.",
+          "Not Classified"
+        ],
+        "precautionaryStatements": []
+      },
+      "fetchedAt": "2026-02-17T22:35:52.109Z"
+    },
+    {
+      "name": "Methylparaben",
+      "cid": "7456",
+      "molecularFormula": "C8H8O3",
+      "molecularWeight": 152.15,
+      "iupacName": "methyl 4-hydroxybenzoate",
+      "inchiKey": "LXCFILQKKLGQFO-UHFFFAOYSA-N",
+      "synonyms": [
+        "Methyl 4-hydroxybenzoate",
+        "METHYLPARABEN",
+        "99-76-3",
+        "Methyl paraben",
+        "Methyl p-hydroxybenzoate",
+        "Nipagin",
+        "Tegosept M",
+        "Moldex",
+        "Methyl parahydroxybenzoate",
+        "Maseptol"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Irritant",
+          "Environmental Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H315 (53.8%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (53.7%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (50.5%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H336: May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+          "H402: Harmful to aquatic life [Hazardous to the aquatic environment, acute hazard]",
+          "H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "Not Classified",
+          "H402: Harmful to aquatic life [Hazardous to the aquatic environment, acute hazard]",
+          "H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P261, P271, P273, P304+P340, P319, P391, P403+P233, P405, and P501",
+          "P273, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:53.765Z"
+    },
+    {
+      "name": "Propylparaben",
+      "cid": "7175",
+      "molecularFormula": "C10H12O3",
+      "molecularWeight": 180.2,
+      "iupacName": "propyl 4-hydroxybenzoate",
+      "inchiKey": "QELSKZZBTMNZEB-UHFFFAOYSA-N",
+      "synonyms": [
+        "PROPYLPARABEN",
+        "94-13-3",
+        "Propyl paraben",
+        "Nipasol",
+        "Propyl p-hydroxybenzoate",
+        "Nipazol",
+        "Propagin",
+        "Propyl parahydroxybenzoate",
+        "Tegosept P",
+        "4-Hydroxybenzoic acid propyl ester"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H315 (63.6%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (66.7%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (63.4%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H317: May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H401: Toxic to aquatic life [Hazardous to the aquatic environment, acute hazard]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P260, P261, P264, P270, P272, P280, P301+P317, P302+P352, P308+P316, P319, P321, P330, P333+P317, P362+P364, P405, and P501",
+          "P273, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:56.367Z"
+    },
+    {
+      "name": "Benzalkonium Chloride",
+      "cid": "3014024",
+      "molecularFormula": "C22H40ClN",
+      "molecularWeight": 354,
+      "iupacName": "benzyl-dimethyl-tridecylazanium chloride",
+      "inchiKey": "XIWFQDBQMCDYJT-UHFFFAOYSA-M",
+      "synonyms": [
+        "pentonium",
+        "Alpagelle",
+        "Zephiran",
+        "Benzalkonii chloridum",
+        "Cloruro de benzalconio",
+        "Chlorure de benzalkonium",
+        "NSC-758480",
+        "Fundamentals",
+        "Greenberry",
+        "Prosanitize"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Corrosive",
+          "Acute Toxic",
+          "Irritant",
+          "Environmental Hazard",
+          "Corrosive",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Corrosive",
+          "Acute Toxic",
+          "Irritant",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Corrosive",
+          "Acute Toxic"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H301 (24.5%): Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H302 (69.4%): Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H311 (17.8%): Toxic in contact with skin [Danger Acute toxicity, dermal]",
+          "H312 (71%): Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H314 (99.4%): Causes severe skin burns and eye damage [Danger Skin corrosion/irritation]",
+          "H318 (55.7%): Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H330 (11.5%): Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H332 (44.6%): Harmful if inhaled [Warning Acute toxicity, inhalation]",
+          "H400 (54.8%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410 (10.8%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H411 (15.6%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "Not Classified",
+          "H301: Toxic if swallowed [Danger Acute toxicity, oral]",
+          "H304: May be fatal if swallowed and enters airways [Danger Aspiration hazard]",
+          "H311: Toxic in contact with skin [Danger Acute toxicity, dermal]",
+          "H314: Causes severe skin burns and eye damage [Danger Skin corrosion/irritation]",
+          "H317: May cause an allergic skin reaction [Warning Sensitization, Skin]",
+          "H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H330: Fatal if inhaled [Danger Acute toxicity, inhalation]",
+          "H334: May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]",
+          "H371: May cause damage to organs [Warning Specific target organ toxicity, single exposure]",
+          "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "Not Classified",
+          "H302: Harmful if swallowed [Warning Acute toxicity, oral]",
+          "H312: Harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H314: Causes severe skin burns and eye damage [Danger Skin corrosion/irritation]",
+          "H330: Fatal if inhaled [Danger Acute toxicity, inhalation]"
+        ],
+        "precautionaryStatements": [
+          "P260, P261, P262, P264, P264+P265, P270, P271, P273, P280, P284, P301+P316, P301+P317, P301+P330+P331, P302+P352, P302+P361+P354, P304+P340, P305+P354+P338, P316, P317, P320, P321, P330, P361+P364, P362+P364, P363, P391, P403+P233, P405, and P501",
+          "P233, P260, P261, P262, P264, P264+P265, P270, P271, P272, P273, P280, P284, P301+P316, P301+P330+P331, P302+P352, P302+P361+P354, P304+P340, P305+P354+P338, P308+P316, P316, P317, P320, P321, P330, P331, P333+P317, P342+P316, P361+P364, P362+P364, P363, P391, P403, P403+P233, P405, and P501",
+          "P260, P264, P270, P271, P280, P284, P301+P317, P301+P330+P331, P302+P352, P302+P361+P354, P304+P340, P305+P354+P338, P316, P317, P320, P321, P330, P362+P364, P363, P403+P233, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:35:58.140Z"
+    },
+    {
+      "name": "Purified Water",
+      "cid": "962",
+      "molecularFormula": "H2O",
+      "molecularWeight": 18.015,
+      "iupacName": "oxidane",
+      "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+      "synonyms": [
+        "water",
+        "7732-18-5",
+        "Distilled water",
+        "Dihydrogen oxide",
+        "Purified water",
+        "Sterile water",
+        "Water vapor",
+        "Water, deionized",
+        "aqua",
+        "oxidane"
+      ],
+      "ghs": {
+        "pictograms": [],
+        "signalWord": null,
+        "hazardStatements": [
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 1866 of 1876 companies (only 0.5% companies provided GHS information). For more detailed information, please visit  ECHA C&L website.",
+          "Not Classified",
+          "Reported as not meeting GHS hazard criteria by 1 of 1 companies. For more detailed information, please visit  ECHA C&L website."
+        ],
+        "precautionaryStatements": []
+      },
+      "fetchedAt": "2026-02-17T22:36:00.083Z"
+    },
+    {
+      "name": "Ethanol (Ethyl Alcohol)",
+      "cid": "702",
+      "molecularFormula": "C2H6O",
+      "molecularWeight": 46.07,
+      "iupacName": "ethanol",
+      "inchiKey": "LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+      "synonyms": [
+        "ethanol",
+        "ethyl alcohol",
+        "alcohol",
+        "64-17-5",
+        "grain alcohol",
+        "Methylcarbinol",
+        "Ethyl hydroxide",
+        "Ethyl hydrate",
+        "Tecsol",
+        "Algrain"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Flammable",
+          "Flammable",
+          "Irritant",
+          "Irritant",
+          "Irritant",
+          "Irritant",
+          "Irritant",
+          "Flammable",
+          "Irritant",
+          "Health Hazard",
+          "Flammable",
+          "Irritant",
+          "Health Hazard",
+          "Flammable",
+          "Irritant",
+          "Health Hazard",
+          "Flammable",
+          "Irritant",
+          "Flammable",
+          "Irritant"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H225 (> 99.9%): Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H319 (37.7%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H412 (100%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H412 (100%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H412 (100%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H412 (100%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H320: Causes eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H336: May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+          "H350: May cause cancer [Danger Carcinogenicity]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H320: Causes eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H340: May cause genetic defects [Danger Germ cell mutagenicity]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H336: May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+          "H340: May cause genetic defects [Danger Germ cell mutagenicity]",
+          "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]"
+        ],
+        "precautionaryStatements": [
+          "P210, P233, P240, P241, P242, P243, P280, P303+P361+P353, P370+P378, P403+P235, and P501",
+          "P210, P233, P240, P241, P242, P243, P264+P265, P280, P303+P361+P353, P305+P351+P338, P337+P317, P370+P378, P403+P235, and P501",
+          "P264+P265, P273, P280, P305+P351+P338, P337+P317, and P501",
+          "P264, P264+P265, P273, P280, P302+P352, P305+P351+P338, P321, P332+P317, P337+P317, P362+P364, and P501",
+          "P264, P264+P265, P273, P280, P302+P352, P305+P351+P338, P321, P332+P317, P337+P317, P362+P364, and P501",
+          "P264, P264+P265, P273, P280, P302+P352, P305+P351+P338, P321, P332+P317, P337+P317, P362+P364, and P501",
+          "P203, P210, P233, P240, P241, P242, P243, P260, P261, P264, P264+P265, P270, P271, P280, P303+P361+P353, P304+P340, P305+P351+P338, P318, P319, P337+P317, P370+P378, P403+P233, P403+P235, P405, and P501",
+          "P203, P210, P233, P240, P241, P242, P243, P260, P261, P264, P264+P265, P270, P271, P280, P303+P361+P353, P304+P340, P305+P351+P338, P318, P319, P337+P317, P370+P378, P403+P233, P403+P235, P405, and P501",
+          "P203, P210, P233, P240, P241, P242, P243, P260, P261, P264, P264+P265, P270, P271, P280, P303+P361+P353, P304+P340, P305+P351+P338, P318, P319, P337+P317, P370+P378, P403+P233, P403+P235, P405, and P501",
+          "P210, P233, P240, P241, P242, P243, P264+P265, P280, P303+P361+P353, P305+P351+P338, P337+P317, P370+P378, P403+P235, and P501",
+          "P210, P233, P240, P241, P242, P243, P264+P265, P280, P303+P361+P353, P305+P351+P338, P337+P317, P370+P378, P403+P235, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:36:02.652Z"
+    },
+    {
+      "name": "Isopropyl Alcohol",
+      "cid": "3776",
+      "molecularFormula": "C3H8O",
+      "molecularWeight": 60.1,
+      "iupacName": "propan-2-ol",
+      "inchiKey": "KFZMGEQAYNKOFK-UHFFFAOYSA-N",
+      "synonyms": [
+        "Isopropyl alcohol",
+        "isopropanol",
+        "2-Propanol",
+        "Propan-2-ol",
+        "67-63-0",
+        "2-Hydroxypropane",
+        "Dimethylcarbinol",
+        "sec-Propyl alcohol",
+        "Alkolave",
+        "Avantine"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Flammable",
+          "Irritant",
+          "Corrosive",
+          "Health Hazard",
+          "Environmental Hazard",
+          "Flammable",
+          "Irritant",
+          "Flammable",
+          "Irritant",
+          "Health Hazard",
+          "Flammable",
+          "Irritant",
+          "Health Hazard",
+          "Flammable",
+          "Irritant"
+        ],
+        "signalWord": "Danger",
+        "hazardStatements": [
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H336: May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+          "H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]",
+          "H373 **: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]",
+          "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",
+          "H225 (> 99.9%): Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H319 (> 99.9%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H336 (98.7%): May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]",
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H303: May be harmful if swallowed [Warning Acute toxicity, oral]",
+          "H305: May be harmful if swallowed and enters airways [Warning Aspiration hazard]",
+          "H313: May be harmful in contact with skin [Warning Acute toxicity, dermal]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]",
+          "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]",
+          "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",
+          "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]",
+          "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H336: May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]"
+        ],
+        "precautionaryStatements": [
+          "P210, P233, P240, P241, P242, P243, P261, P264+P265, P271, P280, P303+P361+P353, P304+P340, P305+P351+P338, P319, P337+P317, P370+P378, P403+P233, P403+P235, P405, and P501",
+          "P260, P264+P265, P273, P280, P305+P354+P338, P317, P319, P391, and P501",
+          "P210, P233, P240, P241, P242, P243, P261, P264+P265, P271, P280, P303+P361+P353, P304+P340, P305+P351+P338, P319, P337+P317, P370+P378, P403+P233, P403+P235, P405, and P501",
+          "P203, P210, P233, P240, P241, P242, P243, P260, P261, P264, P264+P265, P270, P271, P280, P303+P361+P353, P304+P340, P305+P351+P338, P308+P316, P318, P319, P321, P337+P317, P370+P378, P403+P233, P403+P235, P405, and P501",
+          "P203, P210, P233, P240, P241, P242, P243, P260, P261, P264, P264+P265, P270, P271, P280, P301+P316, P301+P317, P302+P317, P303+P361+P353, P304+P340, P305+P351+P338, P308+P316, P318, P319, P321, P331, P337+P317, P370+P378, P403+P233, P403+P235, P405, and P501",
+          "P210, P233, P240, P241, P242, P243, P261, P264+P265, P271, P280, P303+P361+P353, P304+P340, P305+P351+P338, P319, P337+P317, P370+P378, P403+P233, P403+P235, P405, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:36:04.333Z"
+    },
+    {
+      "name": "Dimethyl Sulfoxide",
+      "cid": "679",
+      "molecularFormula": "C2H6OS",
+      "molecularWeight": 78.14,
+      "iupacName": "methylsulfinylmethane",
+      "inchiKey": "IAZDPXIOMUYVGZ-UHFFFAOYSA-N",
+      "synonyms": [
+        "dimethyl sulfoxide",
+        "67-68-5",
+        "DMSO",
+        "Methylsulfinylmethane",
+        "Methyl sulfoxide",
+        "Dimethyl sulphoxide",
+        "Dimethylsulfoxide",
+        "Demasorb",
+        "Domoso",
+        "sulfinylbismethane"
+      ],
+      "ghs": {
+        "pictograms": [
+          "Irritant",
+          "Health Hazard"
+        ],
+        "signalWord": "Warning",
+        "hazardStatements": [
+          "H315 (28.4%): Causes skin irritation [Warning Skin corrosion/irritation]",
+          "H319 (33.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]",
+          "H335 (13.8%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]",
+          "H227: Combustible liquid [Warning Flammable liquids]",
+          "H371: May cause damage to organs [Warning Specific target organ toxicity, single exposure]",
+          "H227: Combustible liquid [Warning Flammable liquids]"
+        ],
+        "precautionaryStatements": [
+          "P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501",
+          "P210, P260, P264, P270, P280, P308+P316, P370+P378, P403, P405, and P501",
+          "P210, P280, P370+P378, P403, and P501"
+        ]
+      },
+      "fetchedAt": "2026-02-17T22:36:07.007Z"
+    }
+  ],
+  "errors": []
+}

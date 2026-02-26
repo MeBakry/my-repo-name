@@ -1,0 +1,4057 @@
+{
+  "_metadata": {
+    "source": "Health Canada Drug Product Database (DPD) API",
+    "url": "https://health-products.canada.ca/api/drug/",
+    "fetchedDate": "2026-02-17",
+    "method": "Automated API fetch: active ingredient search → drug product details → route/form",
+    "totalSearched": 74,
+    "totalFound": 71,
+    "totalNotFound": 3,
+    "totalErrors": 0
+  },
+  "drugProducts": [
+    {
+      "ingredientName": "Progesterone",
+      "totalMatches": 83,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 441,
+          "din": "00030848",
+          "brandName": "DEPO-PROVERA",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 7480,
+          "din": "00729973",
+          "brandName": "PROVERA 10MG TABLETS",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2026-02-10",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 13037,
+          "din": "00708917",
+          "brandName": "PROVERA 2.5MG TABLETS",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2026-02-10",
+          "strength": "2.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 675,
+          "din": "00030945",
+          "brandName": "PROVERA 100MG TABLETS",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 13592,
+          "din": "02010933",
+          "brandName": "PROVERA PAK 10MG TABLETS",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Testosterone",
+      "totalMatches": 52,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 1275,
+          "din": "00029246",
+          "brandName": "DELATESTRYL",
+          "className": "Human",
+          "companyName": "BAUSCH HEALTH, CANADA INC.",
+          "lastUpdateDate": "2026-01-09",
+          "strength": "200",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1398,
+          "din": "00030783",
+          "brandName": "DEPO-TESTOSTERONE INJ 100MG/ML",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2026-01-29",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 15665,
+          "din": "02027046",
+          "brandName": "MALOGEN AQUEOUS 100 SUS 100MG/ML",
+          "className": "Human",
+          "companyName": "GERMIPHENE CORPORATION",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 11224,
+          "din": "00739944",
+          "brandName": "PMS-TESTOSTERONE ENANTHATE INJ 200MG/ML USP",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 9450,
+          "din": "00716936",
+          "brandName": "TESTOSTERONE ENANTHATE INJ 200MG/ML",
+          "className": "Human",
+          "companyName": "TARO PHARMACEUTICALS INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Estradiol",
+      "totalMatches": 345,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 1922,
+          "din": "00297143",
+          "brandName": "LOESTRIN 1.5/30",
+          "className": "Human",
+          "companyName": "ALLERGAN INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "30",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 3633,
+          "din": "00469327",
+          "brandName": "DEMULEN 30 (21 DAY PACK)",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "30",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 2158,
+          "din": "00340766",
+          "brandName": "OVRAL 28TAB",
+          "className": "Human",
+          "companyName": "WYETH LTD.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".05",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2255,
+          "din": "00315966",
+          "brandName": "MINESTRIN 1/20",
+          "className": "Human",
+          "companyName": "ALLERGAN INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 8386,
+          "din": "00756849",
+          "brandName": "ESTRADERM-25",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Estrone",
+      "totalMatches": 5,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 125,
+          "din": "00006211",
+          "brandName": "OESTRILIN CONES VAGINAUX",
+          "className": "Human",
+          "companyName": "DESBERGERS LTÉE, DIVISION OF TECHNILAB INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 7645,
+          "din": "00727369",
+          "brandName": "ESTRAGYN VAGINAL CREAM",
+          "className": "Human",
+          "companyName": "SEARCHLIGHT PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.1",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 653,
+          "din": "00006149",
+          "brandName": "OESTRILIN CREME VAGINALE 1MG",
+          "className": "Human",
+          "companyName": "DESBERGERS LTÉE, DIVISION OF TECHNILAB INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 53066,
+          "din": "02233755",
+          "brandName": "FOLLICULINUM",
+          "className": "Human",
+          "companyName": "SEROYAL INTERNATIONAL INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "3",
+          "strengthUnit": "X"
+        },
+        {
+          "drugCode": 53033,
+          "din": "02235035",
+          "brandName": "CIMICIFUGA PLEX",
+          "className": "Human",
+          "companyName": "SEROYAL INTERNATIONAL INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "12",
+          "strengthUnit": "X"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Finasteride",
+      "totalMatches": 36,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 13370,
+          "din": "02010909",
+          "brandName": "PROSCAR",
+          "className": "Human",
+          "companyName": "ORGANON CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 61606,
+          "din": "02238213",
+          "brandName": "PROPECIA",
+          "className": "Human",
+          "companyName": "ORGANON CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 85695,
+          "din": "02371820",
+          "brandName": "RAN-FINASTERIDE",
+          "className": "Human",
+          "companyName": "RANBAXY PHARMACEUTICALS CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 89058,
+          "din": "02405814",
+          "brandName": "AURO-FINASTERIDE",
+          "className": "Human",
+          "companyName": "AURO PHARMA INC",
+          "lastUpdateDate": "2026-01-16",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 80561,
+          "din": "02320169",
+          "brandName": "PMS-FINASTERIDE",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Dutasteride",
+      "totalMatches": 21,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 72107,
+          "din": "02247813",
+          "brandName": "AVODART",
+          "className": "Human",
+          "companyName": "GLAXOSMITHKLINE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 91345,
+          "din": "02429012",
+          "brandName": "DUTASTERIDE",
+          "className": "Human",
+          "companyName": "SIVEM PHARMACEUTICALS ULC",
+          "lastUpdateDate": "2025-10-28",
+          "strength": "0.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 91234,
+          "din": "02427842",
+          "brandName": "DUTASTERIDE CAPSULES",
+          "className": "Human",
+          "companyName": "STRIDES PHARMA CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 91226,
+          "din": "02427753",
+          "brandName": "RIVA-DUTASTERIDE",
+          "className": "Human",
+          "companyName": "LABORATOIRE RIVA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 91869,
+          "din": "02434369",
+          "brandName": "SANDOZ DUTASTERIDE",
+          "className": "Human",
+          "companyName": "SANDOZ CANADA INCORPORATED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.5",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Spironolactone",
+      "totalMatches": 18,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 6892,
+          "din": "00657182",
+          "brandName": "TEVA-SPIRONOLACTONE/HCTZ",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5858,
+          "din": "00613231",
+          "brandName": "TEVA-SPIRONOLACTONE/HCTZ",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1403,
+          "din": "00028606",
+          "brandName": "ALDACTONE 25 MG",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-11-12",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5646,
+          "din": "00613215",
+          "brandName": "TEVA-SPIRONOLACTONE",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2026-02-02",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1404,
+          "din": "00180408",
+          "brandName": "ALDACTAZIDE 25",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Metronidazole",
+      "totalMatches": 34,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 7425,
+          "din": "00649074",
+          "brandName": "METRONIDAZOLE INJECTION USP",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-09-16",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 10871,
+          "din": "00870420",
+          "brandName": "METRONIDAZOLE INJECTION, USP",
+          "className": "Human",
+          "companyName": "BAXTER CORPORATION",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 9910,
+          "din": "00783137",
+          "brandName": "PMS-METRONIDAZOLE",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-11-10",
+          "strength": "500",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5722,
+          "din": "00584339",
+          "brandName": "PMS-METRONIDAZOLE 250MG/TAB",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-10-06",
+          "strength": "250",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 12997,
+          "din": "01926861",
+          "brandName": "FLAGYL",
+          "className": "Human",
+          "companyName": "SANOFI-AVENTIS CANADA INC",
+          "lastUpdateDate": "2025-10-27",
+          "strength": "10",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Nifedipine",
+      "totalMatches": 64,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 9260,
+          "din": "00782750",
+          "brandName": "NIFEDIPINE-10 CAP 10MG",
+          "className": "Human",
+          "companyName": "PRO DOC LIMITEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 8376,
+          "din": "00755907",
+          "brandName": "NIFEDIPINE",
+          "className": "Human",
+          "companyName": "AA PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4668,
+          "din": "00557633",
+          "brandName": "ADALAT CAP 10MG",
+          "className": "Human",
+          "companyName": "MILES CANADA INC. - PHARMACEUTICAL DIVISION",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6842,
+          "din": "00613258",
+          "brandName": "ADALAT CAP 5MG",
+          "className": "Human",
+          "companyName": "MILES CANADA INC. - PHARMACEUTICAL DIVISION",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 9938,
+          "din": "00725110",
+          "brandName": "NIFEDIPINE",
+          "className": "Human",
+          "companyName": "AA PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Minoxidil",
+      "totalMatches": 18,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 7084,
+          "din": "00708925",
+          "brandName": "MEN'S ROGAINE",
+          "className": "Human",
+          "companyName": "KENVUE CANADA INC.",
+          "lastUpdateDate": "2026-01-23",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4010,
+          "din": "00514500",
+          "brandName": "LONITEN 10MG",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4011,
+          "din": "00514497",
+          "brandName": "LONITEN 2.5MG",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 17755,
+          "din": "02146835",
+          "brandName": "MINOXIGAINE TOPICAL SOLUTION - 2%",
+          "className": "Human",
+          "companyName": "ALTIMED PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 17974,
+          "din": "02065800",
+          "brandName": "GEN-MINOXIDIL LIQ 2%",
+          "className": "Human",
+          "companyName": "GENPHARM ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Tretinoin",
+      "totalMatches": 62,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 5471,
+          "din": "00587966",
+          "brandName": "STIEVA-A GEL",
+          "className": "Human",
+          "companyName": "GLAXOSMITHKLINE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.025",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 11151,
+          "din": "00870021",
+          "brandName": "RETIN-A",
+          "className": "Human",
+          "companyName": "BAUSCH HEALTH, CANADA INC.",
+          "lastUpdateDate": "2025-12-24",
+          "strength": "0.1",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 6619,
+          "din": "00657204",
+          "brandName": "STIEVA-A",
+          "className": "Human",
+          "companyName": "GLAXOSMITHKLINE INC",
+          "lastUpdateDate": "2025-06-13",
+          "strength": "0.01",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 5470,
+          "din": "00587958",
+          "brandName": "STIEVAA GEL 0.01%",
+          "className": "Human",
+          "companyName": "STIEFEL CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".01",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 4055,
+          "din": "00518174",
+          "brandName": "STIE VAA SOL 0.05%",
+          "className": "Human",
+          "companyName": "STIEFEL CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".05",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Tacrolimus",
+      "totalMatches": 35,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 44210,
+          "din": "02175983",
+          "brandName": "PROGRAF",
+          "className": "Human",
+          "companyName": "ASTELLAS PHARMA CANADA INC",
+          "lastUpdateDate": "2026-01-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 44212,
+          "din": "02176009",
+          "brandName": "PROGRAF",
+          "className": "Human",
+          "companyName": "ASTELLAS PHARMA CANADA INC",
+          "lastUpdateDate": "2026-01-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 44211,
+          "din": "02175991",
+          "brandName": "PROGRAF",
+          "className": "Human",
+          "companyName": "ASTELLAS PHARMA CANADA INC",
+          "lastUpdateDate": "2026-01-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 68109,
+          "din": "02244148",
+          "brandName": "PROTOPIC",
+          "className": "Human",
+          "companyName": "LEO PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.1",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 67015,
+          "din": "02243144",
+          "brandName": "PROGRAF",
+          "className": "Human",
+          "companyName": "ASTELLAS PHARMA CANADA INC",
+          "lastUpdateDate": "2026-01-22",
+          "strength": "0.5",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Cyclosporine",
+      "totalMatches": 29,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 9024,
+          "din": "00755605",
+          "brandName": "SANDIMMUNE SOFT GELATIN CAP 100MG",
+          "className": "Human",
+          "companyName": "SANDOZ CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5789,
+          "din": "00593249",
+          "brandName": "SANDIMMUNE ORAL SOL 100MG/ML",
+          "className": "Human",
+          "companyName": "SANDOZ CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5790,
+          "din": "00593257",
+          "brandName": "SANDIMMUNE I.V.",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 9023,
+          "din": "00755591",
+          "brandName": "SANDIMMUNE SOFT GELATINE CAP 25MG",
+          "className": "Human",
+          "companyName": "SANDOZ CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 17801,
+          "din": "02150697",
+          "brandName": "NEORAL",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Warfarin",
+      "totalMatches": 60,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 13536,
+          "din": "01918338",
+          "brandName": "COUMADIN TAB 2MG",
+          "className": "Human",
+          "companyName": "BRISTOL-MYERS SQUIBB CANADA",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 12818,
+          "din": "01918311",
+          "brandName": "COUMADIN TAB 1MG",
+          "className": "Human",
+          "companyName": "BRISTOL-MYERS SQUIBB CANADA",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 12819,
+          "din": "01918354",
+          "brandName": "COUMADIN TAB 5MG",
+          "className": "Human",
+          "companyName": "BRISTOL-MYERS SQUIBB CANADA",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 13419,
+          "din": "01918346",
+          "brandName": "COUMADIN TAB 2.5MG",
+          "className": "Human",
+          "companyName": "BRISTOL-MYERS SQUIBB CANADA",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 163,
+          "din": "00010308",
+          "brandName": "WARFILONE TAB 5MG",
+          "className": "Human",
+          "companyName": "MERCK FROSST CANADA & CIE, MERCK FROSST CANADA & CO.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Colchicine",
+      "totalMatches": 27,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 1931,
+          "din": "00287873",
+          "brandName": "SANDOZ COLCHICINE",
+          "className": "Human",
+          "companyName": "SANDOZ CANADA INCORPORATED",
+          "lastUpdateDate": "2025-08-25",
+          "strength": "0.6",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6196,
+          "din": "00621374",
+          "brandName": "COLCHICINE TAB 1MG",
+          "className": "Human",
+          "companyName": "ODAN LABORATORIES LTD",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5069,
+          "din": "00572349",
+          "brandName": "COLCHICINE TAB 0.6MG",
+          "className": "Human",
+          "companyName": "ODAN LABORATORIES LTD",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.6",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1934,
+          "din": "00206032",
+          "brandName": "COLCHICINE",
+          "className": "Human",
+          "companyName": "EURO-PHARM INTERNATIONAL CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 113,
+          "din": "00000396",
+          "brandName": "COLCHICINE TAB 0.6MG",
+          "className": "Human",
+          "companyName": "ABBOTT LABORATORIES, LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.6",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Medroxyprogesterone Acetate",
+      "totalMatches": 47,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 441,
+          "din": "00030848",
+          "brandName": "DEPO-PROVERA",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 7480,
+          "din": "00729973",
+          "brandName": "PROVERA 10MG TABLETS",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2026-02-10",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 13037,
+          "din": "00708917",
+          "brandName": "PROVERA 2.5MG TABLETS",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2026-02-10",
+          "strength": "2.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 675,
+          "din": "00030945",
+          "brandName": "PROVERA 100MG TABLETS",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 13592,
+          "din": "02010933",
+          "brandName": "PROVERA PAK 10MG TABLETS",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Norethindrone",
+      "totalMatches": 59,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 2255,
+          "din": "00315966",
+          "brandName": "MINESTRIN 1/20",
+          "className": "Human",
+          "companyName": "ALLERGAN INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6796,
+          "din": "00620947",
+          "brandName": "SYNPHASIC 21 TABLETS",
+          "className": "Human",
+          "companyName": "SYNTEX INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5103,
+          "din": "00372846",
+          "brandName": "ORTHO 1/35 TABLETS (21 DAY)",
+          "className": "Human",
+          "companyName": "JANSSEN INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5104,
+          "din": "00317047",
+          "brandName": "ORTHO 0.5/35 TABLETS (21 DAY)",
+          "className": "Human",
+          "companyName": "JANSSEN INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5106,
+          "din": "00340731",
+          "brandName": "ORTHO 0.5/35 TABLETS (28 DAY)",
+          "className": "Human",
+          "companyName": "JANSSEN INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.5",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Fluconazole",
+      "totalMatches": 73,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 10952,
+          "din": "00891800",
+          "brandName": "DIFLUCAN",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-07-10",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 17789,
+          "din": "02141442",
+          "brandName": "DIFLUCAN ONE",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "150",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 18010,
+          "din": "02024152",
+          "brandName": "DIFLUCAN",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 10953,
+          "din": "00891819",
+          "brandName": "DIFLUCAN",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-07-10",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 10954,
+          "din": "00891835",
+          "brandName": "DIFLUCAN",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Misoprostol",
+      "totalMatches": 25,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 9529,
+          "din": "00813966",
+          "brandName": "CYTOTEC 100 MCG",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 6786,
+          "din": "00632600",
+          "brandName": "CYTOTEC 200 MCG",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 13636,
+          "din": "01917056",
+          "brandName": "ARTHROTEC 50",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 64343,
+          "din": "02240754",
+          "brandName": "NOVO-MISOPROSTOL TABLETS",
+          "className": "Human",
+          "companyName": "NOVOPHARM LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 67965,
+          "din": "02244022",
+          "brandName": "MISOPROSTOL",
+          "className": "Human",
+          "companyName": "AA PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MCG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Hydrocortisone",
+      "totalMatches": 159,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 1251,
+          "din": "00229679",
+          "brandName": "ENDOMETHASONE IVORY",
+          "className": "Human",
+          "companyName": "SEPTODONT",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "G"
+        },
+        {
+          "drugCode": 3893,
+          "din": "00477680",
+          "brandName": "CORTICREME 0.1%",
+          "className": "Human",
+          "companyName": "ROUGIER PHARMA DIVISION OF RATIOPHARM INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1238,
+          "din": "00228087",
+          "brandName": "HYDROCORTISONE CRM 1%",
+          "className": "Human",
+          "companyName": "STANLEY PHARMACEUTICALS, A DIVISION OF VITA HEALTH PRODUCTS INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 7030,
+          "din": "00666246",
+          "brandName": "CORTISPORIN",
+          "className": "Human",
+          "companyName": "GLAXOSMITHKLINE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4813,
+          "din": "00551953",
+          "brandName": "HYDROCORTISONE CREAM 0.5%",
+          "className": "Human",
+          "companyName": "D.C. LABS LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "500",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Levothyroxine Sodium",
+      "totalMatches": 143,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 177,
+          "din": "00012297",
+          "brandName": "ELTROXIN TAB 100MCG",
+          "className": "Human",
+          "companyName": "GLAXO CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2041,
+          "din": "00295582",
+          "brandName": "ELTROXIN 150 TAB",
+          "className": "Human",
+          "companyName": "GLAXO CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "150",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 176,
+          "din": "00012289",
+          "brandName": "ELTROXIN TAB 50MCG",
+          "className": "Human",
+          "companyName": "GLAXO CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.05",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 185,
+          "din": "00012300",
+          "brandName": "ELTROXIN TAB 200MCG",
+          "className": "Human",
+          "companyName": "GLAXO CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".2",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 14358,
+          "din": "01953613",
+          "brandName": "PMS-LEVOTHYROXINE SODIUM TAB 75MCG",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "75",
+          "strengthUnit": "MCG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Liothyronine Sodium",
+      "totalMatches": 12,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 15908,
+          "din": "01919466",
+          "brandName": "CYTOMEL",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 15909,
+          "din": "01919458",
+          "brandName": "CYTOMEL",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 103881,
+          "din": "02550008",
+          "brandName": "AURO-LIOTHYRONINE",
+          "className": "Human",
+          "companyName": "AURO PHARMA INC",
+          "lastUpdateDate": "2025-09-25",
+          "strength": "25",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 106427,
+          "din": "02561298",
+          "brandName": "ZDS-LIOTHYRONINE",
+          "className": "Human",
+          "companyName": "ZYDUS LIFESCIENCES LIMITED",
+          "lastUpdateDate": "2026-01-20",
+          "strength": "5",
+          "strengthUnit": "MCG"
+        },
+        {
+          "drugCode": 106428,
+          "din": "02561301",
+          "brandName": "ZDS-LIOTHYRONINE",
+          "className": "Human",
+          "companyName": "ZYDUS LIFESCIENCES LIMITED",
+          "lastUpdateDate": "2026-01-20",
+          "strength": "25",
+          "strengthUnit": "MCG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Metformin HCl",
+      "totalMatches": 235,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 15115,
+          "din": "02045710",
+          "brandName": "TEVA-METFORMIN",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "500",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 17104,
+          "din": "02099233",
+          "brandName": "GLUCOPHAGE",
+          "className": "Human",
+          "companyName": "SANOFI-AVENTIS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "500",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 19231,
+          "din": "02167786",
+          "brandName": "APO-METFORMIN",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "500",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 18835,
+          "din": "02162849",
+          "brandName": "GLUCOPHAGE",
+          "className": "Human",
+          "companyName": "SANOFI-AVENTIS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "850",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 18416,
+          "din": "02162822",
+          "brandName": "METFORMIN",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "500",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Gabapentin",
+      "totalMatches": 161,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 16210,
+          "din": "02084287",
+          "brandName": "NEURONTIN",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-06-16",
+          "strength": "400",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 15945,
+          "din": "02084279",
+          "brandName": "NEURONTIN",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-06-16",
+          "strength": "300",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 15944,
+          "din": "02084260",
+          "brandName": "NEURONTIN",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-06-16",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 62103,
+          "din": "02238672",
+          "brandName": "GABAPENTIN",
+          "className": "Human",
+          "companyName": "OMNI LABORATORIES DIVISION, WARNER-LAMBERT CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "300",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 63200,
+          "din": "02239718",
+          "brandName": "NEURONTIN",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-06-16",
+          "strength": "800",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Ketoprofen",
+      "totalMatches": 47,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 8625,
+          "din": "00761680",
+          "brandName": "RHODIS EC",
+          "className": "Human",
+          "companyName": "SANOFI-AVENTIS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 8624,
+          "din": "00761672",
+          "brandName": "RHODIS EC",
+          "className": "Human",
+          "companyName": "SANOFI-AVENTIS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 8623,
+          "din": "00761664",
+          "brandName": "RHODIS CAP 50MG",
+          "className": "Human",
+          "companyName": "RHODIAPHARM INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 11318,
+          "din": "01913050",
+          "brandName": "ORUVAIL 150",
+          "className": "Human",
+          "companyName": "AVENTIS PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "150",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 19427,
+          "din": "02183099",
+          "brandName": "RHOVAIL 150",
+          "className": "Human",
+          "companyName": "RHODIAPHARM INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "150",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Lidocaine",
+      "totalMatches": 361,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 7441,
+          "din": "00697753",
+          "brandName": "MEDI-QUIK FIRST AID SPRAY",
+          "className": "Human",
+          "companyName": "THE MENTHOLATUM COMPANY OF CANADA LTD",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 1831,
+          "din": "00284114",
+          "brandName": "XYLOCAINE TOPICAL 5%",
+          "className": "Human",
+          "companyName": "ASTRAZENECA CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5536,
+          "din": "00295531",
+          "brandName": "PREATTACHED LTA KIT",
+          "className": "Human",
+          "companyName": "HOSPIRA HEALTHCARE ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "40",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2935,
+          "din": "00385484",
+          "brandName": "XYLOCAINE JELLY 2%",
+          "className": "Human",
+          "companyName": "ASPEN PHARMACARE CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 212,
+          "din": "00001694",
+          "brandName": "XYLOCAINE JELLY 2%",
+          "className": "Human",
+          "companyName": "ASPEN PHARMACARE CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Lidocaine HCl",
+      "totalMatches": 361,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 7441,
+          "din": "00697753",
+          "brandName": "MEDI-QUIK FIRST AID SPRAY",
+          "className": "Human",
+          "companyName": "THE MENTHOLATUM COMPANY OF CANADA LTD",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 1831,
+          "din": "00284114",
+          "brandName": "XYLOCAINE TOPICAL 5%",
+          "className": "Human",
+          "companyName": "ASTRAZENECA CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5536,
+          "din": "00295531",
+          "brandName": "PREATTACHED LTA KIT",
+          "className": "Human",
+          "companyName": "HOSPIRA HEALTHCARE ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "40",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2935,
+          "din": "00385484",
+          "brandName": "XYLOCAINE JELLY 2%",
+          "className": "Human",
+          "companyName": "ASPEN PHARMACARE CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 212,
+          "din": "00001694",
+          "brandName": "XYLOCAINE JELLY 2%",
+          "className": "Human",
+          "companyName": "ASPEN PHARMACARE CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Prilocaine",
+      "totalMatches": 8,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 4202,
+          "din": "00519227",
+          "brandName": "DENTSPLY 4% PRILOCAINE AND EPINEPHRINE INJECTION 1:200,000",
+          "className": "Human",
+          "companyName": "DENTSPLY CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "40",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2828,
+          "din": "00393746",
+          "brandName": "PRILOCAINE HCL 4% EPINEPH 1:200000INJ",
+          "className": "Human",
+          "companyName": "NOVOCOL PHARMACEUTICAL OF CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "40",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4203,
+          "din": "00519235",
+          "brandName": "DENTSPLY 4% PRILOCAINE HYDROCHLORIDE DENTAL INJECTION",
+          "className": "Human",
+          "companyName": "DENTSPLY CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "40",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 11440,
+          "din": "00886858",
+          "brandName": "EMLA CREAM",
+          "className": "Human",
+          "companyName": "ASPEN PHARMACARE CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2.5",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 16733,
+          "din": "02057794",
+          "brandName": "EMLA PATCH",
+          "className": "Human",
+          "companyName": "ASPEN PHARMACARE CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2.5",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Tetracaine",
+      "totalMatches": 38,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 19528,
+          "din": "02009080",
+          "brandName": "SPINAL ANAESTHESIA TRAY",
+          "className": "Human",
+          "companyName": "BAXTER CORPORATION",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 16688,
+          "din": "02028840",
+          "brandName": "CETACAINE SPRAY",
+          "className": "Human",
+          "companyName": "CETYLITE INDUSTRIES INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 9507,
+          "din": "00763667",
+          "brandName": "SUPRACAINE AEM 754MG/65GM",
+          "className": "Human",
+          "companyName": "HOECHST CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "754",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 16190,
+          "din": "02038374",
+          "brandName": "PANOCAINE GEL",
+          "className": "Human",
+          "companyName": "HOECHST ROUSSEL CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 12629,
+          "din": "01975471",
+          "brandName": "SPINAL ANESTHESIA TRAY",
+          "className": "Human",
+          "companyName": "BAXTER CORPORATION",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Benzocaine",
+      "totalMatches": 128,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 1618,
+          "din": "00096075",
+          "brandName": "COLD SORE LOTION",
+          "className": "Human",
+          "companyName": "D.C. LABS LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "G"
+        },
+        {
+          "drugCode": 6839,
+          "din": "00687502",
+          "brandName": "ORAJEL MOUTH-AID",
+          "className": "Human",
+          "companyName": "DEL PHARMACEUTICALS INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4340,
+          "din": "00540900",
+          "brandName": "HEMORRO-DOL ONT",
+          "className": "Human",
+          "companyName": "PRODUITS FRANCAIS LABS INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 1962,
+          "din": "00305979",
+          "brandName": "BALMINIL LOZ",
+          "className": "Human",
+          "companyName": "ROUGIER PHARMA DIVISION OF RATIOPHARM INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4344,
+          "din": "00540943",
+          "brandName": "OTI CAL",
+          "className": "Human",
+          "companyName": "PRODUITS FRANCAIS LABS INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "15.3",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Mupirocin",
+      "totalMatches": 5,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 15207,
+          "din": "01916947",
+          "brandName": "BACTROBAN",
+          "className": "Human",
+          "companyName": "GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 60064,
+          "din": "02236776",
+          "brandName": "BACTROBAN NASAL OINTMENT",
+          "className": "Human",
+          "companyName": "GLAXOSMITHKLINE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 63239,
+          "din": "02239757",
+          "brandName": "BACTROBAN CREAM",
+          "className": "Human",
+          "companyName": "GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 76560,
+          "din": "02279983",
+          "brandName": "TARO-MUPIROCIN",
+          "className": "Human",
+          "companyName": "TARO PHARMACEUTICALS INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 97385,
+          "din": "02483459",
+          "brandName": "STRAMUCIN",
+          "className": "Human",
+          "companyName": "GLENMARK PHARMACEUTICALS CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Nystatin",
+      "totalMatches": 59,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 3333,
+          "din": "00449792",
+          "brandName": "NILSTAT TOP CRM 100000UNIT/GM",
+          "className": "Human",
+          "companyName": "LEDERLE CYANAMID CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100000",
+          "strengthUnit": "UNIT"
+        },
+        {
+          "drugCode": 1838,
+          "din": "00288209",
+          "brandName": "NILSTAT 25000UNITS/G",
+          "className": "Human",
+          "companyName": "TECHNILAB PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25000",
+          "strengthUnit": "UNIT"
+        },
+        {
+          "drugCode": 1839,
+          "din": "00288217",
+          "brandName": "NADOSTINE CRM 100000IU/GM",
+          "className": "Human",
+          "companyName": "LAB NADEAU LTÉE, DIVISION OF TECHNILAB INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100000",
+          "strengthUnit": "UNIT"
+        },
+        {
+          "drugCode": 1815,
+          "din": "00282219",
+          "brandName": "NADOSTINE SUS 100000IU/ML",
+          "className": "Human",
+          "companyName": "LAB NADEAU LTÉE, DIVISION OF TECHNILAB INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100000",
+          "strengthUnit": "UNIT"
+        },
+        {
+          "drugCode": 1437,
+          "din": "00245267",
+          "brandName": "KENACOMB ONT",
+          "className": "Human",
+          "companyName": "SQUIBB CANADA INC., DIVISION OF BRISTOL-MYERS SQUIBB CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100000",
+          "strengthUnit": "UNIT"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Clotrimazole",
+      "totalMatches": 68,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 4284,
+          "din": "00516813",
+          "brandName": "MYCLO CRM 50MG",
+          "className": "Human",
+          "companyName": "BOEHRINGER INGELHEIM (CANADA) LTD LTEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4286,
+          "din": "00516848",
+          "brandName": "MYCLO TAB 100MG",
+          "className": "Human",
+          "companyName": "BOEHRINGER INGELHEIM (CANADA) LTD LTEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 9927,
+          "din": "00812374",
+          "brandName": "CLOTRIMADERM VAGINAL 3",
+          "className": "Human",
+          "companyName": "TARO PHARMACEUTICALS INC",
+          "lastUpdateDate": "2025-07-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 4283,
+          "din": "00516805",
+          "brandName": "MYCLO CRM 10MG",
+          "className": "Human",
+          "companyName": "BOEHRINGER INGELHEIM (CANADA) LTD LTEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 9926,
+          "din": "00812366",
+          "brandName": "CLOTRIMADERM VAGINAL 6",
+          "className": "Human",
+          "companyName": "TARO PHARMACEUTICALS INC",
+          "lastUpdateDate": "2025-07-22",
+          "strength": "1",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Miconazole Nitrate",
+      "totalMatches": 29,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 16611,
+          "din": "02126257",
+          "brandName": "MONISTAT 7 DUAL-PAK",
+          "className": "Human",
+          "companyName": "INSIGHT PHARMACEUTICALS, LLC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 16610,
+          "din": "02126249",
+          "brandName": "MONISTAT 3 DUAL-PAK",
+          "className": "Human",
+          "companyName": "INSIGHT PHARMACEUTICALS, LLC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "400",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 16873,
+          "din": "02084295",
+          "brandName": "MONISTAT 7 SUP VAG 100MG",
+          "className": "Human",
+          "companyName": "MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 16609,
+          "din": "02085852",
+          "brandName": "MICATIN MICONAZOLE NITRATE CREAM 2% USP",
+          "className": "Human",
+          "companyName": "WELLSPRING PHARMACEUTICAL CANADA CORP",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 17832,
+          "din": "02126567",
+          "brandName": "MONISTAT DERM CREAM",
+          "className": "Human",
+          "companyName": "INSIGHT PHARMACEUTICALS, LLC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Baclofen",
+      "totalMatches": 59,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 3182,
+          "din": "00455881",
+          "brandName": "LIORESAL TAB 10MG",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6244,
+          "din": "00636576",
+          "brandName": "LIORESAL D.S. TAB 20MG",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 17246,
+          "din": "02139332",
+          "brandName": "APO-BACLOFEN",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 15548,
+          "din": "02063743",
+          "brandName": "PMS-BACLOFEN",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 17247,
+          "din": "02139391",
+          "brandName": "APO-BACLOFEN",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Cyclobenzaprine",
+      "totalMatches": 23,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 8605,
+          "din": "00782742",
+          "brandName": "FLEXERIL   -(10MG)",
+          "className": "Human",
+          "companyName": "JANSSEN INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 18806,
+          "din": "02177145",
+          "brandName": "APO-CYCLOBENZAPRINE",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 19471,
+          "din": "02174618",
+          "brandName": "ALTI-CYCLOBENZAPRINE - TAB 10MG",
+          "className": "Human",
+          "companyName": "ALTIMED PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 19827,
+          "din": "02212048",
+          "brandName": "PMS-CYCLOBENZAPRINE - TAB 10MG",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-12-16",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 18760,
+          "din": "02171848",
+          "brandName": "CYCLOBENZAPRINE",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Omeprazole",
+      "totalMatches": 111,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 19716,
+          "din": "02190915",
+          "brandName": "LOSEC",
+          "className": "Human",
+          "companyName": "CHEPLAPHARM ARZNEIMITTEL GMBH",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 9823,
+          "din": "00846503",
+          "brandName": "LOSEC",
+          "className": "Human",
+          "companyName": "CHEPLAPHARM ARZNEIMITTEL GMBH",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 46618,
+          "din": "02016788",
+          "brandName": "LOSEC CAPSULES 40MG",
+          "className": "Human",
+          "companyName": "ASTRAZENECA CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "40",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 43827,
+          "din": "02119579",
+          "brandName": "LOSEC CAPSULES 10MG",
+          "className": "Human",
+          "companyName": "ASTRAZENECA CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 50000,
+          "din": "02230737",
+          "brandName": "LOSEC 10 MG",
+          "className": "Human",
+          "companyName": "ASTRAZENECA CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Lansoprazole",
+      "totalMatches": 53,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 18515,
+          "din": "02165503",
+          "brandName": "PREVACID",
+          "className": "Human",
+          "companyName": "TAKEDA PHARMACEUTICALS AMERICA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "15",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 18516,
+          "din": "02165511",
+          "brandName": "PREVACID",
+          "className": "Human",
+          "companyName": "TAKEDA PHARMACEUTICALS AMERICA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "30",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 61948,
+          "din": "02238525",
+          "brandName": "HP-PAC",
+          "className": "Human",
+          "companyName": "TAKEDA PHARMACEUTICALS AMERICA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "30",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 85266,
+          "din": "02367823",
+          "brandName": "AVA-LANSOPRAZOLE",
+          "className": "Human",
+          "companyName": "AVANSTRA INC",
+          "lastUpdateDate": "2026-01-15",
+          "strength": "30",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 83905,
+          "din": "02353849",
+          "brandName": "MYLAN-LANSOPRAZOLE",
+          "className": "Human",
+          "companyName": "MYLAN PHARMACEUTICALS ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "30",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Prednisone",
+      "totalMatches": 27,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 5826,
+          "din": "00598194",
+          "brandName": "APO PREDNISONE TAB 1MG USP",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-04-24",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5729,
+          "din": "00610623",
+          "brandName": "ALTI-PREDNISONE TAB 5MG",
+          "className": "Human",
+          "companyName": "ALTIMED PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 507,
+          "din": "00021695",
+          "brandName": "TEVA-PREDNISONE",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1286,
+          "din": "00232378",
+          "brandName": "TEVA-PREDNISONE",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1528,
+          "din": "00252417",
+          "brandName": "DELTASONE 50MG",
+          "className": "Human",
+          "companyName": "PHARMACIA & UPJOHN INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Prednisolone",
+      "totalMatches": 102,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 1971,
+          "din": "00307246",
+          "brandName": "BLEPHAMIDE S.O.P.",
+          "className": "Human",
+          "companyName": "ALLERGAN INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 1132,
+          "din": "00030678",
+          "brandName": "SOLU-MEDROL",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-07-22",
+          "strength": "500",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 500,
+          "din": "00021679",
+          "brandName": "NOVO-PREDNISOLONE 5MG",
+          "className": "Human",
+          "companyName": "NOVOPHARM LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1397,
+          "din": "00030988",
+          "brandName": "MEDROL",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-07-23",
+          "strength": "4",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1134,
+          "din": "00030759",
+          "brandName": "DEPO-MEDROL",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-07-25",
+          "strength": "40",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Dexamethasone",
+      "totalMatches": 119,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 4591,
+          "din": "00042579",
+          "brandName": "MAXIDEX",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.1",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 1251,
+          "din": "00229679",
+          "brandName": "ENDOMETHASONE IVORY",
+          "className": "Human",
+          "companyName": "SEPTODONT",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1899,
+          "din": "00285471",
+          "brandName": "DEXASONE 0.75MG",
+          "className": "Human",
+          "companyName": "VALEANT CANADA LP / VALEANT CANADA S.E.C.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.75",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6364,
+          "din": "00627763",
+          "brandName": "ODAN-DEXAMETHASONE",
+          "className": "Human",
+          "companyName": "ODAN LABORATORIES LTD",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.1",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 2423,
+          "din": "00358177",
+          "brandName": "MAXITROL",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.1",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Betamethasone",
+      "totalMatches": 120,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 9929,
+          "din": "00804541",
+          "brandName": "PREVEX B",
+          "className": "Human",
+          "companyName": "GLAXOSMITHKLINE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.1",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 824,
+          "din": "00011932",
+          "brandName": "BETNOVATE 1/2 LOT 0.05%",
+          "className": "Human",
+          "companyName": "GLAXO CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".05",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 2071,
+          "din": "00323071",
+          "brandName": "DIPROSONE",
+          "className": "Human",
+          "companyName": "ORGANON CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.05",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 5525,
+          "din": "00335347",
+          "brandName": "BEBEN GEL 0.025%",
+          "className": "Human",
+          "companyName": "PARKE-DAVIS DIVISION, WARNER-LAMBERT CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.025",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 1147,
+          "din": "00027944",
+          "brandName": "VALISONE",
+          "className": "Human",
+          "companyName": "BAUSCH HEALTH, CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.1",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Triamcinolone Acetonide",
+      "totalMatches": 48,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 9280,
+          "din": "00716987",
+          "brandName": "TRIADERM ONT 0.1%",
+          "className": "Human",
+          "companyName": "TARO PHARMACEUTICALS INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.1",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 1467,
+          "din": "00014648",
+          "brandName": "ARISTOCORT C CRM 0.5%",
+          "className": "Human",
+          "companyName": "LEDERLE CYANAMID CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1437,
+          "din": "00245267",
+          "brandName": "KENACOMB ONT",
+          "className": "Human",
+          "companyName": "SQUIBB CANADA INC., DIVISION OF BRISTOL-MYERS SQUIBB CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1468,
+          "din": "00014621",
+          "brandName": "ARISTOCORT R CRM 0.1%",
+          "className": "Human",
+          "companyName": "LEDERLE CYANAMID CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 3282,
+          "din": "00464554",
+          "brandName": "MECOMB CRM 0.1%",
+          "className": "Human",
+          "companyName": "MEDIC LABORATORY LTÉE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Clobetasol Propionate",
+      "totalMatches": 40,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 3742,
+          "din": "00479012",
+          "brandName": "DERMOVATE SCALP APPLICATION .05%",
+          "className": "Human",
+          "companyName": "GLAXO CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".05",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 2520,
+          "din": "00359726",
+          "brandName": "DERMOVATE ONT 0.05%",
+          "className": "Human",
+          "companyName": "GLAXO CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".05",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 14381,
+          "din": "02024187",
+          "brandName": "MYLAN-CLOBETASOL CREAM",
+          "className": "Human",
+          "companyName": "MYLAN PHARMACEUTICALS ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.05",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 13621,
+          "din": "00881678",
+          "brandName": "ALTI-CLOBETASOL PROPIONATE ONT 0.05%",
+          "className": "Human",
+          "companyName": "ALTIMED PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".05",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 2519,
+          "din": "00359718",
+          "brandName": "DERMOVATE CRM 0.05%",
+          "className": "Human",
+          "companyName": "GLAXO CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".05",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Diclofenac Sodium",
+      "totalMatches": 107,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 6379,
+          "din": "00590827",
+          "brandName": "VOLTAREN SR",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2026-02-05",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 10771,
+          "din": "00870951",
+          "brandName": "DICLOFENAC ECT 25MG",
+          "className": "Human",
+          "companyName": "PRO DOC LIMITEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4043,
+          "din": "00514012",
+          "brandName": "VOLTAREN",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4042,
+          "din": "00514004",
+          "brandName": "VOLTAREN TAB 25MG",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6461,
+          "din": "00632724",
+          "brandName": "VOLTAREN",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Piroxicam",
+      "totalMatches": 32,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 6896,
+          "din": "00632716",
+          "brandName": "FELDENE SUP 20MG",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6715,
+          "din": "00642894",
+          "brandName": "APO PIROXICAM CAP 20MG",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6895,
+          "din": "00632708",
+          "brandName": "FELDENE SUP 10MG",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 11178,
+          "din": "00865788",
+          "brandName": "NU-PIROX CAP 20MG",
+          "className": "Human",
+          "companyName": "NU-PHARM INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 19270,
+          "din": "02177137",
+          "brandName": "DOM-PIROXICAM",
+          "className": "Human",
+          "companyName": "DOMINION PHARMACAL",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Indomethacin",
+      "totalMatches": 35,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 6559,
+          "din": "00646288",
+          "brandName": "PRO-INDO 50 CAP 50MG",
+          "className": "Human",
+          "companyName": "PRO DOC LIMITEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4129,
+          "din": "00337420",
+          "brandName": "TEVA-INDOMETHACIN",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 3802,
+          "din": "00463248",
+          "brandName": "INDOCID SR 75MG",
+          "className": "Human",
+          "companyName": "MERCK FROSST CANADA & CIE, MERCK FROSST CANADA & CO.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "75",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4130,
+          "din": "00337439",
+          "brandName": "TEVA-INDOMETHACIN",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6558,
+          "din": "00646261",
+          "brandName": "PRO-INDO 25 CAP 25MG",
+          "className": "Human",
+          "companyName": "PRO DOC LIMITEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Zinc Oxide",
+      "totalMatches": 808,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 1355,
+          "din": "00179922",
+          "brandName": "CALAMINE LOTION CF",
+          "className": "Human",
+          "companyName": "STANLEY PHARMACEUTICALS, A DIVISION OF VITA HEALTH PRODUCTS INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "80",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4340,
+          "din": "00540900",
+          "brandName": "HEMORRO-DOL ONT",
+          "className": "Human",
+          "companyName": "PRODUITS FRANCAIS LABS INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 464,
+          "din": "00120820",
+          "brandName": "LASSAR'S PASTE",
+          "className": "Human",
+          "companyName": "INGRAM AND BELL INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "24",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 7431,
+          "din": "00728640",
+          "brandName": "CALAMINE LOTION USP",
+          "className": "Human",
+          "companyName": "LAWTON'S DRUG STORES LTD.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "80",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5391,
+          "din": "00579998",
+          "brandName": "ZINC OXIDE ONT 20GM/100GM",
+          "className": "Human",
+          "companyName": "REGAL PHARMS, DIVISION OF BRADCAN CORPORATION",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "G"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Salicylic Acid",
+      "totalMatches": 654,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 3369,
+          "din": "00216666",
+          "brandName": "NOVASEN",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "325",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 10448,
+          "din": "00650382",
+          "brandName": "MOSCO CALLUS & CORN REMOVER OINT 400%",
+          "className": "Human",
+          "companyName": "MEDTECH LABORATORIES, INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "40",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 9808,
+          "din": "00363510",
+          "brandName": "MEDIPLAST 40% PLASTER",
+          "className": "Human",
+          "companyName": "BEIERSDORF-JOBST CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "40",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 5210,
+          "din": "00161993",
+          "brandName": "ACETYLSALICYLIC ACID TAB 300MG",
+          "className": "Human",
+          "companyName": "PHARMETICS (2011) INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "300",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2018,
+          "din": "00307904",
+          "brandName": "CARNATION CALLOUS CAPS",
+          "className": "Human",
+          "companyName": "CUXSON GERRARD & CO LTD.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "40",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Urea",
+      "totalMatches": 100,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 3453,
+          "din": "00465283",
+          "brandName": "HYDREA",
+          "className": "Human",
+          "companyName": "CHEPLAPHARM ARZNEIMITTEL GMBH",
+          "lastUpdateDate": "2025-12-29",
+          "strength": "500",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1919,
+          "din": "00289450",
+          "brandName": "THOMAS FORMULA NO 17",
+          "className": "Human",
+          "companyName": "THOMAS HAIR AND SCALP SPECIALISTS",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1.7",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 3218,
+          "din": "00450723",
+          "brandName": "UREMOL 10 LOTION 10%",
+          "className": "Human",
+          "companyName": "TRANS CANADERM INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 9128,
+          "din": "00794163",
+          "brandName": "ENDOPEROX 100%",
+          "className": "Human",
+          "companyName": "SEPTODONT",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 4583,
+          "din": "00503134",
+          "brandName": "UREMOL HC",
+          "className": "Human",
+          "companyName": "GLAXOSMITHKLINE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Sulfur (Precipitated)",
+      "totalMatches": 233,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 6116,
+          "din": "00237205",
+          "brandName": "ACNE AID GEL",
+          "className": "Human",
+          "companyName": "STIEFEL CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2.5",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 7219,
+          "din": "00670642",
+          "brandName": "SULFUR IODATUM 2CH - 30CH",
+          "className": "Human",
+          "companyName": "BOIRON LABORATOIRES",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "CH"
+        },
+        {
+          "drugCode": 1448,
+          "din": "00245682",
+          "brandName": "SPONDARTHRIN",
+          "className": "Human",
+          "companyName": "DR RECKEWEG AND CO",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "6",
+          "strengthUnit": "X"
+        },
+        {
+          "drugCode": 383,
+          "din": "00178527",
+          "brandName": "SULPHUR ONT 10%",
+          "className": "Human",
+          "companyName": "STANLEY PHARMACEUTICALS, A DIVISION OF VITA HEALTH PRODUCTS INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 7436,
+          "din": "00684740",
+          "brandName": "SUL-RAY ACNE TREATMENT SOP 5%",
+          "className": "Human",
+          "companyName": "ALVIN LAST, INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Methotrexate",
+      "totalMatches": 93,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 4401,
+          "din": "00519286",
+          "brandName": "METHOTREXATE SODIUM INJ 25MG/ML",
+          "className": "Human",
+          "companyName": "LEDERLE CYANAMID CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2104,
+          "din": "00014915",
+          "brandName": "METHOTREXATE TAB 2.5MG",
+          "className": "Human",
+          "companyName": "LEDERLE CYANAMID CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2884,
+          "din": "00410195",
+          "brandName": "METHOTREXATE SODIUM INJ 20MG",
+          "className": "Human",
+          "companyName": "LEDERLE CYANAMID CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6142,
+          "din": "00614343",
+          "brandName": "METHOTREXATE DBL INJ 25MG/ML",
+          "className": "Human",
+          "companyName": "DAVID BULL LABORATORIES (PTY) LTD.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6141,
+          "din": "00614335",
+          "brandName": "METHOTREXATE DBL INJ 10MG/ML",
+          "className": "Human",
+          "companyName": "DAVID BULL LABORATORIES (PTY) LTD.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Fluorouracil",
+      "totalMatches": 16,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 2138,
+          "din": "00330582",
+          "brandName": "EFUDEX",
+          "className": "Human",
+          "companyName": "BAUSCH HEALTH, CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 3109,
+          "din": "00428493",
+          "brandName": "ADRUCIL INJ 50MG/ML",
+          "className": "Human",
+          "companyName": "ADRIA LABORATORIES OF CANADA LTD.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "500",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 13166,
+          "din": "01982311",
+          "brandName": "FLUOROPLEX CREAM 1%",
+          "className": "Human",
+          "companyName": "ALLERGAN HERBERT SKIN CARE DIVISION OF ALLERGAN INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 10015,
+          "din": "00012882",
+          "brandName": "FLUOROURACIL INJECTION",
+          "className": "Human",
+          "companyName": "SANDOZ CANADA INCORPORATED",
+          "lastUpdateDate": "2025-06-05",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 42841,
+          "din": "02182742",
+          "brandName": "FLUOROURACIL INJECTION USP",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Cyclophosphamide",
+      "totalMatches": 28,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 200,
+          "din": "00013749",
+          "brandName": "PROCYTOX TABLETS 50MG",
+          "className": "Human",
+          "companyName": "CARTER-HORNER CORP.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2403,
+          "din": "00344885",
+          "brandName": "CYTOXAN TAB 50MG",
+          "className": "Human",
+          "companyName": "BRISTOL-MYERS SQUIBB CANADA",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 201,
+          "din": "00013544",
+          "brandName": "PROCYTOX VIAL 200MG",
+          "className": "Human",
+          "companyName": "CARTER-HORNER CORP.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2654,
+          "din": "00344877",
+          "brandName": "CYTOXAN TAB 25MG",
+          "className": "Human",
+          "companyName": "BRISTOL-MYERS SQUIBB CANADA",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2880,
+          "din": "00373753",
+          "brandName": "PROCYTOX PWS 500MG",
+          "className": "Human",
+          "companyName": "CARTER-HORNER CORP.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "500",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Capsaicin",
+      "totalMatches": 29,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 1314,
+          "din": "00234575",
+          "brandName": "MIDALGAN",
+          "className": "Human",
+          "companyName": "WELCKER-LYSTER LTD., DIVISION OF TECHNILAB INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 11653,
+          "din": "01935046",
+          "brandName": "ARTHRICARE FOR WOMEN MULTI-ACTION",
+          "className": "Human",
+          "companyName": "DEL PHARMACEUTICS (CANADA) INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.025",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 42085,
+          "din": "01931113",
+          "brandName": "HEET LINIMENT LIQ",
+          "className": "Human",
+          "companyName": "WHITEHALL-ROBINS INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".025",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 37162,
+          "din": "02218585",
+          "brandName": "MOOR BALM - CRM",
+          "className": "Human",
+          "companyName": "GOLDEN MOOR",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".0563",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 33745,
+          "din": "02150107",
+          "brandName": "CAPSAICIN MILD CREAM",
+          "className": "Human",
+          "companyName": "WEX PHARMACEUTICALS INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.025",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Amitriptyline HCl",
+      "totalMatches": 96,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 361,
+          "din": "00176966",
+          "brandName": "ETRAFON D TAB",
+          "className": "Human",
+          "companyName": "SCHERING-PLOUGH CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 3413,
+          "din": "00405612",
+          "brandName": "LEVATE",
+          "className": "Human",
+          "companyName": "BIOMED PHARMA",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "75",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2478,
+          "din": "00354295",
+          "brandName": "ELAVIL TABLET 75MG",
+          "className": "Human",
+          "companyName": "1560678 ONTARIO INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "75",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5727,
+          "din": "00590509",
+          "brandName": "PMS-LEVAZINE 4/25 TAB",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 2215,
+          "din": "00335088",
+          "brandName": "ELAVIL",
+          "className": "Human",
+          "companyName": "AA PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Clonidine HCl",
+      "totalMatches": 37,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 4045,
+          "din": "00519251",
+          "brandName": "DIXARIT TAB 0.025MG",
+          "className": "Human",
+          "companyName": "BOEHRINGER INGELHEIM (CANADA) LTD LTEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.025",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1601,
+          "din": "00259527",
+          "brandName": "CATAPRES TAB 0.1MG",
+          "className": "Human",
+          "companyName": "BOEHRINGER INGELHEIM (CANADA) LTD LTEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1943,
+          "din": "00291889",
+          "brandName": "CATAPRES TAB 0.2MG",
+          "className": "Human",
+          "companyName": "BOEHRINGER INGELHEIM (CANADA) LTD LTEE",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "0.2",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 12692,
+          "din": "01913220",
+          "brandName": "NU-CLONIDINE TAB 0.2MG",
+          "className": "Human",
+          "companyName": "NU-PHARM INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": ".2",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 10909,
+          "din": "00868949",
+          "brandName": "APO-CLONIDINE TAB 0.1MG",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-07-31",
+          "strength": "0.1",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Diphenhydramine HCl",
+      "totalMatches": 340,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 7126,
+          "din": "00687677",
+          "brandName": "DM SYRUP",
+          "className": "Human",
+          "companyName": "TECHNILAB PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "12.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4253,
+          "din": "00479764",
+          "brandName": "CALMEX TAB 25MG",
+          "className": "Human",
+          "companyName": "NOVOPHARM LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5363,
+          "din": "00509345",
+          "brandName": "DIPHENHYDRAMINE HYDROCHLORIDE 50 MG CAPSULE",
+          "className": "Human",
+          "companyName": "NOBEL PHARM ENR.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 3775,
+          "din": "00489867",
+          "brandName": "DORMIPHEN EXTRA-FORT CAPSULE",
+          "className": "Human",
+          "companyName": "LABORATOIRE LALCO INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 3388,
+          "din": "00469122",
+          "brandName": "AMBENYL COUGH SYRUP",
+          "className": "Human",
+          "companyName": "PARKE-DAVIS DIVISION, WARNER-LAMBERT CANADA INC.",
+          "lastUpdateDate": "2025-07-10",
+          "strength": "3.75",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Sildenafil Citrate",
+      "totalMatches": 134,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 63250,
+          "din": "02239768",
+          "brandName": "VIAGRA",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 95091,
+          "din": "02463016",
+          "brandName": "PRV-SILDENAFIL",
+          "className": "Human",
+          "companyName": "PHARMAPAR INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 63249,
+          "din": "02239767",
+          "brandName": "VIAGRA",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 63248,
+          "din": "02239766",
+          "brandName": "VIAGRA",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "25",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 87175,
+          "din": "02386178",
+          "brandName": "RIVA-SILDENAFIL",
+          "className": "Human",
+          "companyName": "LABORATOIRE RIVA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Tadalafil",
+      "totalMatches": 105,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 93440,
+          "din": "02448696",
+          "brandName": "IPG-TADALAFIL",
+          "className": "Human",
+          "companyName": "MARCAN PHARMACEUTICALS INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 72410,
+          "din": "02248088",
+          "brandName": "CIALIS",
+          "className": "Human",
+          "companyName": "ELI LILLY CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 72411,
+          "din": "02248089",
+          "brandName": "CIALIS",
+          "className": "Human",
+          "companyName": "ELI LILLY CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 97172,
+          "din": "02481391",
+          "brandName": "AG-TADALAFIL",
+          "className": "Human",
+          "companyName": "ANGITA PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2.5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 92452,
+          "din": "02440148",
+          "brandName": "TEVA-TADALAFIL",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2.5",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Oxytocin",
+      "totalMatches": 19,
+      "humanProducts": 4,
+      "products": [
+        {
+          "drugCode": 4293,
+          "din": "00497398",
+          "brandName": "OXYTOCIN INJECTION USP",
+          "className": "Human",
+          "companyName": "PFIZER CANADA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "UNIT"
+        },
+        {
+          "drugCode": 14452,
+          "din": "01944916",
+          "brandName": "OXYTOCIN INJ 10UNIT/ML USP",
+          "className": "Human",
+          "companyName": "LYPHOMED, DIVISION OF FUJISAWA CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "UNIT"
+        },
+        {
+          "drugCode": 31361,
+          "din": "02139561",
+          "brandName": "OXYTOCIN INJECTION, USP",
+          "className": "Human",
+          "companyName": "FRESENIUS KABI CANADA LTD",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "10",
+          "strengthUnit": "UNIT"
+        },
+        {
+          "drugCode": 103903,
+          "din": "02550199",
+          "brandName": "OXYTOCIN INJECTION, USP",
+          "className": "Human",
+          "companyName": "HIKMA CANADA LIMITED",
+          "lastUpdateDate": "2025-09-09",
+          "strength": "10",
+          "strengthUnit": "UNIT"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Methimazole",
+      "totalMatches": 17,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 9,
+          "din": "00015741",
+          "brandName": "TAPAZOLE",
+          "className": "Human",
+          "companyName": "KNIGHT THERAPEUTICS INC.",
+          "lastUpdateDate": "2025-12-24",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 68290,
+          "din": "02244323",
+          "brandName": "PMS-METHIMAZOLE",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 75130,
+          "din": "02265850",
+          "brandName": "PHL-METHIMAZOLE",
+          "className": "Human",
+          "companyName": "PHARMEL INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 75131,
+          "din": "02265869",
+          "brandName": "DOM-METHIMAZOLE",
+          "className": "Human",
+          "companyName": "DOMINION PHARMACAL",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "5",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 78140,
+          "din": "02296047",
+          "brandName": "TAPAZOLE",
+          "className": "Human",
+          "companyName": "PALADIN PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Propylthiouracil",
+      "totalMatches": 8,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 159,
+          "din": "00010219",
+          "brandName": "PROPYL-THYRACIL",
+          "className": "Human",
+          "companyName": "PALADIN PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 158,
+          "din": "00010200",
+          "brandName": "PROPYL-THYRACIL",
+          "className": "Human",
+          "companyName": "PALADIN PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 69950,
+          "din": "02245833",
+          "brandName": "PMS-PROPYLTHIOURACIL",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 69951,
+          "din": "02245834",
+          "brandName": "PMS-PROPYLTHIOURACIL",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 101209,
+          "din": "02523019",
+          "brandName": "PROPYLTHIOURACIL TABLETS",
+          "className": "Human",
+          "companyName": "PHEBRA CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Ketoconazole",
+      "totalMatches": 10,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 9586,
+          "din": "00788813",
+          "brandName": "NIZORAL ORAL SUSPENSION 20MG/ML",
+          "className": "Human",
+          "companyName": "JANSSEN PHARMACEUTICA, DIVISION OF JANSSEN-ORTHO INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6104,
+          "din": "00633836",
+          "brandName": "NIZORAL TABLETS 200MG",
+          "className": "Human",
+          "companyName": "MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 10689,
+          "din": "00803588",
+          "brandName": "NIZORAL SHP 2%",
+          "className": "Human",
+          "companyName": "JANSSEN PHARMACEUTICA, DIVISION OF JANSSEN-ORTHO INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 8378,
+          "din": "00703974",
+          "brandName": "NIZORAL CREAM 2%",
+          "className": "Human",
+          "companyName": "MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 44259,
+          "din": "02182920",
+          "brandName": "NIZORAL",
+          "className": "Human",
+          "companyName": "KRAMER LABORATORIES, INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Phenytoin Sodium",
+      "totalMatches": 19,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 1037,
+          "din": "00022780",
+          "brandName": "DILANTIN",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 3174,
+          "din": "00439770",
+          "brandName": "DILANTIN W PHENOBARBITAL 30MG CAP",
+          "className": "Human",
+          "companyName": "PARKE-DAVIS DIVISION, WARNER-LAMBERT CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 1036,
+          "din": "00022772",
+          "brandName": "DILANTIN",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "30",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 3188,
+          "din": "00245453",
+          "brandName": "DILANTIN INJ 50MG/ML",
+          "className": "Human",
+          "companyName": "PARKE-DAVIS DIVISION, WARNER-LAMBERT CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "250",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 13063,
+          "din": "00498335",
+          "brandName": "PHENYTOIN SODIUM INJECTION USP",
+          "className": "Human",
+          "companyName": "OMEGA LABORATORIES LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Carbamazepine",
+      "totalMatches": 46,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 6819,
+          "din": "00667110",
+          "brandName": "PMS-CARBAMAZEPINE",
+          "className": "Human",
+          "companyName": "PHARMASCIENCE INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 777,
+          "din": "00010405",
+          "brandName": "TEGRETOL",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-05-15",
+          "strength": "200",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4582,
+          "din": "00504742",
+          "brandName": "MAZEPINE",
+          "className": "Human",
+          "companyName": "BIOMED PHARMA",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6463,
+          "din": "00665088",
+          "brandName": "TEGRETOL CHEWTABS 200 MG",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "200",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6049,
+          "din": "00369810",
+          "brandName": "TEGRETOL CHEWTABS 100 MG",
+          "className": "Human",
+          "companyName": "NOVARTIS PHARMACEUTICALS CANADA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Valproic Acid",
+      "totalMatches": 70,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 5678,
+          "din": "00596434",
+          "brandName": "EPIVAL",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-11-21",
+          "strength": "500",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 3112,
+          "din": "00443840",
+          "brandName": "DEPAKENE",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "250",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 3156,
+          "din": "00443832",
+          "brandName": "DEPAKENE",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-11-28",
+          "strength": "250",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4439,
+          "din": "00507989",
+          "brandName": "DEPAKENE CAP 500MG",
+          "className": "Human",
+          "companyName": "ABBOTT LABORATORIES, LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "500",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 5676,
+          "din": "00596418",
+          "brandName": "EPIVAL",
+          "className": "Human",
+          "companyName": "BGP PHARMA ULC",
+          "lastUpdateDate": "2025-11-21",
+          "strength": "125",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Nicotine",
+      "totalMatches": 9,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 5999,
+          "din": "00580325",
+          "brandName": "NICORETTE PLUS 4MG",
+          "className": "Human",
+          "companyName": "MERRELL DOW PHARMACEUTICALS (CANADA) INC., DIVISION OF MMDC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "4",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 6005,
+          "din": "00580317",
+          "brandName": "NICORETTE GUM 2MG",
+          "className": "Human",
+          "companyName": "MERRELL DOW PHARMACEUTICALS (CANADA) INC., DIVISION OF MMDC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 15371,
+          "din": "02065304",
+          "brandName": "TABACUM-INJEEL LIQ (12D,30D,200D/1.1ML)",
+          "className": "Human",
+          "companyName": "BIOLOGISCHE HEILMITTEL HEEL GMBH",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "12",
+          "strengthUnit": "D"
+        },
+        {
+          "drugCode": 12883,
+          "din": "01968114",
+          "brandName": "NICODERM TRD 78MG NICOTINE/14",
+          "className": "Human",
+          "companyName": "MERRELL DOW PHARMACEUTICALS (CANADA) INC., DIVISION OF MMDC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "78",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 12882,
+          "din": "01968106",
+          "brandName": "NICODERM TRD 114MG NICOTINE/21",
+          "className": "Human",
+          "companyName": "MERRELL DOW PHARMACEUTICALS (CANADA) INC., DIVISION OF MMDC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "114",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Naltrexone HCl",
+      "totalMatches": 9,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 43143,
+          "din": "02213826",
+          "brandName": "REVIA",
+          "className": "Human",
+          "companyName": "TEVA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 18676,
+          "din": "02158655",
+          "brandName": "REVIA - TAB 50MG",
+          "className": "Human",
+          "companyName": "DUPONT MERCK PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 84165,
+          "din": "02356503",
+          "brandName": "RELISTOR",
+          "className": "Human",
+          "companyName": "SALIX PHARMACEUTICALS INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 79388,
+          "din": "02308215",
+          "brandName": "RELISTOR",
+          "className": "Human",
+          "companyName": "SALIX PHARMACEUTICALS INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 92924,
+          "din": "02444275",
+          "brandName": "APO-NALTREXONE",
+          "className": "Human",
+          "companyName": "APOTEX INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "50",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Cromolyn Sodium",
+      "totalMatches": 23,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 3115,
+          "din": "00394300",
+          "brandName": "OPTICROM LIQ 2%",
+          "className": "Human",
+          "companyName": "RHONE-POULENC RORER CANADA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "2",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 6225,
+          "din": "00261238",
+          "brandName": "INTAL SPINCAPS 20MG",
+          "className": "Human",
+          "companyName": "AVENTIS PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "20",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4613,
+          "din": "00534609",
+          "brandName": "INTAL NEBULIZER 1%",
+          "className": "Human",
+          "companyName": "AVENTIS PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "%"
+        },
+        {
+          "drugCode": 6243,
+          "din": "00638641",
+          "brandName": "INTAL SYNCRONER",
+          "className": "Human",
+          "companyName": "AVENTIS PHARMA INC",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "MG"
+        },
+        {
+          "drugCode": 4114,
+          "din": "00500895",
+          "brandName": "NALCROM",
+          "className": "Human",
+          "companyName": "LUPIN PHARMA CANADA LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "100",
+          "strengthUnit": "MG"
+        }
+      ]
+    },
+    {
+      "ingredientName": "Cholestyramine Resin",
+      "totalMatches": 23,
+      "humanProducts": 5,
+      "products": [
+        {
+          "drugCode": 6062,
+          "din": "00634093",
+          "brandName": "QUESTRAN PWR 378GM/CAN",
+          "className": "Human",
+          "companyName": "BRISTOL LABS DIVISION OF BRISTOL-MYERS SQUIBB",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "4",
+          "strengthUnit": "G"
+        },
+        {
+          "drugCode": 16560,
+          "din": "02054825",
+          "brandName": "ALTI-CHOLESTYRAMINE LIGHT",
+          "className": "Human",
+          "companyName": "ALTIMED PHARMA INC.",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "4",
+          "strengthUnit": "G"
+        },
+        {
+          "drugCode": 18070,
+          "din": "02139189",
+          "brandName": "NOVO-CHOLAMINE - PWR  4G/DOSE",
+          "className": "Human",
+          "companyName": "NOVOPHARM LIMITED",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "4",
+          "strengthUnit": "G"
+        },
+        {
+          "drugCode": 5507,
+          "din": "00464880",
+          "brandName": "QUESTRAN PWR 4GM/9GM",
+          "className": "Human",
+          "companyName": "BRISTOL LABS DIVISION OF BRISTOL-MYERS SQUIBB",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "4",
+          "strengthUnit": "G"
+        },
+        {
+          "drugCode": 14057,
+          "din": "01966014",
+          "brandName": "QUESTRAN TAB 1GM",
+          "className": "Human",
+          "companyName": "BRISTOL-MYERS SQUIBB CANADA",
+          "lastUpdateDate": "2025-03-22",
+          "strength": "1",
+          "strengthUnit": "G"
+        }
+      ]
+    }
+  ],
+  "notFound": [
+    "Estriol",
+    "DHEA (Dehydroepiandrosterone)",
+    "Pregnenolone"
+  ],
+  "errors": []
+}
