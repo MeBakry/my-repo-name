@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmacy Compounding Compliance Platform — Client Presentation</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    .slide {
+      background: #fff;
+      max-width: 900px;
+      margin: 24px auto;
+      padding: 48px 56px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      border-radius: 12px;
+      page-break-after: always;
+    }
+    .slide:last-of-type { page-break-after: auto; }
+    .slide h1 {
+      font-size: 1.75rem;
+      color: #0066cc;
+      margin-bottom: 8px;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 8px;
+    }
+    .slide h2 {
+      font-size: 1.2rem;
+      color: #333;
+      margin: 24px 0 12px;
+    }
+    .slide h3 { font-size: 1rem; margin: 16px 0 8px; color: #555; }
+    .slide p { margin-bottom: 12px; color: #444; }
+    .slide ul, .slide ol { margin: 12px 0 12px 24px; }
+    .slide li { margin-bottom: 6px; }
+    .screenshot-placeholder {
+      background: #e8f0fe;
+      border: 2px dashed #0066cc;
+      border-radius: 8px;
+      padding: 48px 24px;
+      text-align: center;
+      color: #0066cc;
+      font-size: 0.95rem;
+      margin: 20px 0;
+      min-height: 260px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .screenshot-placeholder strong { font-size: 1rem; }
+    .screenshot-placeholder code { background: #fff; padding: 2px 8px; border-radius: 4px; font-size: 0.85rem; }
+    .screenshot-placeholder.filled {
+      background: #f0f9f0;
+      border-style: solid;
+      border-color: #22c55e;
+    }
+    .flow-box {
+      background: #f8fafc;
+      border-left: 4px solid #0066cc;
+      padding: 16px 20px;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 16px 0; }
+    @media (max-width: 600px) { .two-col { grid-template-columns: 1fr; } }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 100px; font-size: 0.8rem; font-weight: 600; }
+    .badge-pharmacist { background: #dbeafe; color: #1d4ed8; }
+    .badge-supervisor { background: #fef3c7; color: #b45309; }
+    .credits { font-size: 0.8rem; color: #888; margin-top: 32px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.9rem; }
+    th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eee; }
+    th { background: #f8fafc; color: #475569; font-weight: 600; }
+    @media print {
+      .slide { box-shadow: none; border: 1px solid #ddd; margin: 16px 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="slide">
+  <h1>Pharmacy Compounding Compliance Platform</h1>
+  <p><strong>Client Presentation</strong> — Development Build Demo</p>
+  <p>NAPRA / OCP-aligned risk assessment for compounding pharmacies</p>
+  <div class="screenshot-placeholder">
+    <!-- Add: <img src="screenshots/01-login.png" alt="Login" style="max-width:100%;"> -->
+    <strong>📸 Screenshot: Login screen</strong>
+    <span>Capture: <code>http://localhost:5173</code> — Sign in page with quick-fill buttons</span>
+  </div>
+</div>
+
+<div class="slide">
+  <h1>Problem We Solve</h1>
+  <p>Compounding pharmacies must maintain a <strong>Risk Assessment Record</strong> for every preparation they compound. Each record requires:</p>
+  <ul>
+    <li>Cross-referencing NIOSH hazardous drug lists</li>
+    <li>Reviewing SDS documents and WHMIS classifications</li>
+    <li>Applying OCP standards and NAPRA complexity guidelines</li>
+  </ul>
+  <p><strong>Without this platform:</strong> 45+ minutes per assessment, done by hand.</p>
+  <p><strong>With this platform:</strong> ~15 minutes — most of the work is automated and pre-filled.</p>
+</div>
+
+<div class="slide">
+  <h1>Two Core Documents</h1>
+  <div class="two-col">
+    <div>
+      <h2>Master Formulation Record (MFR)</h2>
+      <p>The recipe — product name, ingredients, quantities, form, route, batch size.</p>
+    </div>
+    <div>
+      <h2>Risk Assessment Record</h2>
+      <p>The safety analysis — hazard classification, PPE, controls, risk level (A/B/C).</p>
+    </div>
+  </div>
+  <div class="flow-box">
+    <strong>MFR</strong> → triggers → <strong>Risk Assessment</strong> → pharmacist reviews → supervisor approves → 12‑month review cycle
+  </div>
+</div>
+
+<div class="slide">
+  <h1>Pharmacist Flow — Formulation Library</h1>
+  <p>After login, the pharmacist sees the <strong>Formulation Library</strong> — a dashboard of all saved formulations.</p>
+  <div class="screenshot-placeholder">
+    <strong>📸 Screenshot: Formulation Library (Dashboard)</strong>
+    <span>Capture: Home screen with "+ New Formulation" button, formulation cards if any exist</span>
+  </div>
+  <p>Actions: <strong>+ New Formulation</strong> to create, or click a card to view / edit / continue.</p>
+</div>
+
+<div class="slide">
+  <h1>Pharmacist Flow — New Formulation</h1>
+  <p>Creating a new formulation: product details, concentration, form, route, ingredients with hazard lookup.</p>
+  <div class="screenshot-placeholder">
+    <strong>📸 Screenshot: MFR Form</strong>
+    <span>Capture: Form with Progesterone example loaded — ingredient autocomplete, concentration dropdown</span>
+  </div>
+  <p>Pre-built examples (Progesterone, Testosterone, Hydrocortisone, Zinc Oxide) fill the form for quick testing.</p>
+</div>
+
+<div class="slide">
+  <h1>Pharmacist Flow — Risk Assessment Report</h1>
+  <p>After "Generate Risk Assessment", the system produces a structured report with:</p>
+  <ul>
+    <li>Hazard classification per ingredient</li>
+    <li>Complexity level</li>
+    <li>Risk level (A, B, or C)</li>
+    <li>Recommended PPE and facility controls</li>
+    <li>Regulatory references and rationale</li>
+  </ul>
+  <div class="screenshot-placeholder">
+    <strong>📸 Screenshot: Risk Assessment Report</strong>
+    <span>Capture: Full report with Level B/C badge, PPE section, Submit for Review button</span>
+  </div>
+</div>
+
+<div class="slide">
+  <h1>Workflow: Draft → Submit → Approve</h1>
+  <table>
+    <tr><th>Status</th><th>Who</th><th>Action</th></tr>
+    <tr><td>Draft</td><td>Pharmacist</td><td>Generates assessment, reviews, can edit</td></tr>
+    <tr><td>Pending Review</td><td>Pharmacist</td><td>Clicks "Submit for Review"</td></tr>
+    <tr><td>Approved</td><td>Supervisor</td><td>Reviews and approves; sets 12‑month review date</td></tr>
+  </table>
+  <p>This split ensures independent review for compliance.</p>
+</div>
+
+<div class="slide">
+  <h1>Supervisor Flow — Approval Queue</h1>
+  <p>When logged in as <span class="badge badge-supervisor">Supervisor</span>, the screen shows <strong>Pending Approvals</strong> — assessments submitted for review.</p>
+  <div class="screenshot-placeholder">
+    <strong>📸 Screenshot: Supervisor Approval Queue</strong>
+    <span>Capture: elsayad logged in — list of pending assessments with Approve buttons</span>
+  </div>
+  <p>One click to approve; assessment moves to Approved and sets next review date (+12 months).</p>
+</div>
+
+<div class="slide">
+  <h1>Login Credentials</h1>
+  <table>
+    <tr><th>Role</th><th>Username</th><th>Password</th></tr>
+    <tr><td><span class="badge badge-pharmacist">Pharmacist</span></td><td>shereen</td><td>shereen</td></tr>
+    <tr><td><span class="badge badge-supervisor">Supervisor</span></td><td>elsayad</td><td>elsayad</td></tr>
+  </table>
+  <p>Use the <strong>Quick fill</strong> buttons on the login screen for fast demo.</p>
+</div>
+
+<div class="slide">
+  <h1>Data & Compliance</h1>
+  <ul>
+    <li><strong>NIOSH Hazardous Drug List</strong> — 213 drugs (Table 1 + 2)</li>
+    <li><strong>Ingredient database</strong> — 116 hazard profiles (NIOSH + PubChem + Health Canada)</li>
+    <li><strong>Deterministic rule engine</strong> — no AI at runtime; consistent, auditable results</li>
+    <li><strong>Offline-first</strong> — hazard data stored locally; no real-time external API calls</li>
+  </ul>
+</div>
+
+<div class="slide">
+  <h1>Current Status & Next Steps</h1>
+  <p><strong>Development Build</strong> — core flow working end-to-end.</p>
+  <ul>
+    <li>✅ Login, Formulation Library, MFR creation</li>
+    <li>✅ Risk assessment generation, save to database</li>
+    <li>✅ Submit for Review, Supervisor Approval</li>
+    <li>⏳ PDF export, email notifications</li>
+    <li>⏳ Production deployment, full audit UI</li>
+  </ul>
+  <p>See <code>docs/SCREENSHOT_GUIDE.md</code> for how to add screenshots.</p>
+  <p class="credits">Pharmacy Compounding Compliance Platform — February 2026</p>
+</div>
+
+</body>
+</html>

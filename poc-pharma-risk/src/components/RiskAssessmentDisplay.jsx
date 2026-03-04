@@ -104,6 +104,7 @@ export default function RiskAssessmentDisplay({
   formData,
   onBack,
   onRegenerate,
+  onSubmitForReview,
 }) {
   const [copied, setCopied] = useState(false);
 
@@ -205,6 +206,11 @@ export default function RiskAssessmentDisplay({
           &larr; Back to Form
         </button>
         <div className="toolbar-actions">
+          {a.savedRecord?.status === "DRAFT" && onSubmitForReview && (
+            <button className="btn-primary" onClick={() => onSubmitForReview(a.savedRecord.id)}>
+              Submit for Review
+            </button>
+          )}
           <button className="btn-secondary" onClick={onRegenerate}>
             Regenerate
           </button>
@@ -245,7 +251,10 @@ export default function RiskAssessmentDisplay({
             {a.savedRecord && (
               <p>
                 <strong>Status:</strong>{" "}
-                <span className={`assessment-status-inline status-${a.savedRecord.status?.toLowerCase()}`}>
+                <span
+                  className={`assessment-status-inline status-${a.savedRecord.status?.toLowerCase()}`}
+                  title={a.savedRecord.status === "DRAFT" ? "Workflow: Draft → Submit for Review → Supervisor Approves" : ""}
+                >
                   {a.savedRecord.status}
                 </span>
                 {" — "}
@@ -533,6 +542,11 @@ export default function RiskAssessmentDisplay({
           &larr; Back to Form
         </button>
         <div className="toolbar-actions">
+          {a.savedRecord?.status === "DRAFT" && onSubmitForReview && (
+            <button className="btn-primary" onClick={() => onSubmitForReview(a.savedRecord.id)}>
+              Submit for Review
+            </button>
+          )}
           <button className="btn-secondary" onClick={onRegenerate}>
             Regenerate
           </button>

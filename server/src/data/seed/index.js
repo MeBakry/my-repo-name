@@ -200,10 +200,34 @@ async function seedDemoPharmacyAndUser() {
     },
   });
 
+  const shereenPass = await bcrypt.hash("shereen", 10);
+  await prisma.user.upsert({
+    where: { email: "shereen" },
+    update: { password: shereenPass },
+    create: {
+      email: "shereen",
+      password: shereenPass,
+      name: "Shereen",
+      role: "PHARMACIST",
+      pharmacyId: pharmacy.id,
+    },
+  });
+
+  const elsayadPass = await bcrypt.hash("elsayad", 10);
+  await prisma.user.upsert({
+    where: { email: "elsayad" },
+    update: { password: elsayadPass },
+    create: {
+      email: "elsayad",
+      password: elsayadPass,
+      name: "Elsayad",
+      role: "SUPERVISOR",
+      pharmacyId: pharmacy.id,
+    },
+  });
+
   console.log(`  Demo pharmacy: ${pharmacy.name} (${pharmacy.licenseNumber})`);
-  console.log(
-    "  Demo users: pharmacist@demo.com, supervisor@demo.com, admin@demo.com (password: demo123)"
-  );
+  console.log("  Users: shereen/shereen (Pharmacist), elsayad/elsayad (Supervisor)");
 }
 
 async function main() {

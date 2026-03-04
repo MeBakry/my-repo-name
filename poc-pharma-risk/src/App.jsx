@@ -1,19 +1,28 @@
 import { useState, useCallback, useEffect } from "react";
+import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
+import ApprovalQueue from "./components/ApprovalQueue";
 import MFRForm from "./components/MFRForm";
 import LoadingSpinner from "./components/LoadingSpinner";
 import RiskAssessmentDisplay from "./components/RiskAssessmentDisplay";
 import { generateRiskAssessment } from "./services/aiService";
 import {
   login,
+  logout,
   isAuthenticated,
+  getCurrentUser,
   createMFR,
   updateMFR,
   generateAssessmentFromMFR,
   getAssessment,
+  submitAssessment,
   checkBackendHealth,
   isAuthError,
+  searchIngredients,
 } from "./services/api";
+
+// UUID pattern — local demo DB uses numeric ids (1,2,3), backend uses UUIDs
+const isUUID = (id) => typeof id === "string" && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id);
 
 const SCREENS = {
   DASHBOARD: "dashboard",
@@ -23,51 +32,85 @@ const SCREENS = {
 };
 
 export default function App() {
-  const [screen, setScreen]       = useState(SCREENS.DASHBOARD);
-  const [formData, setFormData]   = useState(null);
-  const [assessment, setAssessment] = useState(null);
-  const [error, setError]         = useState(null);
-  const [authStatus, setAuthStatus] = useState("connecting");
-  // Context about why we're on the form screen
-  const [formMode, setFormMode]   = useState("new"); // "new" | "draft" | "review_due" | "no_assessment"
+  const [authUser, setAuthUser]       = useState(null);
+  const [authStatus, setAuthStatus]   = useState("connecting");
+  const [loginLoading, setLoginLoading] = useState(false);
+  const [screen, setScreen]           = useState(SCREENS.DASHBOARD);
+  const [formData, setFormData]       = useState(null);
+  const [assessment, setAssessment]  = useState(null);
+  const [error, setError]             = useState(null);
+  const [formMode, setFormMode]       = useState("new");
 
-  // ─── Auto-login on mount ───────────────────────────────────────────────────
-  // Always re-login when backend is available (refresh stale token from localStorage)
+  // ─── Init: check backend + existing token ─────────────────────────────────
+  const [initComplete, setInitComplete] = useState(false);
   useEffect(() => {
     async function init() {
       try {
         const health = await checkBackendHealth();
-        if (!health.available) { setAuthStatus("demo"); return; }
-        await login("pharmacist@demo.com", "demo123");
+        if (!health.available) {
+          setAuthStatus("demo");
+          setInitComplete(true);
+          return;
+        }
         setAuthStatus("ready");
+        if (isAuthenticated()) {
+          try {
+            const user = await getCurrentUser();
+            setAuthUser(user);
+          } catch {
+            logout(); // stale token
+          }
+        }
       } catch {
         setAuthStatus("demo");
       }
+      setInitComplete(true);
     }
     init();
   }, []);
 
-  // ─── Refresh auth (e.g. after token expired mid-session) ───────────────────
-  const refreshAuth = useCallback(async () => {
+  // ─── Login ───────────────────────────────────────────────────────────────
+  const handleLogin = useCallback(async (emailOrUsername, password) => {
+    setLoginLoading(true);
+    setError(null);
     try {
-      await login("pharmacist@demo.com", "demo123");
-      setAuthStatus("ready");
-      return true;
-    } catch {
-      setAuthStatus("demo");
-      return false;
+      await login(emailOrUsername.trim(), password);
+      const user = await getCurrentUser();
+      setAuthUser(user);
+    } finally {
+      setLoginLoading(false);
     }
   }, []);
 
-  // ─── Dashboard → New Formulation ──────────────────────────────────────────
+  // ─── Logout ──────────────────────────────────────────────────────────────
+  const handleLogout = useCallback(() => {
+    logout();
+    setAuthUser(null);
+    setScreen(SCREENS.DASHBOARD);
+    setFormData(null);
+    setAssessment(null);
+  }, []);
+
+  // ─── Refresh auth (e.g. token expired) ───────────────────────────────────
+  const refreshAuth = useCallback(async () => {
+    try {
+      const user = await getCurrentUser();
+      setAuthUser(user);
+      return true;
+    } catch {
+      handleLogout();
+      return false;
+    }
+  }, [handleLogout]);
+
+  // ─── Dashboard → New Formulation ─────────────────────────────────────────
   const handleNewFormulation = useCallback(() => {
     setFormData(null);
     setFormMode("new");
     setScreen(SCREENS.FORM);
   }, []);
 
-  // ─── Dashboard → Load existing MFR (Draft / Review Due / No Assessment) ───
-  // formData is pre-populated from the existing MFR record
+  // ─── Dashboard → Load existing MFR ───────────────────────────────────────
   const handleLoadMFR = useCallback((preFilledData, status) => {
     setFormData(preFilledData);
     setFormMode(status === "REVIEW_DUE" ? "review_due" :
@@ -75,16 +118,14 @@ export default function App() {
     setScreen(SCREENS.FORM);
   }, []);
 
-  // ─── Dashboard → View approved assessment directly ────────────────────────
+  // ─── Dashboard → View approved assessment ─────────────────────────────────
   const handleViewAssessment = useCallback(async (mfr, formDataForDisplay) => {
     setFormData(formDataForDisplay);
     setScreen(SCREENS.LOADING);
     try {
-      // Fetch the latest approved assessment content
       const latestAssessmentId = mfr.assessments?.[0]?.id;
       if (latestAssessmentId) {
         const saved = await getAssessment(latestAssessmentId);
-        // Reconstruct the assessment shape the display component expects
         setAssessment({
           ...(saved.frequencyAssessment || {}),
           complexity: {
@@ -110,7 +151,21 @@ export default function App() {
     }
   }, []);
 
-  // ─── Form submit → Generate + Save ────────────────────────────────────────
+  // ─── Submit for Review (pharmacist) ──────────────────────────────────────
+  const handleSubmitForReview = useCallback(async (assessmentId) => {
+    try {
+      await submitAssessment(assessmentId);
+      setAssessment((prev) =>
+        prev?.savedRecord?.id === assessmentId
+          ? { ...prev, savedRecord: { ...prev.savedRecord, status: "PENDING_REVIEW" } }
+          : prev
+      );
+    } catch (err) {
+      setError("Submit failed: " + err.message);
+    }
+  }, []);
+
+  // ─── Form submit → Generate + Save ───────────────────────────────────────
   const handleSubmit = useCallback(async (data) => {
     setFormData(data);
     setScreen(SCREENS.LOADING);
@@ -132,20 +187,28 @@ export default function App() {
       }),
     }));
 
-    // Full save flow
     if (authStatus === "ready" && isAuthenticated()) {
       try {
-        const ingredientIds = data.ingredients
-          .filter((ing) => ing.data?.id)
-          .map((ing) => ({
-            ingredientId: ing.data.id,
-            quantity: ing.quantity,
-            isActiveIngredient: true,
-          }));
+        const resolved = await Promise.all(
+          data.ingredients
+            .filter((ing) => ing.name.trim())
+            .map(async (ing) => {
+              let backendId = ing.data?.id;
+              if (!backendId || !isUUID(backendId)) {
+                const matches = await searchIngredients(ing.name.trim());
+                backendId = matches?.[0]?.id ?? null;
+              }
+              return backendId ? { ingredientId: backendId, quantity: ing.quantity, isActiveIngredient: true } : null;
+            })
+        );
+        const ingredientIds = resolved.filter(Boolean);
+
+        if (ingredientIds.length === 0) {
+          throw new Error("Could not resolve any ingredients to the database. Check that ingredient names match.");
+        }
 
         let mfr;
         if (data.mfrId) {
-          // Existing MFR — update it rather than creating a duplicate
           mfr = await updateMFR(data.mfrId, {
             productName: data.productName,
             concentration: data.concentration,
@@ -157,7 +220,6 @@ export default function App() {
             ingredientIds,
           });
         } else {
-          // Brand new MFR
           mfr = await createMFR({
             productName: data.productName,
             concentration: data.concentration,
@@ -171,6 +233,7 @@ export default function App() {
         }
 
         const result = await generateAssessmentFromMFR(mfr.id);
+        setFormData({ ...data, mfrId: mfr.id });
         setAssessment({
           ...result.assessment,
           rawText: JSON.stringify(result.assessment),
@@ -185,7 +248,6 @@ export default function App() {
       }
     }
 
-    // Fallback: preview mode
     try {
       const result = await generateRiskAssessment(data, ingredientHazards);
       setAssessment(result);
@@ -196,8 +258,6 @@ export default function App() {
     }
   }, [authStatus]);
 
-  // ─── Results → Back ────────────────────────────────────────────────────────
-  // Always go back to dashboard so the updated status is reflected
   const handleBack = useCallback(() => {
     setScreen(SCREENS.DASHBOARD);
   }, []);
@@ -206,14 +266,12 @@ export default function App() {
     if (formData) handleSubmit(formData);
   }, [formData, handleSubmit]);
 
-  // ─── Status badge ──────────────────────────────────────────────────────────
   const statusLabel = {
     connecting: { text: "Connecting...",        cls: "status-connecting" },
     ready:      { text: "Connected · Saving",   cls: "status-ready"      },
     demo:       { text: "Demo mode",            cls: "status-demo"       },
   }[authStatus];
 
-  // ─── Form screen title context ─────────────────────────────────────────────
   const formTitle = {
     new:          "New Formulation",
     draft:        "Continue Assessment",
@@ -221,6 +279,52 @@ export default function App() {
     no_assessment:"Generate Assessment",
   }[formMode] || "Formulation";
 
+  // ─── Initial loading ─────────────────────────────────────────────────────
+  if (!initComplete) {
+    return (
+      <div className="app app-loading">
+        <div className="loading-screen">Loading...</div>
+      </div>
+    );
+  }
+
+  // ─── Login screen (no user) ──────────────────────────────────────────────
+  if (!authUser) {
+    return (
+      <div className="app app-login">
+        <Login
+          onLogin={handleLogin}
+          onError={setError}
+          loading={loginLoading}
+          backendAvailable={authStatus === "ready"}
+        />
+        {error && (
+          <div className="error-banner">
+            <strong>Error:</strong> {error}
+            <button className="error-dismiss" onClick={() => setError(null)}>&times;</button>
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // ─── Supervisor / Admin → Approval Queue ─────────────────────────────────
+  if (authUser && ["SUPERVISOR", "ADMIN"].includes(authUser.role)) {
+    return (
+      <div className="app">
+        <header className="app-header">
+          <h1 className="app-title">
+            <span className="title-icon">🧪</span> Pharmacy Risk Assessment — Supervisor
+          </h1>
+        </header>
+        <main className="app-main">
+          <ApprovalQueue user={authUser} onLogout={handleLogout} />
+        </main>
+      </div>
+    );
+  }
+
+  // ─── Pharmacist → Main app (Dashboard, Form, Results) ─────────────────────
   return (
     <div className="app">
       <header className="app-header">
@@ -238,6 +342,10 @@ export default function App() {
           <div className="header-badges">
             <span className={`status-badge ${statusLabel.cls}`}>{statusLabel.text}</span>
             <span className="poc-badge">Dev</span>
+            <span className="user-badge">{authUser?.name || authUser?.email}</span>
+            <button type="button" className="btn-logout" onClick={handleLogout}>
+              Sign out
+            </button>
           </div>
         </div>
       </header>
@@ -268,12 +376,12 @@ export default function App() {
               <h2 className="form-screen-title">{formTitle}</h2>
               {formMode === "review_due" && (
                 <div className="form-mode-banner review-due-banner">
-                  ⚠ This assessment is overdue for its annual review. The form is pre-filled with the existing formulation data. Review, adjust if anything changed, then generate a new version.
+                  ⚠ This assessment is overdue for its annual review.
                 </div>
               )}
               {formMode === "draft" && (
                 <div className="form-mode-banner draft-banner">
-                  ✏ This formulation has an unfinished assessment. Review the details and generate to complete it.
+                  ✏ This formulation has an unfinished assessment.
                 </div>
               )}
             </div>
@@ -293,6 +401,7 @@ export default function App() {
             formData={formData}
             onBack={handleBack}
             onRegenerate={handleRegenerate}
+            onSubmitForReview={handleSubmitForReview}
           />
         )}
       </main>
