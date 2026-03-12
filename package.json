@@ -4,12 +4,12 @@
   "private": true,
   "description": "Pharmacy Compounding Compliance Platform - Monorepo",
   "scripts": {
-    "dev:frontend": "cd poc-pharma-risk && npm run dev",
-    "dev:backend": "cd server && npm run dev",
+    "dev:frontend": "cd 03_Build/poc-pharma-risk && npm run dev",
+    "dev:backend": "cd 03_Build/server && npm run dev",
     "dev": "echo 'Run dev:frontend and dev:backend in separate terminals'",
-    "db:setup": "cd server && npx prisma migrate dev --name init",
-    "db:seed": "cd server && npm run db:seed",
-    "db:reset": "cd server && npm run db:reset",
-    "install:all": "cd server && npm install && cd ../poc-pharma-risk && npm install"
+    "db:setup": "cd 03_Build/server && npx prisma migrate dev --name init",
+    "db:seed": "cd 03_Build/server && npm run db:seed",
+    "db:reset": "cd 03_Build/server && npm run db:reset",
+    "install:all": "cd 03_Build/server && npm install && cd ../poc-pharma-risk && npm install"
   }
 }

@@ -2,11 +2,13 @@
 node_modules/
 
 # Build output
-poc-pharma-risk/dist/
+dist/
 
-# Environment files
+# Environment files (local config, never commit)
 .env
-server/.env
+*.local
+.env.*
+!.env.example
 
 # OS files
 .DS_Store
@@ -19,8 +21,5 @@ Thumbs.db
 # Logs
 *.log
 
-# Downloaded data files (re-fetched via npm run fetch:*)
-server/src/data/fetchers/niosh-2024.pdf
-
-# Prisma
-server/prisma/migrations/
+# Downloaded data files (re-fetched via npm run fetch:* in 03_Build/server)
+03_Build/server/src/data/fetchers/niosh-2024.pdf

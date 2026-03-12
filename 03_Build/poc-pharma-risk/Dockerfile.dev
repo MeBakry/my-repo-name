@@ -1,0 +1,15 @@
+# Dev image: install deps and run Vite dev server (no production build)
+FROM node:20-alpine
+WORKDIR /app
+
+RUN apk add --no-cache dumb-init
+
+COPY package*.json ./
+RUN npm ci
+
+COPY docker-dev-entrypoint.sh /docker-dev-entrypoint.sh
+RUN chmod +x /docker-dev-entrypoint.sh
+
+EXPOSE 3000
+ENTRYPOINT ["/usr/bin/dumb-init", "--"]
+CMD ["/docker-dev-entrypoint.sh"]

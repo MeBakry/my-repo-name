@@ -1,0 +1,21 @@
+# Dev image: install deps and run dev server (no production build)
+FROM node:20-alpine
+WORKDIR /app
+
+# Install dumb-init for clean signal handling
+RUN apk add --no-cache dumb-init
+
+# Copy package files first (better layer cache when deps don't change)
+COPY package*.json ./
+COPY prisma ./prisma/
+
+# Install all deps (including dev) inside the container
+RUN npm ci
+
+# Entrypoint: generate Prisma client then run dev server (source mounted at runtime)
+COPY docker-dev-entrypoint.sh /docker-dev-entrypoint.sh
+RUN chmod +x /docker-dev-entrypoint.sh
+
+EXPOSE 3001
+ENTRYPOINT ["/usr/bin/dumb-init", "--"]
+CMD ["/docker-dev-entrypoint.sh"]

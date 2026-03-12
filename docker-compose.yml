@@ -1,0 +1,48 @@
+# Pharmacy Compliance Platform — run full stack in containers
+# Usage:
+#   docker compose up -d          # build and run (db + api + web)
+#   docker compose up -d --build   # force rebuild
+#   Open http://localhost:8080    # frontend; API at same host /api
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: pharma_compliance
+    volumes:
+      - pharma_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d pharma_compliance"]
+      interval: 3s
+      timeout: 5s
+      retries: 5
+
+  server:
+    build:
+      context: ./03_Build/server
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/pharma_compliance?schema=public
+      JWT_SECRET: ${JWT_SECRET:-change-this-in-production}
+      PORT: 3001
+      NODE_ENV: production
+      CORS_ORIGIN: http://localhost:8080
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./03_Build/poc-pharma-risk
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: /api
+    ports:
+      - "8080:80"
+    depends_on:
+      - server
+
+volumes:
+  pharma_db_data:

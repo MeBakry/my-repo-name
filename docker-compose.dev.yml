@@ -1,0 +1,41 @@
+# Development: run and install everything inside containers (no Node/npm on host)
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
+#   Frontend: http://localhost:3000   API: http://localhost:3001
+# Install happens inside containers; your local machine stays clean.
+
+services:
+  server:
+    build:
+      context: ./03_Build/server
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./03_Build/server:/app
+      - server_node_modules:/app/node_modules
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/pharma_compliance?schema=public
+      JWT_SECRET: ${JWT_SECRET:-change-this-in-production}
+      PORT: 3001
+      NODE_ENV: development
+      CORS_ORIGIN: http://localhost:3000
+    command: ["/docker-dev-entrypoint.sh"]
+    ports:
+      - "3001:3001"
+
+  frontend:
+    build:
+      context: ./03_Build/poc-pharma-risk
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./03_Build/poc-pharma-risk:/app
+      - frontend_node_modules:/app/node_modules
+    environment:
+      VITE_API_URL: http://localhost:3001/api
+      VITE_PROXY_TARGET: http://server:3001
+    command: ["/docker-dev-entrypoint.sh"]
+    ports:
+      - "3000:3000"
+
+volumes:
+  server_node_modules:
+  frontend_node_modules:

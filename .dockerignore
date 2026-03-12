@@ -1,0 +1,36 @@
+# Dependencies and env
+node_modules
+**/node_modules
+.env
+**/.env
+*.local
+
+# Git and IDE
+.git
+.gitignore
+.cursor
+*.md
+!README.md
+
+# Build outputs
+dist
+**/dist
+build
+**/build
+
+# Logs and temp
+*.log
+tmp
+temp
+.DS_Store
+
+# Test and coverage
+coverage
+**/coverage
+.nyc_output
+
+# Docs and non-runtime (keep repo smaller; optional)
+docs
+input
+agents
+features
