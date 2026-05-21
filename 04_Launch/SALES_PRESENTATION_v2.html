@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmacy Risk Assessment Platform — Compounding Compliance (v2)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #f7f5f1;
+      --ink: #1a1814;
+      --ink-light: #4a4742;
+      --accent: #8b2500;
+      --accent-soft: #a63c1a;
+      --rule: #2d2a26;
+      --border: #ddd8d0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Karla', sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.7;
+      font-size: 1.05rem;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+    .wide { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+    h1, h2, h3 { font-family: 'Libre Baskerville', Georgia, serif; font-weight: 700; }
+    h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); line-height: 1.15; color: var(--ink); }
+    h2 {
+      font-size: clamp(1.4rem, 3.5vw, 1.85rem);
+      margin-bottom: 0.75rem;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 3px solid var(--accent);
+      display: inline-block;
+    }
+    h3 { font-size: 1.1rem; margin-bottom: 0.35rem; color: var(--ink); font-family: 'Karla', sans-serif; font-weight: 600; }
+    p { color: var(--ink-light); margin-bottom: 0.9rem; }
+    a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
+    a:hover { color: var(--accent-soft); border-bottom-color: var(--accent-soft); }
+
+    /* Hero — editorial, no gradient */
+    .hero {
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem 0 3rem;
+      border-bottom: 4px solid var(--accent);
+    }
+    .hero .kicker {
+      font-family: 'Karla', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+    .hero h1 { margin-bottom: 1rem; }
+    .hero .deck {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--ink-light);
+      max-width: 32em;
+      margin-bottom: 2rem;
+    }
+    .hero .cta-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.25rem;
+      font-family: 'Karla', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      background: var(--ink);
+      color: var(--paper);
+      border: 2px solid var(--ink);
+      transition: background 0.2s, color 0.2s;
+    }
+    .btn:hover { background: var(--paper); color: var(--ink); }
+
+    /* Sections — generous space, rule under headings */
+    section {
+      padding: 4rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    section:last-of-type { border-bottom: none; }
+    .section-num {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 0.9rem;
+      color: var(--accent);
+      margin-bottom: 0.25rem;
+    }
+    .problem-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 640px) { .problem-grid { grid-template-columns: 1fr; } }
+    .problem-card {
+      padding-left: 1.25rem;
+      border-left: 4px solid var(--accent);
+      background: #fff;
+      padding: 1.25rem 1.25rem 1.25rem 1.5rem;
+      margin-left: -0.25rem;
+    }
+    .problem-card h3 { margin-bottom: 0.4rem; }
+    .problem-card p { font-size: 0.95rem; margin-bottom: 0; }
+
+    .solution-list { margin-top: 1.5rem; list-style: none; }
+    .solution-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--ink-light);
+    }
+    .solution-list li:last-child { border-bottom: none; }
+    .solution-list .mark {
+      flex-shrink: 0;
+      width: 1.25rem;
+      height: 1.25rem;
+      background: var(--accent);
+      color: var(--paper);
+      font-size: 0.7rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Karla', sans-serif;
+    }
+    .solution-list strong { color: var(--ink); }
+
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+      text-align: center;
+    }
+    @media (max-width: 640px) { .stats-row { grid-template-columns: 1fr; } }
+    .stat {
+      padding: 1.5rem 1rem;
+      border-top: 3px solid var(--accent);
+      background: #fff;
+    }
+    .stat .number {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .stat .label { font-size: 0.9rem; color: var(--ink-light); }
+
+    /* Data sources — compact list, no cards */
+    .sources-list { margin-top: 1.5rem; list-style: none; }
+    .sources-list li {
+      padding: 0.65rem 0;
+      border-bottom: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
+    @media (max-width: 560px) { .sources-list li { grid-template-columns: 1fr; } }
+    .sources-list li:last-child { border-bottom: none; }
+    .sources-list .name { font-weight: 600; color: var(--ink); }
+    .sources-list .desc { font-size: 0.95rem; color: var(--ink-light); margin: 0; }
+
+    /* Features — simple two-column list, no icons */
+    .features-list {
+      margin-top: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0 2rem;
+    }
+    @media (max-width: 640px) { .features-list { grid-template-columns: 1fr; } }
+    .features-list .item {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 0.5rem;
+      align-items: baseline;
+    }
+    .features-list .item:last-child { border-bottom: none; }
+    .features-list .bullet { color: var(--accent); font-weight: 700; }
+    .features-list .title { font-weight: 600; color: var(--ink); }
+    .features-list .body { color: var(--ink-light); font-size: 0.95rem; margin-top: 0.15rem; }
+
+    .advantages-list { list-style: none; margin-top: 1.25rem; }
+    .advantages-list li {
+      padding: 0.5rem 0 0.5rem 1.5rem;
+      position: relative;
+      color: var(--ink-light);
+    }
+    .advantages-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.75em;
+      width: 6px;
+      height: 6px;
+      background: var(--accent);
+    }
+    .advantages-list strong { color: var(--ink); }
+
+    .footer {
+      padding: 2.5rem 0;
+      border-top: 4px solid var(--accent);
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--ink-light);
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="kicker">Compounding compliance</p>
+      <h1>Risk assessments that write themselves.</h1>
+      <p class="deck">One platform for Master Formulation Records and regulatory-aligned risk assessments. Less paperwork, fewer errors, audit-ready in minutes.</p>
+      <div class="cta-row">
+        <a href="#features" class="btn">See how it works</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="problem">
+    <div class="wide">
+      <p class="section-num">01 — The challenges</p>
+      <h2>What the regulatory template asks for—and where it gets heavy</h2>
+      <p>
+        Regulators expect one risk assessment per preparation (including different strengths), a 12‑month review of each record with supervisor sign-off, and assessment of cumulative risk across all compounds. The thinking is important. The duplication is heavy.
+      </p>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <h3>120 formulations = 120 assessments</h3>
+          <p>Same ingredient, same hazard profile, same room—but change the strength and you start a new document. Scale that across 50+ preparations and you’re maintaining dozens of assessments that are largely identical in structure and reasoning.</p>
+        </div>
+        <div class="problem-card">
+          <h3>Same content, rewritten again and again</h3>
+          <p>Ventilation standards, PPE logic, environmental controls—rewritten for every preparation. The template is thorough; in practice you’re copying the same rationales across forms. That’s not theoretical work. That’s hours.</p>
+        </div>
+        <div class="problem-card">
+          <h3>12‑month reviews become paperwork logistics</h3>
+          <p>Every assessment reviewed annually, signed and dated. On paper that means tracking cycles manually, updating SDS references, printing revisions, archiving old copies, and chasing signatures. Governance starts to feel like box-checking.</p>
+        </div>
+        <div class="problem-card">
+          <h3>Volume changes behaviour</h3>
+          <p>When supervisors juggle cumulative exposure, MFR updates, and quality control, the question can shift from “Is my reasoning solid?” to “Is every box filled?” That’s human—and that’s the real operational risk.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="solution">
+    <div class="wrap">
+      <p class="section-num">02 — How we solve it</p>
+      <h2>Rigorous thinking, without the repetition</h2>
+      <p>
+        The logic of the template is good—the format needed evolution. We restructured risk assessments so that ingredient hazards are stored once and reused, MFR completion triggers a risk assessment with information pre-populated for evaluation, and version history stays clean with no paper stacking. The thinking remains rigorous. The repetition disappears.
+      </p>
+      <ul class="solution-list">
+        <li><span class="mark">1</span><div><strong>Ingredient hazards stored once</strong> — presented in a reusable format across preparations.</div></li>
+        <li><span class="mark">2</span><div><strong>MFR completion triggers the risk assessment</strong> — pertinent information pre-populated for supervisor evaluation.</div></li>
+        <li><span class="mark">3</span><div><strong>NIOSH / hazardous status auto-tagged</strong> — no manual list-checking.</div></li>
+        <li><span class="mark">4</span><div><strong>PPE populates from hazard profile</strong> — aligned to your SOPs and controls.</div></li>
+        <li><span class="mark">5</span><div><strong>12‑month review tracked</strong> — next review date and status in one place; no chasing paper.</div></li>
+        <li><span class="mark">6</span><div><strong>Version history clean</strong> — no paper stacking; process can pass from supervisor to supervisor for continuity.</div></li>
+      </ul>
+      <div class="stats-row">
+        <div class="stat"><span class="number">~67%</span><span class="label">Faster assessment creation (target vs manual)</span></div>
+        <div class="stat"><span class="number">1</span><span class="label">Single source of truth per formulation</span></div>
+        <div class="stat"><span class="number">Audit-ready</span><span class="label">Structured for regulator expectations</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="data-sources">
+    <div class="wrap">
+      <p class="section-num">03 — Sources of our data</p>
+      <h2>We use the same references you would—automatically</h2>
+      <p>Hazard and compliance data come from official, traceable sources. The system doesn’t guess; it looks up the same sources the pharmacist would use manually.</p>
+      <ul class="sources-list">
+        <li><span class="name">NIOSH Hazardous Drug List</span><p class="desc">Government classification (Table 1, 2, 3) for PPE, ventilation, facility level. Auto-tagged on ingredients.</p></li>
+        <li><span class="name">Safety Data Sheets (SDS)</span><p class="desc">Manufacturer hazard documents per ingredient: hazards, ventilation, gloves, handling. Required for defensible rationales.</p></li>
+        <li><span class="name">Health Canada DPD / Product Monograph</span><p class="desc">Official drug identification, warnings, contraindications. Links to the official monograph for rationale documentation.</p></li>
+        <li><span class="name">WHMIS / GHS</span><p class="desc">Standardized Canadian workplace hazard classifications: pictograms, signal words, hazard statements.</p></li>
+        <li><span class="name">NAPRA Model Standards</span><p class="desc">National compounding standards: preparation complexity, facility level, required controls.</p></li>
+        <li><span class="name">Regulatory templates (OCP) & USP &lt;795&gt;</span><p class="desc">Format and required fields; Beyond-Use Dating, quality control, complexity definitions.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wide">
+      <p class="section-num">04 — Features</p>
+      <h2>Built for compounding workflows</h2>
+      <div class="features-list">
+        <div class="item"><span class="bullet">·</span><div><span class="title">Formulation library</span><p class="body">All MFRs in one place. Filter by status, search by product or protocol number. Risk level and review status at a glance.</p></div></div>
+        <div class="item"><span class="bullet">·</span><div><span class="title">Smart MFR form</span><p class="body">Product name, strength, form, ingredients, batch size. Duplicate detection prevents creating the same product twice.</p></div></div>
+        <div class="item"><span class="bullet">·</span><div><span class="title">Rule-based risk engine</span><p class="body">Assessment from MFR and ingredient hazard data: exposure, PPE, facility level, rationales—no manual retyping.</p></div></div>
+        <div class="item"><span class="bullet">·</span><div><span class="title">Submit & approve</span><p class="body">Pharmacists submit; supervisors get a clean queue to approve or reject with notes. Audit trail and next review date built in.</p></div></div>
+        <div class="item"><span class="bullet">·</span><div><span class="title">Print & PDF</span><p class="body">One-click print view: clean, sectioned report for filing or inspection. Copy text for external docs or emails.</p></div></div>
+        <div class="item"><span class="bullet">·</span><div><span class="title">Annual review support</span><p class="body">Review-due status on the dashboard. Regenerate or update, resubmit for supervisor sign-off. No more paper stacks.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="advantages">
+    <div class="wrap">
+      <p class="section-num">05 — Why choose us</p>
+      <h2>Advantages for your pharmacy</h2>
+      <ul class="advantages-list">
+        <li><strong>Pharmacy-specific:</strong> Designed for compounding requirements, not generic compliance software.</li>
+        <li><strong>Less duplication:</strong> Ingredient hazards stored once and reused; consistent PPE and facility logic.</li>
+        <li><strong>Clear roles:</strong> Pharmacists create and submit; supervisors review and approve. No confusion about who did what.</li>
+        <li><strong>Audit-ready:</strong> Versioned assessments, approval timestamps, print-friendly reports for inspectors.</li>
+        <li><strong>Controlled updates:</strong> Remove or replace assessments without losing the formulation; protocol numbers and status in one place.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">
+      Pharmacy Risk Assessment Platform — Built for compounding pharmacies. Regulatory-aligned (NAPRA / OCP). Secure, role-based access.
+    </div>
+  </footer>
+</body>
+</html>

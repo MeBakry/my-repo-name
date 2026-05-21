@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Marketing Plan: Compounded</title>
+    <style>
+        :root {
+            --bg: #0f172a; /* Slate 900 */
+            --card-bg: #1e293b; /* Slate 800 */
+            --primary: #f8fafc; /* Slate 50 */
+            --secondary: #94a3b8; /* Slate 400 */
+            --accent: #3b82f6; /* Blue 500 */
+            --border: #334155; /* Slate 700 */
+            --highlight: #10b981; /* Emerald 500 */
+            --sub-text: #cbd5e1; /* Slate 300 */
+        }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 13px;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 2rem;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+        .references {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border);
+        }
+        .references h4 {
+            margin: 0 0 0.5rem 0;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--secondary);
+        }
+        .references ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .references a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 11px;
+        }
+        .references a:hover { text-decoration: underline; }
+
+        h1 { font-size: 2rem; margin: 0; letter-spacing: -0.02em; }
+        h2 { font-size: 1.4rem; color: var(--accent); margin-top: 2rem; border-left: 3px solid var(--accent); padding-left: 1rem; }
+        h3 { font-size: 1rem; margin-top: 1.5rem; color: var(--primary); }
+        
+        .section-card {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tool-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+        }
+        .tool-name {
+            font-weight: 800;
+            font-size: 16px;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .tool-benefit-tag {
+            font-style: italic;
+            color: var(--highlight);
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        .benefit-col h4 {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: var(--secondary);
+            margin-bottom: 0.75rem;
+            letter-spacing: 0.1em;
+        }
+        .benefit-col p {
+            color: var(--sub-text);
+            font-size: 12.5px;
+            margin: 0;
+        }
+
+        .cost-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .cost-item {
+            background: rgba(255,255,255,0.05);
+            padding: 1rem;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .total-burn {
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+            color: var(--highlight);
+        }
+
+        ul { padding-left: 1.2rem; }
+        li { margin-bottom: 0.75rem; color: var(--sub-text); }
+        strong { color: var(--primary); }
+
+        blockquote {
+            font-style: italic;
+            color: var(--secondary);
+            border-left: 2px solid var(--border);
+            margin: 1.5rem 0;
+            padding-left: 1rem;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            .benefit-grid { grid-template-columns: 1fr; gap: 1rem; }
+            .container { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Marketing Launch Plan</h1>
+            <p style="color: var(--secondary);">Strategic Roadmap for Compounded Pharmacy Platform — Canada</p>
+        </header>
+
+        <div class="references">
+            <h4>Foundational Frameworks & References</h4>
+            <ul>
+                <li><strong>Strategy:</strong> <a href="https://www.youtube.com/watch?v=6bc5H4CtC9w" target="_blank">The Laziest Way to Make Money With AI (No Code)</a></li>
+                <li><strong>Build:</strong> <a href="https://www.youtube.com/watch?v=IWdvG9Up8Mc" target="_blank">How I’d Build a 1-Person AI Business (0 to $1M+)</a></li>
+                <li><strong>Scale:</strong> <a href="https://www.youtube.com/watch?v=Nqx0QjHQ9ww" target="_blank">AI CEO: THIS is How I'd Make My First Million With AI in 2026</a></li>
+            </ul>
+        </div>
+
+        <section class="section-card">
+            <h2>0. The Flywheel Philosophy</h2>
+            <blockquote>"The goal isn't to sprint; it's to spin."</blockquote>
+            <p>We are transitioning from manual consulting (Linear Growth) to an AI-powered platform (Exponential Growth). Our flywheel ensures that every automated assessment generates <strong>Reputation Data</strong>, which lowers the cost of the next acquisition.</p>
+        </section>
+
+        <!-- Phase 1: Apollo -->
+        <section class="section-card">
+            <div class="tool-header">
+                <span class="tool-name">Apollo.io</span>
+                <span class="tool-benefit-tag">Benefit: Precision Intelligence</span>
+            </div>
+            <h2>Phase 1: Precision Lead Generation</h2>
+            <div class="benefit-grid">
+                <div class="benefit-col">
+                    <h4>The Tool Benefit</h4>
+                    <p>Replaces the "Telescope" with a "Microscope." Instead of mass-emailing thousands, we identify the exact 500 decision-makers (DMs) who manage high-complexity labs.</p>
+                </div>
+                <div class="benefit-col">
+                    <h4>Value to Compounded</h4>
+                    <p>Eliminates the "Vanity Metric" trap. We save months of manual LinkedIn searching by filtering specifically for <strong>Independent Canadian Pharmacies</strong> with active compounding licenses.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Phase 2: Clay -->
+        <section class="section-card">
+            <div class="tool-header">
+                <span class="tool-name">Clay</span>
+                <span class="tool-benefit-tag">Benefit: The Human Layer</span>
+            </div>
+            <h2>Phase 2: Human-Signal Enrichment</h2>
+            <div class="benefit-grid">
+                <div class="benefit-col">
+                    <h4>The Tool Benefit</h4>
+                    <p>Automates "Homework." It finds social media mentions, inspection reports, and website news to provide a reason for the reach-out beyond "selling."</p>
+                </div>
+                <div class="benefit-col">
+                    <h4>Value to Compounded</h4>
+                    <p>Increases open rates by 3x. By referencing a specific <strong>OCP Inspection</strong> or a new <strong>NAPRA standard</strong> in the opening line, we prove we are compliance experts, not just software sellers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Phase 3: Gamma -->
+        <section class="section-card">
+            <div class="tool-header">
+                <span class="tool-name">Gamma</span>
+                <span class="tool-benefit-tag">Benefit: Instant Authority</span>
+            </div>
+            <h2>Phase 3: The Visual Hook</h2>
+            <div class="benefit-grid">
+                <div class="benefit-col">
+                    <h4>The Tool Benefit</h4>
+                    <p>Turns dry compliance data and strategy documents into interactive, high-impact decks in under 60 seconds.</p>
+                </div>
+                <div class="benefit-col">
+                    <h4>Value to Compounded</h4>
+                    <p>Explains the "Brain" of the platform. Instead of explaining a "Deterministic Rule Engine" in text, we use Gamma to visually contrast the <strong>Manual PDF Chaos</strong> vs. our <strong>Automated Compliance Flow</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Phase 4: Brevo & Calendly -->
+        <section class="section-card">
+            <div class="tool-header">
+                <span class="tool-name">Brevo & Calendly</span>
+                <span class="tool-benefit-tag">Benefit: Frictionless Nurturing</span>
+            </div>
+            <h2>Phase 4: Nurture & Conversion</h2>
+            <div class="benefit-grid">
+                <div class="benefit-col">
+                    <h4>The Tool Benefit</h4>
+                    <p>Solves the "Silent Gap" where 60% of deals fail. It manages the 6–8 gentle touches needed to stay in the prospect's head without manual effort.</p>
+                </div>
+                <div class="benefit-col">
+                    <h4>Value to Compounded</h4>
+                    <p>Captures the <strong>5-Minute Window</strong>. If a DM visits our compliance checklist, Brevo and Calendly ensure they can book an audit immediately, capturing intent before it cools.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Phase 5: Stripe & N8N -->
+        <section class="section-card">
+            <div class="tool-header">
+                <span class="tool-name">Stripe & N8N</span>
+                <span class="tool-benefit-tag">Benefit: Invisible Operations</span>
+            </div>
+            <h2>Phase 5: Closing & Scaling</h2>
+            <div class="benefit-grid">
+                <div class="benefit-col">
+                    <h4>The Tool Benefit</h4>
+                    <p>Automates RevOps (Revenue Operations). Stripe handles complex recurring billing, while N8N acts as the "Baton" passing data between apps.</p>
+                </div>
+                <div class="benefit-col">
+                    <h4>Value to Compounded</h4>
+                    <p>Allows for <strong>1-Person Scaling</strong>. We avoid the $360,000 cost of a back-office team, allowing us to put every dollar into product improvement and market expansion.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economics -->
+        <section class="section-card">
+            <h2>Financial Overview</h2>
+            <div class="cost-grid">
+                <div class="cost-item"><strong>Apollo:</strong> $49</div>
+                <div class="cost-item"><strong>Clay:</strong> $185</div>
+                <div class="cost-item"><strong>Brevo:</strong> $9</div>
+                <div class="cost-item"><strong>Gamma:</strong> $12</div>
+            </div>
+            <div class="total-burn">Estimated Monthly Burn: ~$255</div>
+        </section>
+
+        <!-- Moats -->
+        <section class="section-card">
+            <h2>Strategic Moats</h2>
+            <ul>
+                <li><strong>Counterpositioning:</strong> We sell "Compliance-as-a-Service" which attacks the high-fee model of traditional consultants.</li>
+                <li><strong>Sticky Habits:</strong> Once an MFR is in our platform, switching costs become high due to data integration.</li>
+                <li><strong>Learning Loops:</strong> As more Canadian pharmacies join, our rule engine gets smarter, creating a barrier to entry for new rivals.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
